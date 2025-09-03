@@ -1,0 +1,1208 @@
+2025-09-03 11:58:41,997 [INFO] PARTIAL Mode Set: Processing only ['bass-guitars']
+2025-09-03 11:58:41,997 [INFO] Starting product type: bass-guitars
+2025-09-03 11:58:41,999 [INFO] Processing bass-guitars|4-string
+2025-09-03 11:58:41,999 [CRITICAL] Failed Live listings loading for bass-guitars|4-string
+2025-09-03 11:58:41,999 [INFO] STARTING SCAN OF CATEGORY: bass-guitars|4-string
+2025-09-03 11:58:42,018 [DEBUG] Starting new HTTPS connection (1): reverb.com:443
+2025-09-03 11:58:42,247 [DEBUG] https://reverb.com:443 "GET /api/api/listings?category=4-string&product_type=bass-guitars&condition=used&per_page=50 HTTP/1.1" 404 13
+2025-09-03 11:58:42,248 [ERROR] Error with initial request for bass-guitars4-string. Attempt 0.
+2025-09-03 11:58:45,258 [DEBUG] Starting new HTTPS connection (1): reverb.com:443
+2025-09-03 11:58:45,486 [DEBUG] https://reverb.com:443 "GET /api/api/listings?category=4-string&product_type=bass-guitars&condition=used&per_page=50 HTTP/1.1" 404 13
+2025-09-03 11:58:45,491 [ERROR] Error with initial request for bass-guitars4-string. Attempt 1.
+2025-09-03 11:58:48,499 [DEBUG] Starting new HTTPS connection (1): reverb.com:443
+2025-09-03 11:58:48,745 [DEBUG] https://reverb.com:443 "GET /api/api/listings?category=4-string&product_type=bass-guitars&condition=used&per_page=50 HTTP/1.1" 404 13
+2025-09-03 11:58:48,748 [ERROR] Error with initial request for bass-guitars4-string. Attempt 2.
+2025-09-03 11:58:57,036 [INFO] PARTIAL Mode Set: Processing only ['bass-guitars']
+2025-09-03 11:58:57,036 [INFO] Starting product type: bass-guitars
+2025-09-03 11:58:57,036 [INFO] Processing bass-guitars|4-string
+2025-09-03 11:58:57,036 [CRITICAL] Failed Live listings loading for bass-guitars|4-string
+2025-09-03 11:58:57,036 [INFO] STARTING SCAN OF CATEGORY: bass-guitars|4-string
+2025-09-03 11:58:57,039 [DEBUG] Starting new HTTPS connection (1): reverb.com:443
+2025-09-03 11:59:00,354 [DEBUG] https://reverb.com:443 "GET /api/listings?category=4-string&product_type=bass-guitars&condition=used&per_page=50 HTTP/1.1" 200 None
+2025-09-03 11:59:00,432 [DEBUG] Entering while cycle with next_link = https://reverb.com/api/listings?category=4-string&condition=used&page=2&per_page=50&product_type=bass-guitars
+2025-09-03 11:59:00,433 [DEBUG] Last seen in session: 2025-09-03 07:26:01+00:00 | for category: 2010-04-19 19:03:11+00:00
+2025-09-03 11:59:00,433 [INFO] Starting processing of bass-guitars|4-string. 50 pages found.
+2025-09-03 11:59:00,433 [INFO] Pages [1/50]
+2025-09-03 11:59:00,501 [DEBUG] Saved 50 new listings
+2025-09-03 11:59:00,501 [DEBUG] Listings Saved PAGE.1/50
+2025-09-03 11:59:00,503 [DEBUG] Starting new HTTPS connection (1): reverb.com:443
+2025-09-03 11:59:02,983 [DEBUG] https://reverb.com:443 "GET /api/listings?category=4-string&condition=used&page=2&per_page=50&product_type=bass-guitars HTTP/1.1" 200 None
+2025-09-03 11:59:02,997 [DEBUG] Status Code: 200
+2025-09-03 11:59:03,002 [DEBUG] Request OK
+2025-09-03 11:59:03,075 [DEBUG] Saved 50 new listings
+2025-09-03 11:59:03,076 [DEBUG] Listings Saved PAGE.2/50
+2025-09-03 11:59:03,077 [DEBUG] Starting new HTTPS connection (1): reverb.com:443
+2025-09-03 11:59:05,072 [DEBUG] https://reverb.com:443 "GET /api/listings?category=4-string&condition=used&page=3&per_page=50&product_type=bass-guitars HTTP/1.1" 200 None
+2025-09-03 11:59:05,090 [DEBUG] Status Code: 200
+2025-09-03 11:59:05,096 [DEBUG] Request OK
+2025-09-03 11:59:05,111 [DEBUG] Saved 50 new listings
+2025-09-03 11:59:05,112 [DEBUG] Listings Saved PAGE.3/50
+2025-09-03 11:59:05,114 [DEBUG] Starting new HTTPS connection (1): reverb.com:443
+2025-09-03 11:59:07,423 [DEBUG] https://reverb.com:443 "GET /api/listings?category=4-string&condition=used&page=4&per_page=50&product_type=bass-guitars HTTP/1.1" 200 None
+2025-09-03 11:59:07,479 [DEBUG] Status Code: 200
+2025-09-03 11:59:07,483 [DEBUG] Request OK
+2025-09-03 11:59:07,498 [DEBUG] Saved 50 new listings
+2025-09-03 11:59:07,498 [DEBUG] Listings Saved PAGE.4/50
+2025-09-03 11:59:07,501 [DEBUG] Starting new HTTPS connection (1): reverb.com:443
+2025-09-03 11:59:10,029 [DEBUG] https://reverb.com:443 "GET /api/listings?category=4-string&condition=used&page=5&per_page=50&product_type=bass-guitars HTTP/1.1" 200 None
+2025-09-03 11:59:10,042 [DEBUG] Status Code: 200
+2025-09-03 11:59:10,047 [DEBUG] Request OK
+2025-09-03 11:59:10,065 [DEBUG] Saved 50 new listings
+2025-09-03 11:59:10,065 [DEBUG] Listings Saved PAGE.5/50
+2025-09-03 11:59:10,067 [DEBUG] Starting new HTTPS connection (1): reverb.com:443
+2025-09-03 11:59:12,010 [DEBUG] https://reverb.com:443 "GET /api/listings?category=4-string&condition=used&page=6&per_page=50&product_type=bass-guitars HTTP/1.1" 200 None
+2025-09-03 11:59:12,025 [DEBUG] Status Code: 200
+2025-09-03 11:59:12,029 [DEBUG] Request OK
+2025-09-03 11:59:12,030 [INFO] Pages [6/50]
+2025-09-03 11:59:12,047 [DEBUG] Saved 50 new listings
+2025-09-03 11:59:12,047 [DEBUG] Listings Saved PAGE.6/50
+2025-09-03 11:59:12,049 [DEBUG] Starting new HTTPS connection (1): reverb.com:443
+2025-09-03 11:59:14,657 [DEBUG] https://reverb.com:443 "GET /api/listings?category=4-string&condition=used&page=7&per_page=50&product_type=bass-guitars HTTP/1.1" 200 None
+2025-09-03 11:59:14,671 [DEBUG] Status Code: 200
+2025-09-03 11:59:14,674 [DEBUG] Request OK
+2025-09-03 11:59:14,692 [DEBUG] Saved 50 new listings
+2025-09-03 11:59:14,693 [DEBUG] Listings Saved PAGE.7/50
+2025-09-03 11:59:14,695 [DEBUG] Starting new HTTPS connection (1): reverb.com:443
+2025-09-03 11:59:17,880 [DEBUG] https://reverb.com:443 "GET /api/listings?category=4-string&condition=used&page=8&per_page=50&product_type=bass-guitars HTTP/1.1" 200 None
+2025-09-03 11:59:17,893 [DEBUG] Status Code: 200
+2025-09-03 11:59:17,895 [DEBUG] Request OK
+2025-09-03 11:59:17,906 [DEBUG] Saved 50 new listings
+2025-09-03 11:59:17,906 [DEBUG] Listings Saved PAGE.8/50
+2025-09-03 11:59:17,908 [DEBUG] Starting new HTTPS connection (1): reverb.com:443
+2025-09-03 11:59:19,833 [DEBUG] https://reverb.com:443 "GET /api/listings?category=4-string&condition=used&page=9&per_page=50&product_type=bass-guitars HTTP/1.1" 200 None
+2025-09-03 11:59:19,849 [DEBUG] Status Code: 200
+2025-09-03 11:59:19,851 [DEBUG] Request OK
+2025-09-03 11:59:19,885 [DEBUG] Saved 50 new listings
+2025-09-03 11:59:19,885 [DEBUG] Listings Saved PAGE.9/50
+2025-09-03 11:59:19,892 [DEBUG] Starting new HTTPS connection (1): reverb.com:443
+2025-09-03 11:59:22,194 [DEBUG] https://reverb.com:443 "GET /api/listings?category=4-string&condition=used&page=10&per_page=50&product_type=bass-guitars HTTP/1.1" 200 None
+2025-09-03 11:59:22,207 [DEBUG] Status Code: 200
+2025-09-03 11:59:22,211 [DEBUG] Request OK
+2025-09-03 11:59:22,229 [DEBUG] Saved 50 new listings
+2025-09-03 11:59:22,229 [DEBUG] Listings Saved PAGE.10/50
+2025-09-03 11:59:22,231 [DEBUG] Starting new HTTPS connection (1): reverb.com:443
+2025-09-03 11:59:24,800 [DEBUG] https://reverb.com:443 "GET /api/listings?category=4-string&condition=used&page=11&per_page=50&product_type=bass-guitars HTTP/1.1" 200 None
+2025-09-03 11:59:24,826 [DEBUG] Status Code: 200
+2025-09-03 11:59:24,829 [DEBUG] Request OK
+2025-09-03 11:59:24,830 [INFO] Pages [11/50]
+2025-09-03 11:59:24,843 [DEBUG] Saved 50 new listings
+2025-09-03 11:59:24,843 [DEBUG] Listings Saved PAGE.11/50
+2025-09-03 11:59:24,845 [DEBUG] Starting new HTTPS connection (1): reverb.com:443
+2025-09-03 11:59:27,353 [DEBUG] https://reverb.com:443 "GET /api/listings?category=4-string&condition=used&page=12&per_page=50&product_type=bass-guitars HTTP/1.1" 200 None
+2025-09-03 11:59:27,367 [DEBUG] Status Code: 200
+2025-09-03 11:59:27,370 [DEBUG] Request OK
+2025-09-03 11:59:27,388 [DEBUG] Saved 50 new listings
+2025-09-03 11:59:27,389 [DEBUG] Listings Saved PAGE.12/50
+2025-09-03 11:59:27,391 [DEBUG] Starting new HTTPS connection (1): reverb.com:443
+2025-09-03 11:59:29,456 [DEBUG] https://reverb.com:443 "GET /api/listings?category=4-string&condition=used&page=13&per_page=50&product_type=bass-guitars HTTP/1.1" 200 None
+2025-09-03 11:59:29,480 [DEBUG] Status Code: 200
+2025-09-03 11:59:29,484 [DEBUG] Request OK
+2025-09-03 11:59:29,503 [DEBUG] Saved 50 new listings
+2025-09-03 11:59:29,503 [DEBUG] Listings Saved PAGE.13/50
+2025-09-03 11:59:29,505 [DEBUG] Starting new HTTPS connection (1): reverb.com:443
+2025-09-03 11:59:31,327 [DEBUG] https://reverb.com:443 "GET /api/listings?category=4-string&condition=used&page=14&per_page=50&product_type=bass-guitars HTTP/1.1" 200 None
+2025-09-03 11:59:31,372 [DEBUG] Status Code: 200
+2025-09-03 11:59:31,378 [DEBUG] Request OK
+2025-09-03 11:59:31,396 [DEBUG] Saved 50 new listings
+2025-09-03 11:59:31,396 [DEBUG] Listings Saved PAGE.14/50
+2025-09-03 11:59:31,399 [DEBUG] Starting new HTTPS connection (1): reverb.com:443
+2025-09-03 11:59:33,369 [DEBUG] https://reverb.com:443 "GET /api/listings?category=4-string&condition=used&page=15&per_page=50&product_type=bass-guitars HTTP/1.1" 200 None
+2025-09-03 11:59:33,383 [DEBUG] Status Code: 200
+2025-09-03 11:59:33,386 [DEBUG] Request OK
+2025-09-03 11:59:33,404 [DEBUG] Saved 50 new listings
+2025-09-03 11:59:33,405 [DEBUG] Listings Saved PAGE.15/50
+2025-09-03 11:59:33,407 [DEBUG] Starting new HTTPS connection (1): reverb.com:443
+2025-09-03 11:59:35,745 [DEBUG] https://reverb.com:443 "GET /api/listings?category=4-string&condition=used&page=16&per_page=50&product_type=bass-guitars HTTP/1.1" 200 None
+2025-09-03 11:59:35,877 [DEBUG] Status Code: 200
+2025-09-03 11:59:35,883 [DEBUG] Request OK
+2025-09-03 11:59:35,884 [INFO] Pages [16/50]
+2025-09-03 11:59:35,904 [DEBUG] Saved 50 new listings
+2025-09-03 11:59:35,905 [DEBUG] Listings Saved PAGE.16/50
+2025-09-03 11:59:35,907 [DEBUG] Starting new HTTPS connection (1): reverb.com:443
+2025-09-03 11:59:38,246 [DEBUG] https://reverb.com:443 "GET /api/listings?category=4-string&condition=used&page=17&per_page=50&product_type=bass-guitars HTTP/1.1" 200 None
+2025-09-03 11:59:38,262 [DEBUG] Status Code: 200
+2025-09-03 11:59:38,267 [DEBUG] Request OK
+2025-09-03 11:59:38,285 [DEBUG] Saved 50 new listings
+2025-09-03 11:59:38,286 [DEBUG] Listings Saved PAGE.17/50
+2025-09-03 11:59:38,288 [DEBUG] Starting new HTTPS connection (1): reverb.com:443
+2025-09-03 11:59:40,164 [DEBUG] https://reverb.com:443 "GET /api/listings?category=4-string&condition=used&page=18&per_page=50&product_type=bass-guitars HTTP/1.1" 200 None
+2025-09-03 11:59:40,179 [DEBUG] Status Code: 200
+2025-09-03 11:59:40,183 [DEBUG] Request OK
+2025-09-03 11:59:40,204 [DEBUG] Saved 50 new listings
+2025-09-03 11:59:40,205 [DEBUG] Listings Saved PAGE.18/50
+2025-09-03 11:59:40,207 [DEBUG] Starting new HTTPS connection (1): reverb.com:443
+2025-09-03 11:59:43,010 [DEBUG] https://reverb.com:443 "GET /api/listings?category=4-string&condition=used&page=19&per_page=50&product_type=bass-guitars HTTP/1.1" 200 None
+2025-09-03 11:59:43,026 [DEBUG] Status Code: 200
+2025-09-03 11:59:43,032 [DEBUG] Request OK
+2025-09-03 11:59:43,052 [DEBUG] Saved 50 new listings
+2025-09-03 11:59:43,052 [DEBUG] Listings Saved PAGE.19/50
+2025-09-03 11:59:43,054 [DEBUG] Starting new HTTPS connection (1): reverb.com:443
+2025-09-03 11:59:46,075 [DEBUG] https://reverb.com:443 "GET /api/listings?category=4-string&condition=used&page=20&per_page=50&product_type=bass-guitars HTTP/1.1" 200 None
+2025-09-03 11:59:46,100 [DEBUG] Status Code: 200
+2025-09-03 11:59:46,103 [DEBUG] Request OK
+2025-09-03 11:59:46,125 [DEBUG] Saved 50 new listings
+2025-09-03 11:59:46,125 [DEBUG] Listings Saved PAGE.20/50
+2025-09-03 11:59:46,127 [DEBUG] Starting new HTTPS connection (1): reverb.com:443
+2025-09-03 11:59:48,161 [DEBUG] https://reverb.com:443 "GET /api/listings?category=4-string&condition=used&page=21&per_page=50&product_type=bass-guitars HTTP/1.1" 200 None
+2025-09-03 11:59:48,181 [DEBUG] Status Code: 200
+2025-09-03 11:59:48,186 [DEBUG] Request OK
+2025-09-03 11:59:48,186 [INFO] Pages [21/50]
+2025-09-03 11:59:48,209 [DEBUG] Saved 50 new listings
+2025-09-03 11:59:48,209 [DEBUG] Listings Saved PAGE.21/50
+2025-09-03 11:59:48,211 [DEBUG] Starting new HTTPS connection (1): reverb.com:443
+2025-09-03 11:59:50,282 [DEBUG] https://reverb.com:443 "GET /api/listings?category=4-string&condition=used&page=22&per_page=50&product_type=bass-guitars HTTP/1.1" 200 None
+2025-09-03 11:59:50,321 [DEBUG] Status Code: 200
+2025-09-03 11:59:50,327 [DEBUG] Request OK
+2025-09-03 11:59:50,347 [DEBUG] Saved 50 new listings
+2025-09-03 11:59:50,348 [DEBUG] Listings Saved PAGE.22/50
+2025-09-03 11:59:50,350 [DEBUG] Starting new HTTPS connection (1): reverb.com:443
+2025-09-03 11:59:52,328 [DEBUG] https://reverb.com:443 "GET /api/listings?category=4-string&condition=used&page=23&per_page=50&product_type=bass-guitars HTTP/1.1" 200 None
+2025-09-03 11:59:52,344 [DEBUG] Status Code: 200
+2025-09-03 11:59:52,347 [DEBUG] Request OK
+2025-09-03 11:59:52,367 [DEBUG] Saved 50 new listings
+2025-09-03 11:59:52,367 [DEBUG] Listings Saved PAGE.23/50
+2025-09-03 11:59:52,370 [DEBUG] Starting new HTTPS connection (1): reverb.com:443
+2025-09-03 11:59:54,896 [DEBUG] https://reverb.com:443 "GET /api/listings?category=4-string&condition=used&page=24&per_page=50&product_type=bass-guitars HTTP/1.1" 200 None
+2025-09-03 11:59:54,911 [DEBUG] Status Code: 200
+2025-09-03 11:59:54,915 [DEBUG] Request OK
+2025-09-03 11:59:54,938 [DEBUG] Saved 50 new listings
+2025-09-03 11:59:54,939 [DEBUG] Listings Saved PAGE.24/50
+2025-09-03 11:59:54,942 [DEBUG] Starting new HTTPS connection (1): reverb.com:443
+2025-09-03 11:59:56,913 [DEBUG] https://reverb.com:443 "GET /api/listings?category=4-string&condition=used&page=25&per_page=50&product_type=bass-guitars HTTP/1.1" 200 None
+2025-09-03 11:59:56,933 [DEBUG] Status Code: 200
+2025-09-03 11:59:56,938 [DEBUG] Request OK
+2025-09-03 11:59:56,962 [DEBUG] Saved 50 new listings
+2025-09-03 11:59:56,962 [DEBUG] Listings Saved PAGE.25/50
+2025-09-03 11:59:56,965 [DEBUG] Starting new HTTPS connection (1): reverb.com:443
+2025-09-03 11:59:59,594 [DEBUG] https://reverb.com:443 "GET /api/listings?category=4-string&condition=used&page=26&per_page=50&product_type=bass-guitars HTTP/1.1" 200 None
+2025-09-03 11:59:59,607 [DEBUG] Status Code: 200
+2025-09-03 11:59:59,612 [DEBUG] Request OK
+2025-09-03 11:59:59,612 [INFO] Pages [26/50]
+2025-09-03 11:59:59,637 [DEBUG] Saved 50 new listings
+2025-09-03 11:59:59,637 [DEBUG] Listings Saved PAGE.26/50
+2025-09-03 11:59:59,640 [DEBUG] Starting new HTTPS connection (1): reverb.com:443
+2025-09-03 12:00:01,653 [DEBUG] https://reverb.com:443 "GET /api/listings?category=4-string&condition=used&page=27&per_page=50&product_type=bass-guitars HTTP/1.1" 200 None
+2025-09-03 12:00:01,670 [DEBUG] Status Code: 200
+2025-09-03 12:00:01,672 [DEBUG] Request OK
+2025-09-03 12:00:01,688 [DEBUG] Saved 50 new listings
+2025-09-03 12:00:01,689 [DEBUG] Listings Saved PAGE.27/50
+2025-09-03 12:00:01,690 [DEBUG] Starting new HTTPS connection (1): reverb.com:443
+2025-09-03 12:00:03,571 [DEBUG] https://reverb.com:443 "GET /api/listings?category=4-string&condition=used&page=28&per_page=50&product_type=bass-guitars HTTP/1.1" 200 None
+2025-09-03 12:00:03,587 [DEBUG] Status Code: 200
+2025-09-03 12:00:03,591 [DEBUG] Request OK
+2025-09-03 12:00:03,615 [DEBUG] Saved 50 new listings
+2025-09-03 12:00:03,616 [DEBUG] Listings Saved PAGE.28/50
+2025-09-03 12:00:03,618 [DEBUG] Starting new HTTPS connection (1): reverb.com:443
+2025-09-03 12:00:05,637 [DEBUG] https://reverb.com:443 "GET /api/listings?category=4-string&condition=used&page=29&per_page=50&product_type=bass-guitars HTTP/1.1" 200 None
+2025-09-03 12:00:05,650 [DEBUG] Status Code: 200
+2025-09-03 12:00:05,656 [DEBUG] Request OK
+2025-09-03 12:00:05,679 [DEBUG] Saved 50 new listings
+2025-09-03 12:00:05,679 [DEBUG] Listings Saved PAGE.29/50
+2025-09-03 12:00:05,682 [DEBUG] Starting new HTTPS connection (1): reverb.com:443
+2025-09-03 12:00:08,368 [DEBUG] https://reverb.com:443 "GET /api/listings?category=4-string&condition=used&page=30&per_page=50&product_type=bass-guitars HTTP/1.1" 200 None
+2025-09-03 12:00:08,381 [DEBUG] Status Code: 200
+2025-09-03 12:00:08,384 [DEBUG] Request OK
+2025-09-03 12:00:08,408 [DEBUG] Saved 50 new listings
+2025-09-03 12:00:08,410 [DEBUG] Listings Saved PAGE.30/50
+2025-09-03 12:00:08,412 [DEBUG] Starting new HTTPS connection (1): reverb.com:443
+2025-09-03 12:00:11,276 [DEBUG] https://reverb.com:443 "GET /api/listings?category=4-string&condition=used&page=31&per_page=50&product_type=bass-guitars HTTP/1.1" 200 None
+2025-09-03 12:00:11,377 [DEBUG] Status Code: 200
+2025-09-03 12:00:11,382 [DEBUG] Request OK
+2025-09-03 12:00:11,383 [INFO] Pages [31/50]
+2025-09-03 12:00:11,401 [DEBUG] Saved 50 new listings
+2025-09-03 12:00:11,402 [DEBUG] Listings Saved PAGE.31/50
+2025-09-03 12:00:11,403 [DEBUG] Starting new HTTPS connection (1): reverb.com:443
+2025-09-03 12:00:13,383 [DEBUG] https://reverb.com:443 "GET /api/listings?category=4-string&condition=used&page=32&per_page=50&product_type=bass-guitars HTTP/1.1" 200 None
+2025-09-03 12:00:13,395 [DEBUG] Status Code: 200
+2025-09-03 12:00:13,399 [DEBUG] Request OK
+2025-09-03 12:00:13,423 [DEBUG] Saved 50 new listings
+2025-09-03 12:00:13,424 [DEBUG] Listings Saved PAGE.32/50
+2025-09-03 12:00:13,426 [DEBUG] Starting new HTTPS connection (1): reverb.com:443
+2025-09-03 12:00:15,329 [DEBUG] https://reverb.com:443 "GET /api/listings?category=4-string&condition=used&page=33&per_page=50&product_type=bass-guitars HTTP/1.1" 200 None
+2025-09-03 12:00:15,346 [DEBUG] Status Code: 200
+2025-09-03 12:00:15,351 [DEBUG] Request OK
+2025-09-03 12:00:15,376 [DEBUG] Saved 50 new listings
+2025-09-03 12:00:15,376 [DEBUG] Listings Saved PAGE.33/50
+2025-09-03 12:00:15,379 [DEBUG] Starting new HTTPS connection (1): reverb.com:443
+2025-09-03 12:00:18,109 [DEBUG] https://reverb.com:443 "GET /api/listings?category=4-string&condition=used&page=34&per_page=50&product_type=bass-guitars HTTP/1.1" 200 None
+2025-09-03 12:00:18,124 [DEBUG] Status Code: 200
+2025-09-03 12:00:18,130 [DEBUG] Request OK
+2025-09-03 12:00:18,158 [DEBUG] Saved 50 new listings
+2025-09-03 12:00:18,158 [DEBUG] Listings Saved PAGE.34/50
+2025-09-03 12:00:18,160 [DEBUG] Starting new HTTPS connection (1): reverb.com:443
+2025-09-03 12:00:20,666 [DEBUG] https://reverb.com:443 "GET /api/listings?category=4-string&condition=used&page=35&per_page=50&product_type=bass-guitars HTTP/1.1" 200 None
+2025-09-03 12:00:20,677 [DEBUG] Status Code: 200
+2025-09-03 12:00:20,683 [DEBUG] Request OK
+2025-09-03 12:00:20,711 [DEBUG] Saved 50 new listings
+2025-09-03 12:00:20,711 [DEBUG] Listings Saved PAGE.35/50
+2025-09-03 12:00:20,713 [DEBUG] Starting new HTTPS connection (1): reverb.com:443
+2025-09-03 12:00:22,697 [DEBUG] https://reverb.com:443 "GET /api/listings?category=4-string&condition=used&page=36&per_page=50&product_type=bass-guitars HTTP/1.1" 200 None
+2025-09-03 12:00:22,708 [DEBUG] Status Code: 200
+2025-09-03 12:00:22,716 [DEBUG] Request OK
+2025-09-03 12:00:22,717 [INFO] Pages [36/50]
+2025-09-03 12:00:22,743 [DEBUG] Saved 50 new listings
+2025-09-03 12:00:22,743 [DEBUG] Listings Saved PAGE.36/50
+2025-09-03 12:00:22,746 [DEBUG] Starting new HTTPS connection (1): reverb.com:443
+2025-09-03 12:00:26,218 [DEBUG] https://reverb.com:443 "GET /api/listings?category=4-string&condition=used&page=37&per_page=50&product_type=bass-guitars HTTP/1.1" 200 None
+2025-09-03 12:00:26,254 [DEBUG] Status Code: 200
+2025-09-03 12:00:26,259 [DEBUG] Request OK
+2025-09-03 12:00:26,286 [DEBUG] Saved 50 new listings
+2025-09-03 12:00:26,287 [DEBUG] Listings Saved PAGE.37/50
+2025-09-03 12:00:26,289 [DEBUG] Starting new HTTPS connection (1): reverb.com:443
+2025-09-03 12:00:28,202 [DEBUG] https://reverb.com:443 "GET /api/listings?category=4-string&condition=used&page=38&per_page=50&product_type=bass-guitars HTTP/1.1" 200 None
+2025-09-03 12:00:28,224 [DEBUG] Status Code: 200
+2025-09-03 12:00:28,226 [DEBUG] Request OK
+2025-09-03 12:00:28,241 [DEBUG] Saved 50 new listings
+2025-09-03 12:00:28,241 [DEBUG] Listings Saved PAGE.38/50
+2025-09-03 12:00:28,242 [DEBUG] Starting new HTTPS connection (1): reverb.com:443
+2025-09-03 12:00:30,051 [DEBUG] https://reverb.com:443 "GET /api/listings?category=4-string&condition=used&page=39&per_page=50&product_type=bass-guitars HTTP/1.1" 200 None
+2025-09-03 12:00:30,067 [DEBUG] Status Code: 200
+2025-09-03 12:00:30,070 [DEBUG] Request OK
+2025-09-03 12:00:30,086 [DEBUG] Saved 50 new listings
+2025-09-03 12:00:30,086 [DEBUG] Listings Saved PAGE.39/50
+2025-09-03 12:00:30,088 [DEBUG] Starting new HTTPS connection (1): reverb.com:443
+2025-09-03 12:00:32,121 [DEBUG] https://reverb.com:443 "GET /api/listings?category=4-string&condition=used&page=40&per_page=50&product_type=bass-guitars HTTP/1.1" 200 None
+2025-09-03 12:00:32,138 [DEBUG] Status Code: 200
+2025-09-03 12:00:32,140 [DEBUG] Request OK
+2025-09-03 12:00:32,158 [DEBUG] Saved 50 new listings
+2025-09-03 12:00:32,159 [DEBUG] Listings Saved PAGE.40/50
+2025-09-03 12:00:32,160 [DEBUG] Starting new HTTPS connection (1): reverb.com:443
+2025-09-03 12:00:34,166 [DEBUG] https://reverb.com:443 "GET /api/listings?category=4-string&condition=used&page=41&per_page=50&product_type=bass-guitars HTTP/1.1" 200 None
+2025-09-03 12:00:34,178 [DEBUG] Status Code: 200
+2025-09-03 12:00:34,180 [DEBUG] Request OK
+2025-09-03 12:00:34,180 [INFO] Pages [41/50]
+2025-09-03 12:00:34,194 [DEBUG] Saved 50 new listings
+2025-09-03 12:00:34,195 [DEBUG] Listings Saved PAGE.41/50
+2025-09-03 12:00:34,196 [DEBUG] Starting new HTTPS connection (1): reverb.com:443
+2025-09-03 12:00:36,359 [DEBUG] https://reverb.com:443 "GET /api/listings?category=4-string&condition=used&page=42&per_page=50&product_type=bass-guitars HTTP/1.1" 200 None
+2025-09-03 12:00:36,379 [DEBUG] Status Code: 200
+2025-09-03 12:00:36,384 [DEBUG] Request OK
+2025-09-03 12:00:36,401 [DEBUG] Saved 50 new listings
+2025-09-03 12:00:36,401 [DEBUG] Listings Saved PAGE.42/50
+2025-09-03 12:00:36,403 [DEBUG] Starting new HTTPS connection (1): reverb.com:443
+2025-09-03 12:00:38,312 [DEBUG] https://reverb.com:443 "GET /api/listings?category=4-string&condition=used&page=43&per_page=50&product_type=bass-guitars HTTP/1.1" 200 None
+2025-09-03 12:00:38,325 [DEBUG] Status Code: 200
+2025-09-03 12:00:38,329 [DEBUG] Request OK
+2025-09-03 12:00:38,353 [DEBUG] Saved 50 new listings
+2025-09-03 12:00:38,353 [DEBUG] Listings Saved PAGE.43/50
+2025-09-03 12:00:38,356 [DEBUG] Starting new HTTPS connection (1): reverb.com:443
+2025-09-03 12:00:40,290 [DEBUG] https://reverb.com:443 "GET /api/listings?category=4-string&condition=used&page=44&per_page=50&product_type=bass-guitars HTTP/1.1" 200 None
+2025-09-03 12:00:40,302 [DEBUG] Status Code: 200
+2025-09-03 12:00:40,307 [DEBUG] Request OK
+2025-09-03 12:00:40,326 [DEBUG] Saved 50 new listings
+2025-09-03 12:00:40,326 [DEBUG] Listings Saved PAGE.44/50
+2025-09-03 12:00:40,328 [DEBUG] Starting new HTTPS connection (1): reverb.com:443
+2025-09-03 12:00:43,002 [DEBUG] https://reverb.com:443 "GET /api/listings?category=4-string&condition=used&page=45&per_page=50&product_type=bass-guitars HTTP/1.1" 200 None
+2025-09-03 12:00:43,015 [DEBUG] Status Code: 200
+2025-09-03 12:00:43,019 [DEBUG] Request OK
+2025-09-03 12:00:43,037 [DEBUG] Saved 50 new listings
+2025-09-03 12:00:43,039 [DEBUG] Listings Saved PAGE.45/50
+2025-09-03 12:00:43,040 [DEBUG] Starting new HTTPS connection (1): reverb.com:443
+2025-09-03 12:00:44,925 [DEBUG] https://reverb.com:443 "GET /api/listings?category=4-string&condition=used&page=46&per_page=50&product_type=bass-guitars HTTP/1.1" 200 None
+2025-09-03 12:00:44,938 [DEBUG] Status Code: 200
+2025-09-03 12:00:44,941 [DEBUG] Request OK
+2025-09-03 12:00:44,941 [INFO] Pages [46/50]
+2025-09-03 12:00:44,960 [DEBUG] Saved 50 new listings
+2025-09-03 12:00:44,961 [DEBUG] Listings Saved PAGE.46/50
+2025-09-03 12:00:44,963 [DEBUG] Starting new HTTPS connection (1): reverb.com:443
+2025-09-03 12:00:46,930 [DEBUG] https://reverb.com:443 "GET /api/listings?category=4-string&condition=used&page=47&per_page=50&product_type=bass-guitars HTTP/1.1" 200 None
+2025-09-03 12:00:46,943 [DEBUG] Status Code: 200
+2025-09-03 12:00:46,948 [DEBUG] Request OK
+2025-09-03 12:00:46,974 [DEBUG] Saved 50 new listings
+2025-09-03 12:00:46,975 [DEBUG] Listings Saved PAGE.47/50
+2025-09-03 12:00:46,977 [DEBUG] Starting new HTTPS connection (1): reverb.com:443
+2025-09-03 12:00:49,064 [DEBUG] https://reverb.com:443 "GET /api/listings?category=4-string&condition=used&page=48&per_page=50&product_type=bass-guitars HTTP/1.1" 200 None
+2025-09-03 12:00:49,076 [DEBUG] Status Code: 200
+2025-09-03 12:00:49,081 [DEBUG] Request OK
+2025-09-03 12:00:49,105 [DEBUG] Saved 50 new listings
+2025-09-03 12:00:49,106 [DEBUG] Listings Saved PAGE.48/50
+2025-09-03 12:00:49,107 [DEBUG] Starting new HTTPS connection (1): reverb.com:443
+2025-09-03 12:00:50,998 [DEBUG] https://reverb.com:443 "GET /api/listings?category=4-string&condition=used&page=49&per_page=50&product_type=bass-guitars HTTP/1.1" 200 None
+2025-09-03 12:00:51,016 [DEBUG] Status Code: 200
+2025-09-03 12:00:51,019 [DEBUG] Request OK
+2025-09-03 12:00:51,036 [DEBUG] Saved 50 new listings
+2025-09-03 12:00:51,036 [DEBUG] Listings Saved PAGE.49/50
+2025-09-03 12:00:51,038 [DEBUG] Starting new HTTPS connection (1): reverb.com:443
+2025-09-03 12:00:53,085 [DEBUG] https://reverb.com:443 "GET /api/listings?category=4-string&condition=used&page=50&per_page=50&product_type=bass-guitars HTTP/1.1" 200 None
+2025-09-03 12:00:53,105 [DEBUG] Status Code: 200
+2025-09-03 12:00:53,108 [DEBUG] Request OK
+2025-09-03 12:00:53,129 [DEBUG] Saved 50 new listings
+2025-09-03 12:00:53,130 [DEBUG] Listings Saved PAGE.50/50
+2025-09-03 12:00:53,132 [DEBUG] Starting new HTTPS connection (1): reverb.com:443
+2025-09-03 12:00:55,994 [DEBUG] https://reverb.com:443 "GET /api/listings?category=4-string&condition=used&page=51&per_page=50&product_type=bass-guitars HTTP/1.1" 200 None
+2025-09-03 12:00:56,008 [DEBUG] Status Code: 200
+2025-09-03 12:00:56,011 [DEBUG] Request OK
+2025-09-03 12:00:56,011 [INFO] Pages [51/50]
+2025-09-03 12:00:56,030 [DEBUG] Saved 50 new listings
+2025-09-03 12:00:56,031 [DEBUG] Listings Saved PAGE.51/50
+2025-09-03 12:00:56,034 [DEBUG] Starting new HTTPS connection (1): reverb.com:443
+2025-09-03 12:00:57,967 [DEBUG] https://reverb.com:443 "GET /api/listings?category=4-string&condition=used&page=52&per_page=50&product_type=bass-guitars HTTP/1.1" 200 None
+2025-09-03 12:00:57,983 [DEBUG] Status Code: 200
+2025-09-03 12:00:57,985 [DEBUG] Request OK
+2025-09-03 12:00:58,004 [DEBUG] Saved 50 new listings
+2025-09-03 12:00:58,005 [DEBUG] Listings Saved PAGE.52/50
+2025-09-03 12:00:58,007 [DEBUG] Starting new HTTPS connection (1): reverb.com:443
+2025-09-03 12:00:59,978 [DEBUG] https://reverb.com:443 "GET /api/listings?category=4-string&condition=used&page=53&per_page=50&product_type=bass-guitars HTTP/1.1" 200 None
+2025-09-03 12:01:00,000 [DEBUG] Status Code: 200
+2025-09-03 12:01:00,003 [DEBUG] Request OK
+2025-09-03 12:01:00,031 [DEBUG] Saved 50 new listings
+2025-09-03 12:01:00,032 [DEBUG] Listings Saved PAGE.53/50
+2025-09-03 12:01:00,034 [DEBUG] Starting new HTTPS connection (1): reverb.com:443
+2025-09-03 12:01:02,212 [DEBUG] https://reverb.com:443 "GET /api/listings?category=4-string&condition=used&page=54&per_page=50&product_type=bass-guitars HTTP/1.1" 200 None
+2025-09-03 12:01:02,222 [DEBUG] Status Code: 200
+2025-09-03 12:01:02,225 [DEBUG] Request OK
+2025-09-03 12:01:02,254 [DEBUG] Saved 50 new listings
+2025-09-03 12:01:02,255 [DEBUG] Listings Saved PAGE.54/50
+2025-09-03 12:01:02,257 [DEBUG] Starting new HTTPS connection (1): reverb.com:443
+2025-09-03 12:01:04,626 [DEBUG] https://reverb.com:443 "GET /api/listings?category=4-string&condition=used&page=55&per_page=50&product_type=bass-guitars HTTP/1.1" 200 None
+2025-09-03 12:01:04,643 [DEBUG] Status Code: 200
+2025-09-03 12:01:04,647 [DEBUG] Request OK
+2025-09-03 12:01:04,680 [DEBUG] Saved 50 new listings
+2025-09-03 12:01:04,680 [DEBUG] Listings Saved PAGE.55/50
+2025-09-03 12:01:04,682 [DEBUG] Starting new HTTPS connection (1): reverb.com:443
+2025-09-03 12:01:07,588 [DEBUG] https://reverb.com:443 "GET /api/listings?category=4-string&condition=used&page=56&per_page=50&product_type=bass-guitars HTTP/1.1" 200 None
+2025-09-03 12:01:07,633 [DEBUG] Status Code: 200
+2025-09-03 12:01:07,637 [DEBUG] Request OK
+2025-09-03 12:01:07,638 [INFO] Pages [56/50]
+2025-09-03 12:01:07,667 [DEBUG] Saved 50 new listings
+2025-09-03 12:01:07,668 [DEBUG] Listings Saved PAGE.56/50
+2025-09-03 12:01:07,669 [DEBUG] Starting new HTTPS connection (1): reverb.com:443
+2025-09-03 12:01:10,256 [DEBUG] https://reverb.com:443 "GET /api/listings?category=4-string&condition=used&page=57&per_page=50&product_type=bass-guitars HTTP/1.1" 200 None
+2025-09-03 12:01:10,270 [DEBUG] Status Code: 200
+2025-09-03 12:01:10,275 [DEBUG] Request OK
+2025-09-03 12:01:10,361 [DEBUG] Saved 50 new listings
+2025-09-03 12:01:10,361 [DEBUG] Listings Saved PAGE.57/50
+2025-09-03 12:01:10,363 [DEBUG] Starting new HTTPS connection (1): reverb.com:443
+2025-09-03 12:01:12,693 [DEBUG] https://reverb.com:443 "GET /api/listings?category=4-string&condition=used&page=58&per_page=50&product_type=bass-guitars HTTP/1.1" 200 None
+2025-09-03 12:01:12,706 [DEBUG] Status Code: 200
+2025-09-03 12:01:12,710 [DEBUG] Request OK
+2025-09-03 12:01:12,744 [DEBUG] Saved 50 new listings
+2025-09-03 12:01:12,745 [DEBUG] Listings Saved PAGE.58/50
+2025-09-03 12:01:12,747 [DEBUG] Starting new HTTPS connection (1): reverb.com:443
+2025-09-03 12:01:16,121 [DEBUG] https://reverb.com:443 "GET /api/listings?category=4-string&condition=used&page=59&per_page=50&product_type=bass-guitars HTTP/1.1" 200 None
+2025-09-03 12:01:16,137 [DEBUG] Status Code: 200
+2025-09-03 12:01:16,140 [DEBUG] Request OK
+2025-09-03 12:01:16,174 [DEBUG] Saved 50 new listings
+2025-09-03 12:01:16,174 [DEBUG] Listings Saved PAGE.59/50
+2025-09-03 12:01:16,176 [DEBUG] Starting new HTTPS connection (1): reverb.com:443
+2025-09-03 12:01:18,469 [DEBUG] https://reverb.com:443 "GET /api/listings?category=4-string&condition=used&page=60&per_page=50&product_type=bass-guitars HTTP/1.1" 200 None
+2025-09-03 12:01:18,572 [DEBUG] Status Code: 200
+2025-09-03 12:01:18,577 [DEBUG] Request OK
+2025-09-03 12:01:18,609 [DEBUG] Saved 50 new listings
+2025-09-03 12:01:18,610 [DEBUG] Listings Saved PAGE.60/50
+2025-09-03 12:01:18,612 [DEBUG] Starting new HTTPS connection (1): reverb.com:443
+2025-09-03 12:01:20,636 [DEBUG] https://reverb.com:443 "GET /api/listings?category=4-string&condition=used&page=61&per_page=50&product_type=bass-guitars HTTP/1.1" 200 None
+2025-09-03 12:01:20,653 [DEBUG] Status Code: 200
+2025-09-03 12:01:20,659 [DEBUG] Request OK
+2025-09-03 12:01:20,660 [INFO] Pages [61/50]
+2025-09-03 12:01:20,693 [DEBUG] Saved 50 new listings
+2025-09-03 12:01:20,694 [DEBUG] Listings Saved PAGE.61/50
+2025-09-03 12:01:20,696 [DEBUG] Starting new HTTPS connection (1): reverb.com:443
+2025-09-03 12:01:22,755 [DEBUG] https://reverb.com:443 "GET /api/listings?category=4-string&condition=used&page=62&per_page=50&product_type=bass-guitars HTTP/1.1" 200 None
+2025-09-03 12:01:22,770 [DEBUG] Status Code: 200
+2025-09-03 12:01:22,773 [DEBUG] Request OK
+2025-09-03 12:01:22,801 [DEBUG] Saved 50 new listings
+2025-09-03 12:01:22,801 [DEBUG] Listings Saved PAGE.62/50
+2025-09-03 12:01:22,803 [DEBUG] Starting new HTTPS connection (1): reverb.com:443
+2025-09-03 12:01:24,890 [DEBUG] https://reverb.com:443 "GET /api/listings?category=4-string&condition=used&page=63&per_page=50&product_type=bass-guitars HTTP/1.1" 200 None
+2025-09-03 12:01:24,918 [DEBUG] Status Code: 200
+2025-09-03 12:01:24,923 [DEBUG] Request OK
+2025-09-03 12:01:24,961 [DEBUG] Saved 50 new listings
+2025-09-03 12:01:24,962 [DEBUG] Listings Saved PAGE.63/50
+2025-09-03 12:01:24,964 [DEBUG] Starting new HTTPS connection (1): reverb.com:443
+2025-09-03 12:01:27,037 [DEBUG] https://reverb.com:443 "GET /api/listings?category=4-string&condition=used&page=64&per_page=50&product_type=bass-guitars HTTP/1.1" 200 None
+2025-09-03 12:01:27,051 [DEBUG] Status Code: 200
+2025-09-03 12:01:27,054 [DEBUG] Request OK
+2025-09-03 12:01:27,086 [DEBUG] Saved 50 new listings
+2025-09-03 12:01:27,088 [DEBUG] Listings Saved PAGE.64/50
+2025-09-03 12:01:27,090 [DEBUG] Starting new HTTPS connection (1): reverb.com:443
+2025-09-03 12:01:28,912 [DEBUG] https://reverb.com:443 "GET /api/listings?category=4-string&condition=used&page=65&per_page=50&product_type=bass-guitars HTTP/1.1" 200 None
+2025-09-03 12:01:28,925 [DEBUG] Status Code: 200
+2025-09-03 12:01:28,929 [DEBUG] Request OK
+2025-09-03 12:01:28,965 [DEBUG] Saved 50 new listings
+2025-09-03 12:01:28,966 [DEBUG] Listings Saved PAGE.65/50
+2025-09-03 12:01:28,968 [DEBUG] Starting new HTTPS connection (1): reverb.com:443
+2025-09-03 12:01:30,749 [DEBUG] https://reverb.com:443 "GET /api/listings?category=4-string&condition=used&page=66&per_page=50&product_type=bass-guitars HTTP/1.1" 200 None
+2025-09-03 12:01:30,760 [DEBUG] Status Code: 200
+2025-09-03 12:01:30,765 [DEBUG] Request OK
+2025-09-03 12:01:30,765 [INFO] Pages [66/50]
+2025-09-03 12:01:30,800 [DEBUG] Saved 50 new listings
+2025-09-03 12:01:30,801 [DEBUG] Listings Saved PAGE.66/50
+2025-09-03 12:01:30,803 [DEBUG] Starting new HTTPS connection (1): reverb.com:443
+2025-09-03 12:01:32,859 [DEBUG] https://reverb.com:443 "GET /api/listings?category=4-string&condition=used&page=67&per_page=50&product_type=bass-guitars HTTP/1.1" 200 None
+2025-09-03 12:01:32,868 [DEBUG] Status Code: 200
+2025-09-03 12:01:32,871 [DEBUG] Request OK
+2025-09-03 12:01:32,895 [DEBUG] Saved 50 new listings
+2025-09-03 12:01:32,895 [DEBUG] Listings Saved PAGE.67/50
+2025-09-03 12:01:32,897 [DEBUG] Starting new HTTPS connection (1): reverb.com:443
+2025-09-03 12:01:35,572 [DEBUG] https://reverb.com:443 "GET /api/listings?category=4-string&condition=used&page=68&per_page=50&product_type=bass-guitars HTTP/1.1" 200 None
+2025-09-03 12:01:35,585 [DEBUG] Status Code: 200
+2025-09-03 12:01:35,592 [DEBUG] Request OK
+2025-09-03 12:01:35,627 [DEBUG] Saved 50 new listings
+2025-09-03 12:01:35,628 [DEBUG] Listings Saved PAGE.68/50
+2025-09-03 12:01:35,630 [DEBUG] Starting new HTTPS connection (1): reverb.com:443
+2025-09-03 12:01:38,358 [DEBUG] https://reverb.com:443 "GET /api/listings?category=4-string&condition=used&page=69&per_page=50&product_type=bass-guitars HTTP/1.1" 200 None
+2025-09-03 12:01:38,377 [DEBUG] Status Code: 200
+2025-09-03 12:01:38,380 [DEBUG] Request OK
+2025-09-03 12:01:38,414 [DEBUG] Saved 50 new listings
+2025-09-03 12:01:38,415 [DEBUG] Listings Saved PAGE.69/50
+2025-09-03 12:01:38,417 [DEBUG] Starting new HTTPS connection (1): reverb.com:443
+2025-09-03 12:01:40,472 [DEBUG] https://reverb.com:443 "GET /api/listings?category=4-string&condition=used&page=70&per_page=50&product_type=bass-guitars HTTP/1.1" 200 None
+2025-09-03 12:01:40,485 [DEBUG] Status Code: 200
+2025-09-03 12:01:40,490 [DEBUG] Request OK
+2025-09-03 12:01:40,527 [DEBUG] Saved 50 new listings
+2025-09-03 12:01:40,528 [DEBUG] Listings Saved PAGE.70/50
+2025-09-03 12:01:40,530 [DEBUG] Starting new HTTPS connection (1): reverb.com:443
+2025-09-03 12:01:42,488 [DEBUG] https://reverb.com:443 "GET /api/listings?category=4-string&condition=used&page=71&per_page=50&product_type=bass-guitars HTTP/1.1" 200 None
+2025-09-03 12:01:42,504 [DEBUG] Status Code: 200
+2025-09-03 12:01:42,508 [DEBUG] Request OK
+2025-09-03 12:01:42,508 [INFO] Pages [71/50]
+2025-09-03 12:01:42,544 [DEBUG] Saved 50 new listings
+2025-09-03 12:01:42,545 [DEBUG] Listings Saved PAGE.71/50
+2025-09-03 12:01:42,547 [DEBUG] Starting new HTTPS connection (1): reverb.com:443
+2025-09-03 12:01:44,592 [DEBUG] https://reverb.com:443 "GET /api/listings?category=4-string&condition=used&page=72&per_page=50&product_type=bass-guitars HTTP/1.1" 200 None
+2025-09-03 12:01:44,605 [DEBUG] Status Code: 200
+2025-09-03 12:01:44,608 [DEBUG] Request OK
+2025-09-03 12:01:44,647 [DEBUG] Saved 50 new listings
+2025-09-03 12:01:44,648 [DEBUG] Listings Saved PAGE.72/50
+2025-09-03 12:01:44,650 [DEBUG] Starting new HTTPS connection (1): reverb.com:443
+2025-09-03 12:01:47,331 [DEBUG] https://reverb.com:443 "GET /api/listings?category=4-string&condition=used&page=73&per_page=50&product_type=bass-guitars HTTP/1.1" 200 None
+2025-09-03 12:01:47,344 [DEBUG] Status Code: 200
+2025-09-03 12:01:47,350 [DEBUG] Request OK
+2025-09-03 12:01:47,386 [DEBUG] Saved 50 new listings
+2025-09-03 12:01:47,387 [DEBUG] Listings Saved PAGE.73/50
+2025-09-03 12:01:47,389 [DEBUG] Starting new HTTPS connection (1): reverb.com:443
+2025-09-03 12:01:49,285 [DEBUG] https://reverb.com:443 "GET /api/listings?category=4-string&condition=used&page=74&per_page=50&product_type=bass-guitars HTTP/1.1" 200 None
+2025-09-03 12:01:49,297 [DEBUG] Status Code: 200
+2025-09-03 12:01:49,303 [DEBUG] Request OK
+2025-09-03 12:01:49,338 [DEBUG] Saved 50 new listings
+2025-09-03 12:01:49,339 [DEBUG] Listings Saved PAGE.74/50
+2025-09-03 12:01:49,341 [DEBUG] Starting new HTTPS connection (1): reverb.com:443
+2025-09-03 12:01:51,295 [DEBUG] https://reverb.com:443 "GET /api/listings?category=4-string&condition=used&page=75&per_page=50&product_type=bass-guitars HTTP/1.1" 200 None
+2025-09-03 12:01:51,304 [DEBUG] Status Code: 200
+2025-09-03 12:01:51,308 [DEBUG] Request OK
+2025-09-03 12:01:51,346 [DEBUG] Saved 50 new listings
+2025-09-03 12:01:51,347 [DEBUG] Listings Saved PAGE.75/50
+2025-09-03 12:01:51,349 [DEBUG] Starting new HTTPS connection (1): reverb.com:443
+2025-09-03 12:01:53,308 [DEBUG] https://reverb.com:443 "GET /api/listings?category=4-string&condition=used&page=76&per_page=50&product_type=bass-guitars HTTP/1.1" 200 None
+2025-09-03 12:01:53,321 [DEBUG] Status Code: 200
+2025-09-03 12:01:53,325 [DEBUG] Request OK
+2025-09-03 12:01:53,326 [INFO] Pages [76/50]
+2025-09-03 12:01:53,362 [DEBUG] Saved 50 new listings
+2025-09-03 12:01:53,363 [DEBUG] Listings Saved PAGE.76/50
+2025-09-03 12:01:53,365 [DEBUG] Starting new HTTPS connection (1): reverb.com:443
+2025-09-03 12:01:55,332 [DEBUG] https://reverb.com:443 "GET /api/listings?category=4-string&condition=used&page=77&per_page=50&product_type=bass-guitars HTTP/1.1" 200 None
+2025-09-03 12:01:55,427 [DEBUG] Status Code: 200
+2025-09-03 12:01:55,431 [DEBUG] Request OK
+2025-09-03 12:01:55,469 [DEBUG] Saved 50 new listings
+2025-09-03 12:01:55,470 [DEBUG] Listings Saved PAGE.77/50
+2025-09-03 12:01:55,472 [DEBUG] Starting new HTTPS connection (1): reverb.com:443
+2025-09-03 12:01:58,626 [DEBUG] https://reverb.com:443 "GET /api/listings?category=4-string&condition=used&page=78&per_page=50&product_type=bass-guitars HTTP/1.1" 200 None
+2025-09-03 12:01:58,671 [DEBUG] Status Code: 200
+2025-09-03 12:01:58,674 [DEBUG] Request OK
+2025-09-03 12:01:58,712 [DEBUG] Saved 50 new listings
+2025-09-03 12:01:58,713 [DEBUG] Listings Saved PAGE.78/50
+2025-09-03 12:01:58,715 [DEBUG] Starting new HTTPS connection (1): reverb.com:443
+2025-09-03 12:02:00,675 [DEBUG] https://reverb.com:443 "GET /api/listings?category=4-string&condition=used&page=79&per_page=50&product_type=bass-guitars HTTP/1.1" 200 None
+2025-09-03 12:02:00,701 [DEBUG] Status Code: 200
+2025-09-03 12:02:00,705 [DEBUG] Request OK
+2025-09-03 12:02:00,772 [DEBUG] Saved 50 new listings
+2025-09-03 12:02:00,773 [DEBUG] Listings Saved PAGE.79/50
+2025-09-03 12:02:00,775 [DEBUG] Starting new HTTPS connection (1): reverb.com:443
+2025-09-03 12:02:03,399 [DEBUG] https://reverb.com:443 "GET /api/listings?category=4-string&condition=used&page=80&per_page=50&product_type=bass-guitars HTTP/1.1" 200 None
+2025-09-03 12:02:03,412 [DEBUG] Status Code: 200
+2025-09-03 12:02:03,417 [DEBUG] Request OK
+2025-09-03 12:02:03,453 [DEBUG] Saved 50 new listings
+2025-09-03 12:02:03,454 [DEBUG] Listings Saved PAGE.80/50
+2025-09-03 12:02:03,456 [DEBUG] Starting new HTTPS connection (1): reverb.com:443
+2025-09-03 12:02:05,465 [DEBUG] https://reverb.com:443 "GET /api/listings?category=4-string&condition=used&page=81&per_page=50&product_type=bass-guitars HTTP/1.1" 200 None
+2025-09-03 12:02:05,480 [DEBUG] Status Code: 200
+2025-09-03 12:02:05,481 [DEBUG] Request OK
+2025-09-03 12:02:05,482 [INFO] Pages [81/50]
+2025-09-03 12:02:05,509 [DEBUG] Saved 50 new listings
+2025-09-03 12:02:05,510 [DEBUG] Listings Saved PAGE.81/50
+2025-09-03 12:02:05,512 [DEBUG] Starting new HTTPS connection (1): reverb.com:443
+2025-09-03 12:02:07,903 [DEBUG] https://reverb.com:443 "GET /api/listings?category=4-string&condition=used&page=82&per_page=50&product_type=bass-guitars HTTP/1.1" 200 None
+2025-09-03 12:02:07,914 [DEBUG] Status Code: 200
+2025-09-03 12:02:07,917 [DEBUG] Request OK
+2025-09-03 12:02:07,941 [DEBUG] Saved 50 new listings
+2025-09-03 12:02:07,942 [DEBUG] Listings Saved PAGE.82/50
+2025-09-03 12:02:07,944 [DEBUG] Starting new HTTPS connection (1): reverb.com:443
+2025-09-03 12:02:10,479 [DEBUG] https://reverb.com:443 "GET /api/listings?category=4-string&condition=used&page=83&per_page=50&product_type=bass-guitars HTTP/1.1" 200 None
+2025-09-03 12:02:10,491 [DEBUG] Status Code: 200
+2025-09-03 12:02:10,498 [DEBUG] Request OK
+2025-09-03 12:02:10,533 [DEBUG] Saved 50 new listings
+2025-09-03 12:02:10,534 [DEBUG] Listings Saved PAGE.83/50
+2025-09-03 12:02:10,536 [DEBUG] Starting new HTTPS connection (1): reverb.com:443
+2025-09-03 12:02:12,705 [DEBUG] https://reverb.com:443 "GET /api/listings?category=4-string&condition=used&page=84&per_page=50&product_type=bass-guitars HTTP/1.1" 200 None
+2025-09-03 12:02:12,719 [DEBUG] Status Code: 200
+2025-09-03 12:02:12,723 [DEBUG] Request OK
+2025-09-03 12:02:12,762 [DEBUG] Saved 50 new listings
+2025-09-03 12:02:12,763 [DEBUG] Listings Saved PAGE.84/50
+2025-09-03 12:02:12,765 [DEBUG] Starting new HTTPS connection (1): reverb.com:443
+2025-09-03 12:02:16,084 [DEBUG] https://reverb.com:443 "GET /api/listings?category=4-string&condition=used&page=85&per_page=50&product_type=bass-guitars HTTP/1.1" 200 None
+2025-09-03 12:02:16,099 [DEBUG] Status Code: 200
+2025-09-03 12:02:16,102 [DEBUG] Request OK
+2025-09-03 12:02:16,139 [DEBUG] Saved 50 new listings
+2025-09-03 12:02:16,140 [DEBUG] Listings Saved PAGE.85/50
+2025-09-03 12:02:16,142 [DEBUG] Starting new HTTPS connection (1): reverb.com:443
+2025-09-03 12:02:18,119 [DEBUG] https://reverb.com:443 "GET /api/listings?category=4-string&condition=used&page=86&per_page=50&product_type=bass-guitars HTTP/1.1" 200 None
+2025-09-03 12:02:18,129 [DEBUG] Status Code: 200
+2025-09-03 12:02:18,133 [DEBUG] Request OK
+2025-09-03 12:02:18,134 [INFO] Pages [86/50]
+2025-09-03 12:02:18,170 [DEBUG] Saved 50 new listings
+2025-09-03 12:02:18,171 [DEBUG] Listings Saved PAGE.86/50
+2025-09-03 12:02:18,173 [DEBUG] Starting new HTTPS connection (1): reverb.com:443
+2025-09-03 12:02:20,258 [DEBUG] https://reverb.com:443 "GET /api/listings?category=4-string&condition=used&page=87&per_page=50&product_type=bass-guitars HTTP/1.1" 200 None
+2025-09-03 12:02:20,290 [DEBUG] Status Code: 200
+2025-09-03 12:02:20,295 [DEBUG] Request OK
+2025-09-03 12:02:20,334 [DEBUG] Saved 50 new listings
+2025-09-03 12:02:20,335 [DEBUG] Listings Saved PAGE.87/50
+2025-09-03 12:02:20,337 [DEBUG] Starting new HTTPS connection (1): reverb.com:443
+2025-09-03 12:02:23,116 [DEBUG] https://reverb.com:443 "GET /api/listings?category=4-string&condition=used&page=88&per_page=50&product_type=bass-guitars HTTP/1.1" 200 None
+2025-09-03 12:02:23,131 [DEBUG] Status Code: 200
+2025-09-03 12:02:23,134 [DEBUG] Request OK
+2025-09-03 12:02:23,174 [DEBUG] Saved 50 new listings
+2025-09-03 12:02:23,175 [DEBUG] Listings Saved PAGE.88/50
+2025-09-03 12:02:23,177 [DEBUG] Starting new HTTPS connection (1): reverb.com:443
+2025-09-03 12:02:25,276 [DEBUG] https://reverb.com:443 "GET /api/listings?category=4-string&condition=used&page=89&per_page=50&product_type=bass-guitars HTTP/1.1" 200 None
+2025-09-03 12:02:25,290 [DEBUG] Status Code: 200
+2025-09-03 12:02:25,295 [DEBUG] Request OK
+2025-09-03 12:02:25,336 [DEBUG] Saved 50 new listings
+2025-09-03 12:02:25,337 [DEBUG] Listings Saved PAGE.89/50
+2025-09-03 12:02:25,339 [DEBUG] Starting new HTTPS connection (1): reverb.com:443
+2025-09-03 12:02:27,253 [DEBUG] https://reverb.com:443 "GET /api/listings?category=4-string&condition=used&page=90&per_page=50&product_type=bass-guitars HTTP/1.1" 200 None
+2025-09-03 12:02:27,266 [DEBUG] Status Code: 200
+2025-09-03 12:02:27,271 [DEBUG] Request OK
+2025-09-03 12:02:27,311 [DEBUG] Saved 50 new listings
+2025-09-03 12:02:27,312 [DEBUG] Listings Saved PAGE.90/50
+2025-09-03 12:02:27,314 [DEBUG] Starting new HTTPS connection (1): reverb.com:443
+2025-09-03 12:02:29,739 [DEBUG] https://reverb.com:443 "GET /api/listings?category=4-string&condition=used&page=91&per_page=50&product_type=bass-guitars HTTP/1.1" 200 None
+2025-09-03 12:02:29,751 [DEBUG] Status Code: 200
+2025-09-03 12:02:29,756 [DEBUG] Request OK
+2025-09-03 12:02:29,756 [INFO] Pages [91/50]
+2025-09-03 12:02:29,796 [DEBUG] Saved 50 new listings
+2025-09-03 12:02:29,797 [DEBUG] Listings Saved PAGE.91/50
+2025-09-03 12:02:29,799 [DEBUG] Starting new HTTPS connection (1): reverb.com:443
+2025-09-03 12:02:31,597 [DEBUG] https://reverb.com:443 "GET /api/listings?category=4-string&condition=used&page=92&per_page=50&product_type=bass-guitars HTTP/1.1" 200 None
+2025-09-03 12:02:31,607 [DEBUG] Status Code: 200
+2025-09-03 12:02:31,613 [DEBUG] Request OK
+2025-09-03 12:02:31,655 [DEBUG] Saved 50 new listings
+2025-09-03 12:02:31,656 [DEBUG] Listings Saved PAGE.92/50
+2025-09-03 12:02:31,658 [DEBUG] Starting new HTTPS connection (1): reverb.com:443
+2025-09-03 12:02:33,627 [DEBUG] https://reverb.com:443 "GET /api/listings?category=4-string&condition=used&page=93&per_page=50&product_type=bass-guitars HTTP/1.1" 200 None
+2025-09-03 12:02:33,636 [DEBUG] Status Code: 200
+2025-09-03 12:02:33,641 [DEBUG] Request OK
+2025-09-03 12:02:33,684 [DEBUG] Saved 50 new listings
+2025-09-03 12:02:33,685 [DEBUG] Listings Saved PAGE.93/50
+2025-09-03 12:02:33,687 [DEBUG] Starting new HTTPS connection (1): reverb.com:443
+2025-09-03 12:02:35,887 [DEBUG] https://reverb.com:443 "GET /api/listings?category=4-string&condition=used&page=94&per_page=50&product_type=bass-guitars HTTP/1.1" 200 None
+2025-09-03 12:02:35,903 [DEBUG] Status Code: 200
+2025-09-03 12:02:35,907 [DEBUG] Request OK
+2025-09-03 12:02:35,946 [DEBUG] Saved 50 new listings
+2025-09-03 12:02:35,947 [DEBUG] Listings Saved PAGE.94/50
+2025-09-03 12:02:35,949 [DEBUG] Starting new HTTPS connection (1): reverb.com:443
+2025-09-03 12:02:38,548 [DEBUG] https://reverb.com:443 "GET /api/listings?category=4-string&condition=used&page=95&per_page=50&product_type=bass-guitars HTTP/1.1" 200 None
+2025-09-03 12:02:38,567 [DEBUG] Status Code: 200
+2025-09-03 12:02:38,570 [DEBUG] Request OK
+2025-09-03 12:02:38,613 [DEBUG] Saved 50 new listings
+2025-09-03 12:02:38,614 [DEBUG] Listings Saved PAGE.95/50
+2025-09-03 12:02:38,615 [DEBUG] Starting new HTTPS connection (1): reverb.com:443
+2025-09-03 12:02:40,542 [DEBUG] https://reverb.com:443 "GET /api/listings?category=4-string&condition=used&page=96&per_page=50&product_type=bass-guitars HTTP/1.1" 200 None
+2025-09-03 12:02:40,553 [DEBUG] Status Code: 200
+2025-09-03 12:02:40,559 [DEBUG] Request OK
+2025-09-03 12:02:40,559 [INFO] Pages [96/50]
+2025-09-03 12:02:40,600 [DEBUG] Saved 50 new listings
+2025-09-03 12:02:40,601 [DEBUG] Listings Saved PAGE.96/50
+2025-09-03 12:02:40,603 [DEBUG] Starting new HTTPS connection (1): reverb.com:443
+2025-09-03 12:02:42,627 [DEBUG] https://reverb.com:443 "GET /api/listings?category=4-string&condition=used&page=97&per_page=50&product_type=bass-guitars HTTP/1.1" 200 None
+2025-09-03 12:02:42,639 [DEBUG] Status Code: 200
+2025-09-03 12:02:42,643 [DEBUG] Request OK
+2025-09-03 12:02:42,686 [DEBUG] Saved 50 new listings
+2025-09-03 12:02:42,687 [DEBUG] Listings Saved PAGE.97/50
+2025-09-03 12:02:42,689 [DEBUG] Starting new HTTPS connection (1): reverb.com:443
+2025-09-03 12:02:44,755 [DEBUG] https://reverb.com:443 "GET /api/listings?category=4-string&condition=used&page=98&per_page=50&product_type=bass-guitars HTTP/1.1" 200 None
+2025-09-03 12:02:44,770 [DEBUG] Status Code: 200
+2025-09-03 12:02:44,774 [DEBUG] Request OK
+2025-09-03 12:02:44,814 [DEBUG] Saved 50 new listings
+2025-09-03 12:02:44,815 [DEBUG] Listings Saved PAGE.98/50
+2025-09-03 12:02:44,817 [DEBUG] Starting new HTTPS connection (1): reverb.com:443
+2025-09-03 12:02:46,943 [DEBUG] https://reverb.com:443 "GET /api/listings?category=4-string&condition=used&page=99&per_page=50&product_type=bass-guitars HTTP/1.1" 200 None
+2025-09-03 12:02:47,202 [DEBUG] Status Code: 200
+2025-09-03 12:02:47,207 [DEBUG] Request OK
+2025-09-03 12:02:47,250 [DEBUG] Saved 50 new listings
+2025-09-03 12:02:47,252 [DEBUG] Listings Saved PAGE.99/50
+2025-09-03 12:02:47,254 [DEBUG] Starting new HTTPS connection (1): reverb.com:443
+2025-09-03 12:02:49,962 [DEBUG] https://reverb.com:443 "GET /api/listings?category=4-string&condition=used&page=100&per_page=50&product_type=bass-guitars HTTP/1.1" 200 None
+2025-09-03 12:02:49,973 [DEBUG] Status Code: 200
+2025-09-03 12:02:49,977 [DEBUG] Request OK
+2025-09-03 12:02:50,019 [DEBUG] Saved 50 new listings
+2025-09-03 12:02:50,021 [DEBUG] Listings Saved PAGE.100/50
+2025-09-03 12:02:50,022 [DEBUG] Starting new HTTPS connection (1): reverb.com:443
+2025-09-03 12:02:51,883 [DEBUG] https://reverb.com:443 "GET /api/listings?category=4-string&condition=used&page=101&per_page=50&product_type=bass-guitars HTTP/1.1" 200 None
+2025-09-03 12:02:51,895 [DEBUG] Status Code: 200
+2025-09-03 12:02:51,900 [DEBUG] Request OK
+2025-09-03 12:02:51,900 [INFO] Pages [101/50]
+2025-09-03 12:02:51,941 [DEBUG] Saved 50 new listings
+2025-09-03 12:02:51,942 [DEBUG] Listings Saved PAGE.101/50
+2025-09-03 12:02:51,945 [DEBUG] Starting new HTTPS connection (1): reverb.com:443
+2025-09-03 12:02:53,770 [DEBUG] https://reverb.com:443 "GET /api/listings?category=4-string&condition=used&page=102&per_page=50&product_type=bass-guitars HTTP/1.1" 200 None
+2025-09-03 12:02:53,780 [DEBUG] Status Code: 200
+2025-09-03 12:02:53,785 [DEBUG] Request OK
+2025-09-03 12:02:53,827 [DEBUG] Saved 50 new listings
+2025-09-03 12:02:53,828 [DEBUG] Listings Saved PAGE.102/50
+2025-09-03 12:02:53,830 [DEBUG] Starting new HTTPS connection (1): reverb.com:443
+2025-09-03 12:02:55,686 [DEBUG] https://reverb.com:443 "GET /api/listings?category=4-string&condition=used&page=103&per_page=50&product_type=bass-guitars HTTP/1.1" 200 None
+2025-09-03 12:02:55,699 [DEBUG] Status Code: 200
+2025-09-03 12:02:55,703 [DEBUG] Request OK
+2025-09-03 12:02:55,743 [DEBUG] Saved 50 new listings
+2025-09-03 12:02:55,744 [DEBUG] Listings Saved PAGE.103/50
+2025-09-03 12:02:55,746 [DEBUG] Starting new HTTPS connection (1): reverb.com:443
+2025-09-03 12:02:57,623 [DEBUG] https://reverb.com:443 "GET /api/listings?category=4-string&condition=used&page=104&per_page=50&product_type=bass-guitars HTTP/1.1" 200 None
+2025-09-03 12:02:57,640 [DEBUG] Status Code: 200
+2025-09-03 12:02:57,644 [DEBUG] Request OK
+2025-09-03 12:02:57,688 [DEBUG] Saved 50 new listings
+2025-09-03 12:02:57,689 [DEBUG] Listings Saved PAGE.104/50
+2025-09-03 12:02:57,690 [DEBUG] Starting new HTTPS connection (1): reverb.com:443
+2025-09-03 12:02:59,525 [DEBUG] https://reverb.com:443 "GET /api/listings?category=4-string&condition=used&page=105&per_page=50&product_type=bass-guitars HTTP/1.1" 200 None
+2025-09-03 12:02:59,535 [DEBUG] Status Code: 200
+2025-09-03 12:02:59,539 [DEBUG] Request OK
+2025-09-03 12:02:59,582 [DEBUG] Saved 50 new listings
+2025-09-03 12:02:59,583 [DEBUG] Listings Saved PAGE.105/50
+2025-09-03 12:02:59,585 [DEBUG] Starting new HTTPS connection (1): reverb.com:443
+2025-09-03 12:03:01,505 [DEBUG] https://reverb.com:443 "GET /api/listings?category=4-string&condition=used&page=106&per_page=50&product_type=bass-guitars HTTP/1.1" 200 None
+2025-09-03 12:03:01,522 [DEBUG] Status Code: 200
+2025-09-03 12:03:01,526 [DEBUG] Request OK
+2025-09-03 12:03:01,526 [INFO] Pages [106/50]
+2025-09-03 12:03:01,568 [DEBUG] Saved 50 new listings
+2025-09-03 12:03:01,569 [DEBUG] Listings Saved PAGE.106/50
+2025-09-03 12:03:01,571 [DEBUG] Starting new HTTPS connection (1): reverb.com:443
+2025-09-03 12:03:03,949 [DEBUG] https://reverb.com:443 "GET /api/listings?category=4-string&condition=used&page=107&per_page=50&product_type=bass-guitars HTTP/1.1" 200 None
+2025-09-03 12:03:03,959 [DEBUG] Status Code: 200
+2025-09-03 12:03:03,962 [DEBUG] Request OK
+2025-09-03 12:03:04,005 [DEBUG] Saved 50 new listings
+2025-09-03 12:03:04,006 [DEBUG] Listings Saved PAGE.107/50
+2025-09-03 12:03:04,008 [DEBUG] Starting new HTTPS connection (1): reverb.com:443
+2025-09-03 12:03:04,444 [DEBUG] https://reverb.com:443 "GET /api/listings?category=4-string&condition=used&page=108&per_page=50&product_type=bass-guitars HTTP/1.1" 200 None
+2025-09-03 12:03:04,449 [DEBUG] Status Code: 200
+2025-09-03 12:03:04,449 [DEBUG] Request OK
+2025-09-03 12:03:04,497 [DEBUG] Saved 3 new listings
+2025-09-03 12:03:04,498 [DEBUG] Listings Saved PAGE.108/50
+2025-09-03 12:03:04,498 [INFO] Last Page Reached
+2025-09-03 12:03:04,498 [INFO] New: 5353, Updated: 0, Unchanged: 0
+2025-09-03 12:03:08,922 [INFO] Processing bass-guitars|5-string-or-more
+2025-09-03 12:03:08,948 [INFO] STARTING SCAN OF CATEGORY: bass-guitars|5-string-or-more
+2025-09-03 12:03:08,951 [DEBUG] Starting new HTTPS connection (1): reverb.com:443
+2025-09-03 12:03:11,347 [DEBUG] https://reverb.com:443 "GET /api/listings?category=5-string-or-more&product_type=bass-guitars&condition=used&per_page=50 HTTP/1.1" 200 None
+2025-09-03 12:03:11,364 [DEBUG] Entering while cycle with next_link = https://reverb.com/api/listings?category=5-string-or-more&condition=used&page=2&per_page=50&product_type=bass-guitars
+2025-09-03 12:03:11,364 [DEBUG] Last seen in session: 2025-09-03 08:02:14+00:00 | for category: 2010-04-19 19:03:11+00:00
+2025-09-03 12:03:11,364 [INFO] Starting processing of bass-guitars|5-string-or-more. 24 pages found.
+2025-09-03 12:03:11,364 [INFO] Pages [1/24]
+2025-09-03 12:03:11,406 [DEBUG] Saved 50 new listings
+2025-09-03 12:03:11,408 [DEBUG] Listings Saved PAGE.1/24
+2025-09-03 12:03:11,409 [DEBUG] Starting new HTTPS connection (1): reverb.com:443
+2025-09-03 12:03:13,978 [DEBUG] https://reverb.com:443 "GET /api/listings?category=5-string-or-more&condition=used&page=2&per_page=50&product_type=bass-guitars HTTP/1.1" 200 None
+2025-09-03 12:03:14,240 [DEBUG] Status Code: 200
+2025-09-03 12:03:14,245 [DEBUG] Request OK
+2025-09-03 12:03:14,290 [DEBUG] Saved 50 new listings
+2025-09-03 12:03:14,291 [DEBUG] Listings Saved PAGE.2/24
+2025-09-03 12:03:14,293 [DEBUG] Starting new HTTPS connection (1): reverb.com:443
+2025-09-03 12:03:16,672 [DEBUG] https://reverb.com:443 "GET /api/listings?category=5-string-or-more&condition=used&page=3&per_page=50&product_type=bass-guitars HTTP/1.1" 200 None
+2025-09-03 12:03:16,685 [DEBUG] Status Code: 200
+2025-09-03 12:03:16,690 [DEBUG] Request OK
+2025-09-03 12:03:16,733 [DEBUG] Saved 50 new listings
+2025-09-03 12:03:16,734 [DEBUG] Listings Saved PAGE.3/24
+2025-09-03 12:03:16,738 [DEBUG] Starting new HTTPS connection (1): reverb.com:443
+2025-09-03 12:03:19,394 [DEBUG] https://reverb.com:443 "GET /api/listings?category=5-string-or-more&condition=used&page=4&per_page=50&product_type=bass-guitars HTTP/1.1" 200 None
+2025-09-03 12:03:19,414 [DEBUG] Status Code: 200
+2025-09-03 12:03:19,422 [DEBUG] Request OK
+2025-09-03 12:03:19,466 [DEBUG] Saved 50 new listings
+2025-09-03 12:03:19,467 [DEBUG] Listings Saved PAGE.4/24
+2025-09-03 12:03:19,469 [DEBUG] Starting new HTTPS connection (1): reverb.com:443
+2025-09-03 12:03:21,827 [DEBUG] https://reverb.com:443 "GET /api/listings?category=5-string-or-more&condition=used&page=5&per_page=50&product_type=bass-guitars HTTP/1.1" 200 None
+2025-09-03 12:03:21,841 [DEBUG] Status Code: 200
+2025-09-03 12:03:21,845 [DEBUG] Request OK
+2025-09-03 12:03:21,886 [DEBUG] Saved 50 new listings
+2025-09-03 12:03:21,888 [DEBUG] Listings Saved PAGE.5/24
+2025-09-03 12:03:21,889 [DEBUG] Starting new HTTPS connection (1): reverb.com:443
+2025-09-03 12:03:24,363 [DEBUG] https://reverb.com:443 "GET /api/listings?category=5-string-or-more&condition=used&page=6&per_page=50&product_type=bass-guitars HTTP/1.1" 200 None
+2025-09-03 12:03:24,374 [DEBUG] Status Code: 200
+2025-09-03 12:03:24,379 [DEBUG] Request OK
+2025-09-03 12:03:24,379 [INFO] Pages [6/24]
+2025-09-03 12:03:24,425 [DEBUG] Saved 50 new listings
+2025-09-03 12:03:24,426 [DEBUG] Listings Saved PAGE.6/24
+2025-09-03 12:03:24,428 [DEBUG] Starting new HTTPS connection (1): reverb.com:443
+2025-09-03 12:03:26,261 [DEBUG] https://reverb.com:443 "GET /api/listings?category=5-string-or-more&condition=used&page=7&per_page=50&product_type=bass-guitars HTTP/1.1" 200 None
+2025-09-03 12:03:26,277 [DEBUG] Status Code: 200
+2025-09-03 12:03:26,282 [DEBUG] Request OK
+2025-09-03 12:03:26,329 [DEBUG] Saved 50 new listings
+2025-09-03 12:03:26,330 [DEBUG] Listings Saved PAGE.7/24
+2025-09-03 12:03:26,332 [DEBUG] Starting new HTTPS connection (1): reverb.com:443
+2025-09-03 12:03:28,264 [DEBUG] https://reverb.com:443 "GET /api/listings?category=5-string-or-more&condition=used&page=8&per_page=50&product_type=bass-guitars HTTP/1.1" 200 None
+2025-09-03 12:03:28,351 [DEBUG] Status Code: 200
+2025-09-03 12:03:28,356 [DEBUG] Request OK
+2025-09-03 12:03:28,404 [DEBUG] Saved 50 new listings
+2025-09-03 12:03:28,405 [DEBUG] Listings Saved PAGE.8/24
+2025-09-03 12:03:28,407 [DEBUG] Starting new HTTPS connection (1): reverb.com:443
+2025-09-03 12:03:30,570 [DEBUG] https://reverb.com:443 "GET /api/listings?category=5-string-or-more&condition=used&page=9&per_page=50&product_type=bass-guitars HTTP/1.1" 200 None
+2025-09-03 12:03:30,595 [DEBUG] Status Code: 200
+2025-09-03 12:03:30,600 [DEBUG] Request OK
+2025-09-03 12:03:30,646 [DEBUG] Saved 50 new listings
+2025-09-03 12:03:30,648 [DEBUG] Listings Saved PAGE.9/24
+2025-09-03 12:03:30,650 [DEBUG] Starting new HTTPS connection (1): reverb.com:443
+2025-09-03 12:03:32,762 [DEBUG] https://reverb.com:443 "GET /api/listings?category=5-string-or-more&condition=used&page=10&per_page=50&product_type=bass-guitars HTTP/1.1" 200 None
+2025-09-03 12:03:32,775 [DEBUG] Status Code: 200
+2025-09-03 12:03:32,781 [DEBUG] Request OK
+2025-09-03 12:03:32,826 [DEBUG] Saved 50 new listings
+2025-09-03 12:03:32,827 [DEBUG] Listings Saved PAGE.10/24
+2025-09-03 12:03:32,829 [DEBUG] Starting new HTTPS connection (1): reverb.com:443
+2025-09-03 12:03:34,652 [DEBUG] https://reverb.com:443 "GET /api/listings?category=5-string-or-more&condition=used&page=11&per_page=50&product_type=bass-guitars HTTP/1.1" 200 None
+2025-09-03 12:03:34,673 [DEBUG] Status Code: 200
+2025-09-03 12:03:34,676 [DEBUG] Request OK
+2025-09-03 12:03:34,676 [INFO] Pages [11/24]
+2025-09-03 12:03:34,719 [DEBUG] Saved 50 new listings
+2025-09-03 12:03:34,720 [DEBUG] Listings Saved PAGE.11/24
+2025-09-03 12:03:34,722 [DEBUG] Starting new HTTPS connection (1): reverb.com:443
+2025-09-03 12:03:36,644 [DEBUG] https://reverb.com:443 "GET /api/listings?category=5-string-or-more&condition=used&page=12&per_page=50&product_type=bass-guitars HTTP/1.1" 200 None
+2025-09-03 12:03:36,657 [DEBUG] Status Code: 200
+2025-09-03 12:03:36,661 [DEBUG] Request OK
+2025-09-03 12:03:36,705 [DEBUG] Saved 50 new listings
+2025-09-03 12:03:36,707 [DEBUG] Listings Saved PAGE.12/24
+2025-09-03 12:03:36,709 [DEBUG] Starting new HTTPS connection (1): reverb.com:443
+2025-09-03 12:03:39,501 [DEBUG] https://reverb.com:443 "GET /api/listings?category=5-string-or-more&condition=used&page=13&per_page=50&product_type=bass-guitars HTTP/1.1" 200 None
+2025-09-03 12:03:39,516 [DEBUG] Status Code: 200
+2025-09-03 12:03:39,520 [DEBUG] Request OK
+2025-09-03 12:03:39,565 [DEBUG] Saved 50 new listings
+2025-09-03 12:03:39,567 [DEBUG] Listings Saved PAGE.13/24
+2025-09-03 12:03:39,568 [DEBUG] Starting new HTTPS connection (1): reverb.com:443
+2025-09-03 12:03:43,118 [DEBUG] https://reverb.com:443 "GET /api/listings?category=5-string-or-more&condition=used&page=14&per_page=50&product_type=bass-guitars HTTP/1.1" 200 None
+2025-09-03 12:03:43,133 [DEBUG] Status Code: 200
+2025-09-03 12:03:43,137 [DEBUG] Request OK
+2025-09-03 12:03:43,182 [DEBUG] Saved 50 new listings
+2025-09-03 12:03:43,183 [DEBUG] Listings Saved PAGE.14/24
+2025-09-03 12:03:43,185 [DEBUG] Starting new HTTPS connection (1): reverb.com:443
+2025-09-03 12:03:45,006 [DEBUG] https://reverb.com:443 "GET /api/listings?category=5-string-or-more&condition=used&page=15&per_page=50&product_type=bass-guitars HTTP/1.1" 200 None
+2025-09-03 12:03:45,019 [DEBUG] Status Code: 200
+2025-09-03 12:03:45,023 [DEBUG] Request OK
+2025-09-03 12:03:45,069 [DEBUG] Saved 50 new listings
+2025-09-03 12:03:45,070 [DEBUG] Listings Saved PAGE.15/24
+2025-09-03 12:03:45,072 [DEBUG] Starting new HTTPS connection (1): reverb.com:443
+2025-09-03 12:03:47,917 [DEBUG] https://reverb.com:443 "GET /api/listings?category=5-string-or-more&condition=used&page=16&per_page=50&product_type=bass-guitars HTTP/1.1" 200 None
+2025-09-03 12:03:47,928 [DEBUG] Status Code: 200
+2025-09-03 12:03:47,931 [DEBUG] Request OK
+2025-09-03 12:03:47,932 [INFO] Pages [16/24]
+2025-09-03 12:03:47,969 [DEBUG] Saved 50 new listings
+2025-09-03 12:03:47,970 [DEBUG] Listings Saved PAGE.16/24
+2025-09-03 12:03:47,971 [DEBUG] Starting new HTTPS connection (1): reverb.com:443
+2025-09-03 12:03:50,852 [DEBUG] https://reverb.com:443 "GET /api/listings?category=5-string-or-more&condition=used&page=17&per_page=50&product_type=bass-guitars HTTP/1.1" 200 None
+2025-09-03 12:03:50,869 [DEBUG] Status Code: 200
+2025-09-03 12:03:50,872 [DEBUG] Request OK
+2025-09-03 12:03:50,918 [DEBUG] Saved 50 new listings
+2025-09-03 12:03:50,919 [DEBUG] Listings Saved PAGE.17/24
+2025-09-03 12:03:50,922 [DEBUG] Starting new HTTPS connection (1): reverb.com:443
+2025-09-03 12:03:53,275 [DEBUG] https://reverb.com:443 "GET /api/listings?category=5-string-or-more&condition=used&page=18&per_page=50&product_type=bass-guitars HTTP/1.1" 200 None
+2025-09-03 12:03:53,287 [DEBUG] Status Code: 200
+2025-09-03 12:03:53,292 [DEBUG] Request OK
+2025-09-03 12:03:53,339 [DEBUG] Saved 50 new listings
+2025-09-03 12:03:53,340 [DEBUG] Listings Saved PAGE.18/24
+2025-09-03 12:03:53,342 [DEBUG] Starting new HTTPS connection (1): reverb.com:443
+2025-09-03 12:03:55,151 [DEBUG] https://reverb.com:443 "GET /api/listings?category=5-string-or-more&condition=used&page=19&per_page=50&product_type=bass-guitars HTTP/1.1" 200 None
+2025-09-03 12:03:55,163 [DEBUG] Status Code: 200
+2025-09-03 12:03:55,168 [DEBUG] Request OK
+2025-09-03 12:03:55,216 [DEBUG] Saved 50 new listings
+2025-09-03 12:03:55,217 [DEBUG] Listings Saved PAGE.19/24
+2025-09-03 12:03:55,219 [DEBUG] Starting new HTTPS connection (1): reverb.com:443
+2025-09-03 12:03:57,045 [DEBUG] https://reverb.com:443 "GET /api/listings?category=5-string-or-more&condition=used&page=20&per_page=50&product_type=bass-guitars HTTP/1.1" 200 None
+2025-09-03 12:03:57,054 [DEBUG] Status Code: 200
+2025-09-03 12:03:57,058 [DEBUG] Request OK
+2025-09-03 12:03:57,106 [DEBUG] Saved 50 new listings
+2025-09-03 12:03:57,108 [DEBUG] Listings Saved PAGE.20/24
+2025-09-03 12:03:57,110 [DEBUG] Starting new HTTPS connection (1): reverb.com:443
+2025-09-03 12:03:59,108 [DEBUG] https://reverb.com:443 "GET /api/listings?category=5-string-or-more&condition=used&page=21&per_page=50&product_type=bass-guitars HTTP/1.1" 200 None
+2025-09-03 12:03:59,122 [DEBUG] Status Code: 200
+2025-09-03 12:03:59,126 [DEBUG] Request OK
+2025-09-03 12:03:59,126 [INFO] Pages [21/24]
+2025-09-03 12:03:59,171 [DEBUG] Saved 50 new listings
+2025-09-03 12:03:59,172 [DEBUG] Listings Saved PAGE.21/24
+2025-09-03 12:03:59,174 [DEBUG] Starting new HTTPS connection (1): reverb.com:443
+2025-09-03 12:04:01,299 [DEBUG] https://reverb.com:443 "GET /api/listings?category=5-string-or-more&condition=used&page=22&per_page=50&product_type=bass-guitars HTTP/1.1" 200 None
+2025-09-03 12:04:01,317 [DEBUG] Status Code: 200
+2025-09-03 12:04:01,321 [DEBUG] Request OK
+2025-09-03 12:04:01,370 [DEBUG] Saved 50 new listings
+2025-09-03 12:04:01,371 [DEBUG] Listings Saved PAGE.22/24
+2025-09-03 12:04:01,373 [DEBUG] Starting new HTTPS connection (1): reverb.com:443
+2025-09-03 12:04:03,213 [DEBUG] https://reverb.com:443 "GET /api/listings?category=5-string-or-more&condition=used&page=23&per_page=50&product_type=bass-guitars HTTP/1.1" 200 None
+2025-09-03 12:04:03,226 [DEBUG] Status Code: 200
+2025-09-03 12:04:03,230 [DEBUG] Request OK
+2025-09-03 12:04:03,278 [DEBUG] Saved 50 new listings
+2025-09-03 12:04:03,279 [DEBUG] Listings Saved PAGE.23/24
+2025-09-03 12:04:03,281 [DEBUG] Starting new HTTPS connection (1): reverb.com:443
+2025-09-03 12:04:05,674 [DEBUG] https://reverb.com:443 "GET /api/listings?category=5-string-or-more&condition=used&page=24&per_page=50&product_type=bass-guitars HTTP/1.1" 200 None
+2025-09-03 12:04:05,689 [DEBUG] Status Code: 200
+2025-09-03 12:04:05,692 [DEBUG] Request OK
+2025-09-03 12:04:05,739 [DEBUG] Saved 40 new listings
+2025-09-03 12:04:05,740 [DEBUG] Listings Saved PAGE.24/24
+2025-09-03 12:04:05,740 [INFO] Last Page Reached
+2025-09-03 12:04:05,740 [INFO] Succesfully Completed FULL SCAN of bass-guitars|5-string-or-more
+2025-09-03 12:04:05,740 [INFO] No unseen listings to close for bass-guitars|5-string-or-more
+2025-09-03 12:04:05,740 [INFO] New: 1190, Updated: 0, Unchanged: 0
+2025-09-03 12:04:12,759 [INFO] Processing bass-guitars|short-scale
+2025-09-03 12:04:12,779 [INFO] STARTING SCAN OF CATEGORY: bass-guitars|short-scale
+2025-09-03 12:04:12,782 [DEBUG] Starting new HTTPS connection (1): reverb.com:443
+2025-09-03 12:04:15,281 [DEBUG] https://reverb.com:443 "GET /api/listings?category=short-scale&product_type=bass-guitars&condition=used&per_page=50 HTTP/1.1" 200 None
+2025-09-03 12:04:15,299 [DEBUG] Entering while cycle with next_link = https://reverb.com/api/listings?category=short-scale&condition=used&page=2&per_page=50&product_type=bass-guitars
+2025-09-03 12:04:15,299 [DEBUG] Last seen in session: 2025-09-02 22:04:48+00:00 | for category: 2010-04-19 19:03:11+00:00
+2025-09-03 12:04:15,299 [INFO] Starting processing of bass-guitars|short-scale. 14 pages found.
+2025-09-03 12:04:15,299 [INFO] Pages [1/14]
+2025-09-03 12:04:15,348 [DEBUG] Saved 50 new listings
+2025-09-03 12:04:15,349 [DEBUG] Listings Saved PAGE.1/14
+2025-09-03 12:04:15,351 [DEBUG] Starting new HTTPS connection (1): reverb.com:443
+2025-09-03 12:04:17,256 [DEBUG] https://reverb.com:443 "GET /api/listings?category=short-scale&condition=used&page=2&per_page=50&product_type=bass-guitars HTTP/1.1" 200 None
+2025-09-03 12:04:17,269 [DEBUG] Status Code: 200
+2025-09-03 12:04:17,273 [DEBUG] Request OK
+2025-09-03 12:04:17,321 [DEBUG] Saved 50 new listings
+2025-09-03 12:04:17,323 [DEBUG] Listings Saved PAGE.2/14
+2025-09-03 12:04:17,324 [DEBUG] Starting new HTTPS connection (1): reverb.com:443
+2025-09-03 12:04:19,782 [DEBUG] https://reverb.com:443 "GET /api/listings?category=short-scale&condition=used&page=3&per_page=50&product_type=bass-guitars HTTP/1.1" 200 None
+2025-09-03 12:04:19,796 [DEBUG] Status Code: 200
+2025-09-03 12:04:19,799 [DEBUG] Request OK
+2025-09-03 12:04:19,848 [DEBUG] Saved 50 new listings
+2025-09-03 12:04:19,850 [DEBUG] Listings Saved PAGE.3/14
+2025-09-03 12:04:19,851 [DEBUG] Starting new HTTPS connection (1): reverb.com:443
+2025-09-03 12:04:22,252 [DEBUG] https://reverb.com:443 "GET /api/listings?category=short-scale&condition=used&page=4&per_page=50&product_type=bass-guitars HTTP/1.1" 200 None
+2025-09-03 12:04:22,267 [DEBUG] Status Code: 200
+2025-09-03 12:04:22,271 [DEBUG] Request OK
+2025-09-03 12:04:22,319 [DEBUG] Saved 50 new listings
+2025-09-03 12:04:22,320 [DEBUG] Listings Saved PAGE.4/14
+2025-09-03 12:04:22,322 [DEBUG] Starting new HTTPS connection (1): reverb.com:443
+2025-09-03 12:04:24,150 [DEBUG] https://reverb.com:443 "GET /api/listings?category=short-scale&condition=used&page=5&per_page=50&product_type=bass-guitars HTTP/1.1" 200 None
+2025-09-03 12:04:24,174 [DEBUG] Status Code: 200
+2025-09-03 12:04:24,178 [DEBUG] Request OK
+2025-09-03 12:04:24,227 [DEBUG] Saved 50 new listings
+2025-09-03 12:04:24,229 [DEBUG] Listings Saved PAGE.5/14
+2025-09-03 12:04:24,230 [DEBUG] Starting new HTTPS connection (1): reverb.com:443
+2025-09-03 12:04:26,019 [DEBUG] https://reverb.com:443 "GET /api/listings?category=short-scale&condition=used&page=6&per_page=50&product_type=bass-guitars HTTP/1.1" 200 None
+2025-09-03 12:04:26,033 [DEBUG] Status Code: 200
+2025-09-03 12:04:26,036 [DEBUG] Request OK
+2025-09-03 12:04:26,036 [INFO] Pages [6/14]
+2025-09-03 12:04:26,082 [DEBUG] Saved 50 new listings
+2025-09-03 12:04:26,083 [DEBUG] Listings Saved PAGE.6/14
+2025-09-03 12:04:26,085 [DEBUG] Starting new HTTPS connection (1): reverb.com:443
+2025-09-03 12:04:28,675 [DEBUG] https://reverb.com:443 "GET /api/listings?category=short-scale&condition=used&page=7&per_page=50&product_type=bass-guitars HTTP/1.1" 200 None
+2025-09-03 12:04:28,688 [DEBUG] Status Code: 200
+2025-09-03 12:04:28,692 [DEBUG] Request OK
+2025-09-03 12:04:28,742 [DEBUG] Saved 50 new listings
+2025-09-03 12:04:28,744 [DEBUG] Listings Saved PAGE.7/14
+2025-09-03 12:04:28,746 [DEBUG] Starting new HTTPS connection (1): reverb.com:443
+2025-09-03 12:04:30,743 [DEBUG] https://reverb.com:443 "GET /api/listings?category=short-scale&condition=used&page=8&per_page=50&product_type=bass-guitars HTTP/1.1" 200 None
+2025-09-03 12:04:30,752 [DEBUG] Status Code: 200
+2025-09-03 12:04:30,756 [DEBUG] Request OK
+2025-09-03 12:04:30,805 [DEBUG] Saved 50 new listings
+2025-09-03 12:04:30,806 [DEBUG] Listings Saved PAGE.8/14
+2025-09-03 12:04:30,808 [DEBUG] Starting new HTTPS connection (1): reverb.com:443
+2025-09-03 12:04:32,679 [DEBUG] https://reverb.com:443 "GET /api/listings?category=short-scale&condition=used&page=9&per_page=50&product_type=bass-guitars HTTP/1.1" 200 None
+2025-09-03 12:04:32,691 [DEBUG] Status Code: 200
+2025-09-03 12:04:32,696 [DEBUG] Request OK
+2025-09-03 12:04:32,746 [DEBUG] Saved 50 new listings
+2025-09-03 12:04:32,747 [DEBUG] Listings Saved PAGE.9/14
+2025-09-03 12:04:32,749 [DEBUG] Starting new HTTPS connection (1): reverb.com:443
+2025-09-03 12:04:34,961 [DEBUG] https://reverb.com:443 "GET /api/listings?category=short-scale&condition=used&page=10&per_page=50&product_type=bass-guitars HTTP/1.1" 200 None
+2025-09-03 12:04:34,971 [DEBUG] Status Code: 200
+2025-09-03 12:04:34,976 [DEBUG] Request OK
+2025-09-03 12:04:35,026 [DEBUG] Saved 50 new listings
+2025-09-03 12:04:35,027 [DEBUG] Listings Saved PAGE.10/14
+2025-09-03 12:04:35,029 [DEBUG] Starting new HTTPS connection (1): reverb.com:443
+2025-09-03 12:04:36,794 [DEBUG] https://reverb.com:443 "GET /api/listings?category=short-scale&condition=used&page=11&per_page=50&product_type=bass-guitars HTTP/1.1" 200 None
+2025-09-03 12:04:36,799 [DEBUG] Status Code: 200
+2025-09-03 12:04:36,803 [DEBUG] Request OK
+2025-09-03 12:04:36,803 [INFO] Pages [11/14]
+2025-09-03 12:04:36,852 [DEBUG] Saved 50 new listings
+2025-09-03 12:04:36,853 [DEBUG] Listings Saved PAGE.11/14
+2025-09-03 12:04:36,855 [DEBUG] Starting new HTTPS connection (1): reverb.com:443
+2025-09-03 12:04:39,355 [DEBUG] https://reverb.com:443 "GET /api/listings?category=short-scale&condition=used&page=12&per_page=50&product_type=bass-guitars HTTP/1.1" 200 None
+2025-09-03 12:04:39,362 [DEBUG] Status Code: 200
+2025-09-03 12:04:39,366 [DEBUG] Request OK
+2025-09-03 12:04:39,416 [DEBUG] Saved 50 new listings
+2025-09-03 12:04:39,417 [DEBUG] Listings Saved PAGE.12/14
+2025-09-03 12:04:39,419 [DEBUG] Starting new HTTPS connection (1): reverb.com:443
+2025-09-03 12:04:42,248 [DEBUG] https://reverb.com:443 "GET /api/listings?category=short-scale&condition=used&page=13&per_page=50&product_type=bass-guitars HTTP/1.1" 200 None
+2025-09-03 12:04:42,255 [DEBUG] Status Code: 200
+2025-09-03 12:04:42,260 [DEBUG] Request OK
+2025-09-03 12:04:42,309 [DEBUG] Saved 50 new listings
+2025-09-03 12:04:42,310 [DEBUG] Listings Saved PAGE.13/14
+2025-09-03 12:04:42,312 [DEBUG] Starting new HTTPS connection (1): reverb.com:443
+2025-09-03 12:04:43,728 [DEBUG] https://reverb.com:443 "GET /api/listings?category=short-scale&condition=used&page=14&per_page=50&product_type=bass-guitars HTTP/1.1" 200 None
+2025-09-03 12:04:43,735 [DEBUG] Status Code: 200
+2025-09-03 12:04:43,740 [DEBUG] Request OK
+2025-09-03 12:04:43,804 [DEBUG] Saved 33 new listings
+2025-09-03 12:04:43,806 [DEBUG] Listings Saved PAGE.14/14
+2025-09-03 12:04:43,806 [INFO] Last Page Reached
+2025-09-03 12:04:43,806 [INFO] Succesfully Completed FULL SCAN of bass-guitars|short-scale
+2025-09-03 12:04:43,806 [INFO] No unseen listings to close for bass-guitars|short-scale
+2025-09-03 12:04:43,806 [INFO] New: 683, Updated: 0, Unchanged: 0
+2025-09-03 12:04:48,010 [INFO] Processing bass-guitars|acoustic-bass-guitars
+2025-09-03 12:04:48,029 [INFO] STARTING SCAN OF CATEGORY: bass-guitars|acoustic-bass-guitars
+2025-09-03 12:04:48,032 [DEBUG] Starting new HTTPS connection (1): reverb.com:443
+2025-09-03 12:04:50,565 [DEBUG] https://reverb.com:443 "GET /api/listings?category=acoustic-bass-guitars&product_type=bass-guitars&condition=used&per_page=50 HTTP/1.1" 200 None
+2025-09-03 12:04:50,579 [DEBUG] Entering while cycle with next_link = https://reverb.com/api/listings?category=acoustic-bass-guitars&condition=used&page=2&per_page=50&product_type=bass-guitars
+2025-09-03 12:04:50,580 [DEBUG] Last seen in session: 2025-08-28 10:27:22+00:00 | for category: 2010-04-19 19:03:11+00:00
+2025-09-03 12:04:50,580 [INFO] Starting processing of bass-guitars|acoustic-bass-guitars. 5 pages found.
+2025-09-03 12:04:50,580 [INFO] Pages [1/5]
+2025-09-03 12:04:50,628 [DEBUG] Saved 50 new listings
+2025-09-03 12:04:50,630 [DEBUG] Listings Saved PAGE.1/5
+2025-09-03 12:04:50,632 [DEBUG] Starting new HTTPS connection (1): reverb.com:443
+2025-09-03 12:04:52,535 [DEBUG] https://reverb.com:443 "GET /api/listings?category=acoustic-bass-guitars&condition=used&page=2&per_page=50&product_type=bass-guitars HTTP/1.1" 200 None
+2025-09-03 12:04:52,547 [DEBUG] Status Code: 200
+2025-09-03 12:04:52,550 [DEBUG] Request OK
+2025-09-03 12:04:52,600 [DEBUG] Saved 50 new listings
+2025-09-03 12:04:52,602 [DEBUG] Listings Saved PAGE.2/5
+2025-09-03 12:04:52,604 [DEBUG] Starting new HTTPS connection (1): reverb.com:443
+2025-09-03 12:04:55,700 [DEBUG] https://reverb.com:443 "GET /api/listings?category=acoustic-bass-guitars&condition=used&page=3&per_page=50&product_type=bass-guitars HTTP/1.1" 200 None
+2025-09-03 12:04:55,733 [DEBUG] Status Code: 200
+2025-09-03 12:04:55,736 [DEBUG] Request OK
+2025-09-03 12:04:55,780 [DEBUG] Saved 50 new listings
+2025-09-03 12:04:55,781 [DEBUG] Listings Saved PAGE.3/5
+2025-09-03 12:04:55,782 [DEBUG] Starting new HTTPS connection (1): reverb.com:443
+2025-09-03 12:04:59,844 [DEBUG] https://reverb.com:443 "GET /api/listings?category=acoustic-bass-guitars&condition=used&page=4&per_page=50&product_type=bass-guitars HTTP/1.1" 200 None
+2025-09-03 12:04:59,850 [DEBUG] Status Code: 200
+2025-09-03 12:04:59,855 [DEBUG] Request OK
+2025-09-03 12:04:59,912 [DEBUG] Saved 50 new listings
+2025-09-03 12:04:59,913 [DEBUG] Listings Saved PAGE.4/5
+2025-09-03 12:04:59,915 [DEBUG] Starting new HTTPS connection (1): reverb.com:443
+2025-09-03 12:05:01,116 [DEBUG] https://reverb.com:443 "GET /api/listings?category=acoustic-bass-guitars&condition=used&page=5&per_page=50&product_type=bass-guitars HTTP/1.1" 200 None
+2025-09-03 12:05:01,121 [DEBUG] Status Code: 200
+2025-09-03 12:05:01,122 [DEBUG] Request OK
+2025-09-03 12:05:01,175 [DEBUG] Saved 10 new listings
+2025-09-03 12:05:01,177 [DEBUG] Listings Saved PAGE.5/5
+2025-09-03 12:05:01,177 [INFO] Last Page Reached
+2025-09-03 12:05:01,177 [INFO] Succesfully Completed FULL SCAN of bass-guitars|acoustic-bass-guitars
+2025-09-03 12:05:01,177 [INFO] No unseen listings to close for bass-guitars|acoustic-bass-guitars
+2025-09-03 12:05:01,177 [INFO] New: 210, Updated: 0, Unchanged: 0
+2025-09-03 12:05:05,953 [INFO] Processing bass-guitars|active-electronics
+2025-09-03 12:05:05,975 [INFO] STARTING SCAN OF CATEGORY: bass-guitars|active-electronics
+2025-09-03 12:05:05,977 [DEBUG] Starting new HTTPS connection (1): reverb.com:443
+2025-09-03 12:05:09,376 [DEBUG] https://reverb.com:443 "GET /api/listings?category=active-electronics&product_type=bass-guitars&condition=used&per_page=50 HTTP/1.1" 200 None
+2025-09-03 12:05:09,389 [DEBUG] Entering while cycle with next_link = https://reverb.com/api/listings?category=active-electronics&condition=used&page=2&per_page=50&product_type=bass-guitars
+2025-09-03 12:05:09,390 [DEBUG] Last seen in session: 2025-09-03 09:57:55+00:00 | for category: 2010-04-19 19:03:11+00:00
+2025-09-03 12:05:09,390 [INFO] Starting processing of bass-guitars|active-electronics. 24 pages found.
+2025-09-03 12:05:09,390 [INFO] Pages [1/24]
+2025-09-03 12:05:09,441 [DEBUG] Saved 50 new listings
+2025-09-03 12:05:09,442 [DEBUG] Listings Saved PAGE.1/24
+2025-09-03 12:05:09,444 [DEBUG] Starting new HTTPS connection (1): reverb.com:443
+2025-09-03 12:05:11,411 [DEBUG] https://reverb.com:443 "GET /api/listings?category=active-electronics&condition=used&page=2&per_page=50&product_type=bass-guitars HTTP/1.1" 200 None
+2025-09-03 12:05:11,427 [DEBUG] Status Code: 200
+2025-09-03 12:05:11,431 [DEBUG] Request OK
+2025-09-03 12:05:11,481 [DEBUG] Saved 50 new listings
+2025-09-03 12:05:11,482 [DEBUG] Listings Saved PAGE.2/24
+2025-09-03 12:05:11,484 [DEBUG] Starting new HTTPS connection (1): reverb.com:443
+2025-09-03 12:05:14,076 [DEBUG] https://reverb.com:443 "GET /api/listings?category=active-electronics&condition=used&page=3&per_page=50&product_type=bass-guitars HTTP/1.1" 200 None
+2025-09-03 12:05:14,101 [DEBUG] Status Code: 200
+2025-09-03 12:05:14,107 [DEBUG] Request OK
+2025-09-03 12:05:14,158 [DEBUG] Saved 50 new listings
+2025-09-03 12:05:14,159 [DEBUG] Listings Saved PAGE.3/24
+2025-09-03 12:05:14,161 [DEBUG] Starting new HTTPS connection (1): reverb.com:443
+2025-09-03 12:05:16,839 [DEBUG] https://reverb.com:443 "GET /api/listings?category=active-electronics&condition=used&page=4&per_page=50&product_type=bass-guitars HTTP/1.1" 200 None
+2025-09-03 12:05:16,851 [DEBUG] Status Code: 200
+2025-09-03 12:05:16,856 [DEBUG] Request OK
+2025-09-03 12:05:16,906 [DEBUG] Saved 50 new listings
+2025-09-03 12:05:16,907 [DEBUG] Listings Saved PAGE.4/24
+2025-09-03 12:05:16,909 [DEBUG] Starting new HTTPS connection (1): reverb.com:443
+2025-09-03 12:05:19,651 [DEBUG] https://reverb.com:443 "GET /api/listings?category=active-electronics&condition=used&page=5&per_page=50&product_type=bass-guitars HTTP/1.1" 200 None
+2025-09-03 12:05:19,668 [DEBUG] Status Code: 200
+2025-09-03 12:05:19,672 [DEBUG] Request OK
+2025-09-03 12:05:19,720 [DEBUG] Saved 50 new listings
+2025-09-03 12:05:19,722 [DEBUG] Listings Saved PAGE.5/24
+2025-09-03 12:05:19,723 [DEBUG] Starting new HTTPS connection (1): reverb.com:443
+2025-09-03 12:05:21,780 [DEBUG] https://reverb.com:443 "GET /api/listings?category=active-electronics&condition=used&page=6&per_page=50&product_type=bass-guitars HTTP/1.1" 200 None
+2025-09-03 12:05:21,795 [DEBUG] Status Code: 200
+2025-09-03 12:05:21,798 [DEBUG] Request OK
+2025-09-03 12:05:21,799 [INFO] Pages [6/24]
+2025-09-03 12:05:21,847 [DEBUG] Saved 50 new listings
+2025-09-03 12:05:21,848 [DEBUG] Listings Saved PAGE.6/24
+2025-09-03 12:05:21,850 [DEBUG] Starting new HTTPS connection (1): reverb.com:443
+2025-09-03 12:05:23,758 [DEBUG] https://reverb.com:443 "GET /api/listings?category=active-electronics&condition=used&page=7&per_page=50&product_type=bass-guitars HTTP/1.1" 200 None
+2025-09-03 12:05:23,772 [DEBUG] Status Code: 200
+2025-09-03 12:05:23,776 [DEBUG] Request OK
+2025-09-03 12:05:23,826 [DEBUG] Saved 50 new listings
+2025-09-03 12:05:23,828 [DEBUG] Listings Saved PAGE.7/24
+2025-09-03 12:05:23,830 [DEBUG] Starting new HTTPS connection (1): reverb.com:443
+2025-09-03 12:05:25,767 [DEBUG] https://reverb.com:443 "GET /api/listings?category=active-electronics&condition=used&page=8&per_page=50&product_type=bass-guitars HTTP/1.1" 200 None
+2025-09-03 12:05:25,782 [DEBUG] Status Code: 200
+2025-09-03 12:05:25,785 [DEBUG] Request OK
+2025-09-03 12:05:25,835 [DEBUG] Saved 50 new listings
+2025-09-03 12:05:25,837 [DEBUG] Listings Saved PAGE.8/24
+2025-09-03 12:05:25,838 [DEBUG] Starting new HTTPS connection (1): reverb.com:443
+2025-09-03 12:05:27,878 [DEBUG] https://reverb.com:443 "GET /api/listings?category=active-electronics&condition=used&page=9&per_page=50&product_type=bass-guitars HTTP/1.1" 200 None
+2025-09-03 12:05:27,908 [DEBUG] Status Code: 200
+2025-09-03 12:05:27,912 [DEBUG] Request OK
+2025-09-03 12:05:27,962 [DEBUG] Saved 50 new listings
+2025-09-03 12:05:27,963 [DEBUG] Listings Saved PAGE.9/24
+2025-09-03 12:05:27,965 [DEBUG] Starting new HTTPS connection (1): reverb.com:443
+2025-09-03 12:05:30,049 [DEBUG] https://reverb.com:443 "GET /api/listings?category=active-electronics&condition=used&page=10&per_page=50&product_type=bass-guitars HTTP/1.1" 200 None
+2025-09-03 12:05:30,063 [DEBUG] Status Code: 200
+2025-09-03 12:05:30,067 [DEBUG] Request OK
+2025-09-03 12:05:30,120 [DEBUG] Saved 50 new listings
+2025-09-03 12:05:30,121 [DEBUG] Listings Saved PAGE.10/24
+2025-09-03 12:05:30,123 [DEBUG] Starting new HTTPS connection (1): reverb.com:443
+2025-09-03 12:05:32,147 [DEBUG] https://reverb.com:443 "GET /api/listings?category=active-electronics&condition=used&page=11&per_page=50&product_type=bass-guitars HTTP/1.1" 200 None
+2025-09-03 12:05:32,161 [DEBUG] Status Code: 200
+2025-09-03 12:05:32,165 [DEBUG] Request OK
+2025-09-03 12:05:32,166 [INFO] Pages [11/24]
+2025-09-03 12:05:32,218 [DEBUG] Saved 50 new listings
+2025-09-03 12:05:32,219 [DEBUG] Listings Saved PAGE.11/24
+2025-09-03 12:05:32,221 [DEBUG] Starting new HTTPS connection (1): reverb.com:443
+2025-09-03 12:05:34,285 [DEBUG] https://reverb.com:443 "GET /api/listings?category=active-electronics&condition=used&page=12&per_page=50&product_type=bass-guitars HTTP/1.1" 200 None
+2025-09-03 12:05:34,304 [DEBUG] Status Code: 200
+2025-09-03 12:05:34,309 [DEBUG] Request OK
+2025-09-03 12:05:34,360 [DEBUG] Saved 50 new listings
+2025-09-03 12:05:34,362 [DEBUG] Listings Saved PAGE.12/24
+2025-09-03 12:05:34,363 [DEBUG] Starting new HTTPS connection (1): reverb.com:443
+2025-09-03 12:05:36,966 [DEBUG] https://reverb.com:443 "GET /api/listings?category=active-electronics&condition=used&page=13&per_page=50&product_type=bass-guitars HTTP/1.1" 200 None
+2025-09-03 12:05:36,983 [DEBUG] Status Code: 200
+2025-09-03 12:05:36,988 [DEBUG] Request OK
+2025-09-03 12:05:37,038 [DEBUG] Saved 50 new listings
+2025-09-03 12:05:37,040 [DEBUG] Listings Saved PAGE.13/24
+2025-09-03 12:05:37,042 [DEBUG] Starting new HTTPS connection (1): reverb.com:443
+2025-09-03 12:05:39,683 [DEBUG] https://reverb.com:443 "GET /api/listings?category=active-electronics&condition=used&page=14&per_page=50&product_type=bass-guitars HTTP/1.1" 200 None
+2025-09-03 12:05:39,697 [DEBUG] Status Code: 200
+2025-09-03 12:05:39,700 [DEBUG] Request OK
+2025-09-03 12:05:39,750 [DEBUG] Saved 50 new listings
+2025-09-03 12:05:39,752 [DEBUG] Listings Saved PAGE.14/24
+2025-09-03 12:05:39,753 [DEBUG] Starting new HTTPS connection (1): reverb.com:443
+2025-09-03 12:05:41,811 [DEBUG] https://reverb.com:443 "GET /api/listings?category=active-electronics&condition=used&page=15&per_page=50&product_type=bass-guitars HTTP/1.1" 200 None
+2025-09-03 12:05:41,823 [DEBUG] Status Code: 200
+2025-09-03 12:05:41,827 [DEBUG] Request OK
+2025-09-03 12:05:41,880 [DEBUG] Saved 50 new listings
+2025-09-03 12:05:41,881 [DEBUG] Listings Saved PAGE.15/24
+2025-09-03 12:05:41,883 [DEBUG] Starting new HTTPS connection (1): reverb.com:443
+2025-09-03 12:05:43,787 [DEBUG] https://reverb.com:443 "GET /api/listings?category=active-electronics&condition=used&page=16&per_page=50&product_type=bass-guitars HTTP/1.1" 200 None
+2025-09-03 12:05:43,799 [DEBUG] Status Code: 200
+2025-09-03 12:05:43,803 [DEBUG] Request OK
+2025-09-03 12:05:43,804 [INFO] Pages [16/24]
+2025-09-03 12:05:43,854 [DEBUG] Saved 50 new listings
+2025-09-03 12:05:43,856 [DEBUG] Listings Saved PAGE.16/24
+2025-09-03 12:05:43,858 [DEBUG] Starting new HTTPS connection (1): reverb.com:443
+2025-09-03 12:05:45,795 [DEBUG] https://reverb.com:443 "GET /api/listings?category=active-electronics&condition=used&page=17&per_page=50&product_type=bass-guitars HTTP/1.1" 200 None
+2025-09-03 12:05:45,808 [DEBUG] Status Code: 200
+2025-09-03 12:05:45,812 [DEBUG] Request OK
+2025-09-03 12:05:45,864 [DEBUG] Saved 50 new listings
+2025-09-03 12:05:45,865 [DEBUG] Listings Saved PAGE.17/24
+2025-09-03 12:05:45,867 [DEBUG] Starting new HTTPS connection (1): reverb.com:443
+2025-09-03 12:05:49,210 [DEBUG] https://reverb.com:443 "GET /api/listings?category=active-electronics&condition=used&page=18&per_page=50&product_type=bass-guitars HTTP/1.1" 200 None
+2025-09-03 12:05:49,221 [DEBUG] Status Code: 200
+2025-09-03 12:05:49,225 [DEBUG] Request OK
+2025-09-03 12:05:49,278 [DEBUG] Saved 50 new listings
+2025-09-03 12:05:49,279 [DEBUG] Listings Saved PAGE.18/24
+2025-09-03 12:05:49,281 [DEBUG] Starting new HTTPS connection (1): reverb.com:443
+2025-09-03 12:05:51,177 [DEBUG] https://reverb.com:443 "GET /api/listings?category=active-electronics&condition=used&page=19&per_page=50&product_type=bass-guitars HTTP/1.1" 200 None
+2025-09-03 12:05:51,189 [DEBUG] Status Code: 200
+2025-09-03 12:05:51,192 [DEBUG] Request OK
+2025-09-03 12:05:51,247 [DEBUG] Saved 50 new listings
+2025-09-03 12:05:51,248 [DEBUG] Listings Saved PAGE.19/24
+2025-09-03 12:05:51,250 [DEBUG] Starting new HTTPS connection (1): reverb.com:443
+2025-09-03 12:05:53,234 [DEBUG] https://reverb.com:443 "GET /api/listings?category=active-electronics&condition=used&page=20&per_page=50&product_type=bass-guitars HTTP/1.1" 200 None
+2025-09-03 12:05:53,249 [DEBUG] Status Code: 200
+2025-09-03 12:05:53,253 [DEBUG] Request OK
+2025-09-03 12:05:53,305 [DEBUG] Saved 50 new listings
+2025-09-03 12:05:53,306 [DEBUG] Listings Saved PAGE.20/24
+2025-09-03 12:05:53,308 [DEBUG] Starting new HTTPS connection (1): reverb.com:443
+2025-09-03 12:05:55,209 [DEBUG] https://reverb.com:443 "GET /api/listings?category=active-electronics&condition=used&page=21&per_page=50&product_type=bass-guitars HTTP/1.1" 200 None
+2025-09-03 12:05:55,221 [DEBUG] Status Code: 200
+2025-09-03 12:05:55,225 [DEBUG] Request OK
+2025-09-03 12:05:55,225 [INFO] Pages [21/24]
+2025-09-03 12:05:55,277 [DEBUG] Saved 50 new listings
+2025-09-03 12:05:55,279 [DEBUG] Listings Saved PAGE.21/24
+2025-09-03 12:05:55,281 [DEBUG] Starting new HTTPS connection (1): reverb.com:443
+2025-09-03 12:05:57,300 [DEBUG] https://reverb.com:443 "GET /api/listings?category=active-electronics&condition=used&page=22&per_page=50&product_type=bass-guitars HTTP/1.1" 200 None
+2025-09-03 12:05:57,312 [DEBUG] Status Code: 200
+2025-09-03 12:05:57,317 [DEBUG] Request OK
+2025-09-03 12:05:57,372 [DEBUG] Saved 50 new listings
+2025-09-03 12:05:57,373 [DEBUG] Listings Saved PAGE.22/24
+2025-09-03 12:05:57,375 [DEBUG] Starting new HTTPS connection (1): reverb.com:443
+2025-09-03 12:05:59,897 [DEBUG] https://reverb.com:443 "GET /api/listings?category=active-electronics&condition=used&page=23&per_page=50&product_type=bass-guitars HTTP/1.1" 200 None
+2025-09-03 12:05:59,908 [DEBUG] Status Code: 200
+2025-09-03 12:05:59,913 [DEBUG] Request OK
+2025-09-03 12:05:59,965 [DEBUG] Saved 50 new listings
+2025-09-03 12:05:59,966 [DEBUG] Listings Saved PAGE.23/24
+2025-09-03 12:05:59,968 [DEBUG] Starting new HTTPS connection (1): reverb.com:443
+2025-09-03 12:06:01,585 [DEBUG] https://reverb.com:443 "GET /api/listings?category=active-electronics&condition=used&page=24&per_page=50&product_type=bass-guitars HTTP/1.1" 200 None
+2025-09-03 12:06:01,597 [DEBUG] Status Code: 200
+2025-09-03 12:06:01,600 [DEBUG] Request OK
+2025-09-03 12:06:01,653 [DEBUG] Saved 36 new listings
+2025-09-03 12:06:01,654 [DEBUG] Listings Saved PAGE.24/24
+2025-09-03 12:06:01,654 [INFO] Last Page Reached
+2025-09-03 12:06:01,655 [INFO] Succesfully Completed FULL SCAN of bass-guitars|active-electronics
+2025-09-03 12:06:01,655 [INFO] No unseen listings to close for bass-guitars|active-electronics
+2025-09-03 12:06:01,655 [INFO] New: 1186, Updated: 0, Unchanged: 0
+2025-09-03 12:06:09,315 [INFO] Processing bass-guitars|fretless
+2025-09-03 12:06:09,338 [INFO] STARTING SCAN OF CATEGORY: bass-guitars|fretless
+2025-09-03 12:06:09,341 [DEBUG] Starting new HTTPS connection (1): reverb.com:443
+2025-09-03 12:06:11,833 [DEBUG] https://reverb.com:443 "GET /api/listings?category=fretless&product_type=bass-guitars&condition=used&per_page=50 HTTP/1.1" 200 None
+2025-09-03 12:06:11,850 [DEBUG] Entering while cycle with next_link = https://reverb.com/api/listings?category=fretless&condition=used&page=2&per_page=50&product_type=bass-guitars
+2025-09-03 12:06:11,850 [DEBUG] Last seen in session: 2025-09-02 14:30:56+00:00 | for category: 2010-04-19 19:03:11+00:00
+2025-09-03 12:06:11,850 [INFO] Starting processing of bass-guitars|fretless. 6 pages found.
+2025-09-03 12:06:11,850 [INFO] Pages [1/6]
+2025-09-03 12:06:11,901 [DEBUG] Saved 50 new listings
+2025-09-03 12:06:11,902 [DEBUG] Listings Saved PAGE.1/6
+2025-09-03 12:06:11,904 [DEBUG] Starting new HTTPS connection (1): reverb.com:443
+2025-09-03 12:06:14,443 [DEBUG] https://reverb.com:443 "GET /api/listings?category=fretless&condition=used&page=2&per_page=50&product_type=bass-guitars HTTP/1.1" 200 None
+2025-09-03 12:06:14,458 [DEBUG] Status Code: 200
+2025-09-03 12:06:14,463 [DEBUG] Request OK
+2025-09-03 12:06:14,515 [DEBUG] Saved 50 new listings
+2025-09-03 12:06:14,517 [DEBUG] Listings Saved PAGE.2/6
+2025-09-03 12:06:14,519 [DEBUG] Starting new HTTPS connection (1): reverb.com:443
+2025-09-03 12:06:17,818 [DEBUG] https://reverb.com:443 "GET /api/listings?category=fretless&condition=used&page=3&per_page=50&product_type=bass-guitars HTTP/1.1" 200 None
+2025-09-03 12:06:17,833 [DEBUG] Status Code: 200
+2025-09-03 12:06:17,836 [DEBUG] Request OK
+2025-09-03 12:06:17,889 [DEBUG] Saved 50 new listings
+2025-09-03 12:06:17,891 [DEBUG] Listings Saved PAGE.3/6
+2025-09-03 12:06:17,892 [DEBUG] Starting new HTTPS connection (1): reverb.com:443
+2025-09-03 12:06:20,201 [DEBUG] https://reverb.com:443 "GET /api/listings?category=fretless&condition=used&page=4&per_page=50&product_type=bass-guitars HTTP/1.1" 200 None
+2025-09-03 12:06:20,208 [DEBUG] Status Code: 200
+2025-09-03 12:06:20,214 [DEBUG] Request OK
+2025-09-03 12:06:20,270 [DEBUG] Saved 50 new listings
+2025-09-03 12:06:20,272 [DEBUG] Listings Saved PAGE.4/6
+2025-09-03 12:06:20,273 [DEBUG] Starting new HTTPS connection (1): reverb.com:443
+2025-09-03 12:06:22,227 [DEBUG] https://reverb.com:443 "GET /api/listings?category=fretless&condition=used&page=5&per_page=50&product_type=bass-guitars HTTP/1.1" 200 None
+2025-09-03 12:06:22,248 [DEBUG] Status Code: 200
+2025-09-03 12:06:22,253 [DEBUG] Request OK
+2025-09-03 12:06:22,308 [DEBUG] Saved 50 new listings
+2025-09-03 12:06:22,309 [DEBUG] Listings Saved PAGE.5/6
+2025-09-03 12:06:22,311 [DEBUG] Starting new HTTPS connection (1): reverb.com:443
+2025-09-03 12:06:22,913 [DEBUG] https://reverb.com:443 "GET /api/listings?category=fretless&condition=used&page=6&per_page=50&product_type=bass-guitars HTTP/1.1" 200 None
+2025-09-03 12:06:22,918 [DEBUG] Status Code: 200
+2025-09-03 12:06:22,920 [DEBUG] Request OK
+2025-09-03 12:06:22,921 [INFO] Pages [6/6]
+2025-09-03 12:06:22,978 [DEBUG] Saved 7 new listings
+2025-09-03 12:06:22,980 [DEBUG] Listings Saved PAGE.6/6
+2025-09-03 12:06:22,980 [INFO] Last Page Reached
+2025-09-03 12:06:22,980 [INFO] Succesfully Completed FULL SCAN of bass-guitars|fretless
+2025-09-03 12:06:22,980 [INFO] No unseen listings to close for bass-guitars|fretless
+2025-09-03 12:06:22,980 [INFO] New: 257, Updated: 0, Unchanged: 0
+2025-09-03 12:06:29,914 [INFO] Processing bass-guitars|left-handed
+2025-09-03 12:06:29,938 [INFO] STARTING SCAN OF CATEGORY: bass-guitars|left-handed
+2025-09-03 12:06:29,940 [DEBUG] Starting new HTTPS connection (1): reverb.com:443
+2025-09-03 12:06:32,386 [DEBUG] https://reverb.com:443 "GET /api/listings?category=left-handed&product_type=bass-guitars&condition=used&per_page=50 HTTP/1.1" 200 None
+2025-09-03 12:06:32,403 [DEBUG] Entering while cycle with next_link = https://reverb.com/api/listings?category=left-handed&condition=used&page=2&per_page=50&product_type=bass-guitars
+2025-09-03 12:06:32,403 [DEBUG] Last seen in session: 2025-09-02 20:41:22+00:00 | for category: 2010-04-19 19:03:11+00:00
+2025-09-03 12:06:32,403 [INFO] Starting processing of bass-guitars|left-handed. 3 pages found.
+2025-09-03 12:06:32,403 [INFO] Pages [1/3]
+2025-09-03 12:06:32,457 [DEBUG] Saved 50 new listings
+2025-09-03 12:06:32,458 [DEBUG] Listings Saved PAGE.1/3
+2025-09-03 12:06:32,460 [DEBUG] Starting new HTTPS connection (1): reverb.com:443
+2025-09-03 12:06:35,178 [DEBUG] https://reverb.com:443 "GET /api/listings?category=left-handed&condition=used&page=2&per_page=50&product_type=bass-guitars HTTP/1.1" 200 None
+2025-09-03 12:06:35,192 [DEBUG] Status Code: 200
+2025-09-03 12:06:35,197 [DEBUG] Request OK
+2025-09-03 12:06:35,252 [DEBUG] Saved 50 new listings
+2025-09-03 12:06:35,254 [DEBUG] Listings Saved PAGE.2/3
+2025-09-03 12:06:35,256 [DEBUG] Starting new HTTPS connection (1): reverb.com:443
+2025-09-03 12:06:36,940 [DEBUG] https://reverb.com:443 "GET /api/listings?category=left-handed&condition=used&page=3&per_page=50&product_type=bass-guitars HTTP/1.1" 200 None
+2025-09-03 12:06:36,949 [DEBUG] Status Code: 200
+2025-09-03 12:06:36,952 [DEBUG] Request OK
+2025-09-03 12:06:37,007 [DEBUG] Saved 28 new listings
+2025-09-03 12:06:37,009 [DEBUG] Listings Saved PAGE.3/3
+2025-09-03 12:06:37,009 [INFO] Last Page Reached
+2025-09-03 12:06:37,009 [INFO] Succesfully Completed FULL SCAN of bass-guitars|left-handed
+2025-09-03 12:06:37,009 [INFO] No unseen listings to close for bass-guitars|left-handed
+2025-09-03 12:06:37,009 [INFO] New: 128, Updated: 0, Unchanged: 0
+2025-09-03 12:06:41,614 [INFO] Batch completed. Log saved at logs/reverb_scan_used-20250903-0958.log

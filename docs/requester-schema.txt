@@ -1,0 +1,1 @@
+1. scrape categories - save in memory - process - save to ? - wait - other category

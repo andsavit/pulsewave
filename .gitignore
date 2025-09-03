@@ -1,0 +1,15 @@
+# Ignora ambiente virtuale
+.venv/
+
+# Ignora file temporanei di Python
+__pycache__/
+*.pyc
+
+# Ignora file temporanei di Jupyter
+.ipynb_checkpoints/
+
+# Ignora file sensibili
+.env
+
+# Dati grezzi (opzionale)
+data/

@@ -1,0 +1,9 @@
+2025-09-03 14:29:03,128 [INFO] PARTIAL Mode Set: Processing only ['bass-guitars']
+2025-09-03 14:29:03,128 [INFO] Starting product type: bass-guitars
+2025-09-03 14:29:03,129 [INFO] Processing bass-guitars|4-string
+2025-09-03 14:29:03,129 [DEBUG] Read previous listings at data/reverb/test/used-IT/bass-guitars.parquet
+2025-09-03 14:29:03,344 [INFO] STARTING SCAN OF CATEGORY: bass-guitars|4-string
+2025-09-03 14:29:03,344 [ERROR] Error with initial request for bass-guitars4-string. Attempt 0.
+2025-09-03 14:29:06,350 [ERROR] Error with initial request for bass-guitars4-string. Attempt 1.
+2025-09-03 14:29:09,350 [ERROR] Error with initial request for bass-guitars4-string. Attempt 2.
+2025-09-03 14:29:12,356 [ERROR] Error with initial request for bass-guitars4-string. Attempt 3.

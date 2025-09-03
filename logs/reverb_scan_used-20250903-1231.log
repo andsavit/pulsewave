@@ -1,0 +1,648 @@
+2025-09-03 14:31:13,537 [INFO] PARTIAL Mode Set: Processing only ['bass-guitars']
+2025-09-03 14:31:13,537 [INFO] Starting product type: bass-guitars
+2025-09-03 14:31:13,538 [INFO] Processing bass-guitars|4-string
+2025-09-03 14:31:13,538 [DEBUG] Read previous listings at data/reverb/test/used-IT/bass-guitars.parquet
+2025-09-03 14:31:13,709 [INFO] STARTING SCAN OF CATEGORY: bass-guitars|4-string at /api/listings?category=4-string&product_type=bass-guitars
+2025-09-03 14:31:13,709 [ERROR] Error 'NoneType' object has no attribute 'get' with initial request for bass-guitars4-string. Attempt 0.
+2025-09-03 14:31:16,714 [ERROR] Error 'NoneType' object has no attribute 'get' with initial request for bass-guitars4-string. Attempt 1.
+2025-09-03 14:31:19,720 [ERROR] Error 'NoneType' object has no attribute 'get' with initial request for bass-guitars4-string. Attempt 2.
+2025-09-03 14:31:46,286 [INFO] PARTIAL Mode Set: Processing only ['bass-guitars']
+2025-09-03 14:31:46,286 [INFO] Starting product type: bass-guitars
+2025-09-03 14:31:46,286 [INFO] Processing bass-guitars|4-string
+2025-09-03 14:31:46,286 [DEBUG] Read previous listings at data/reverb/test/used-IT/bass-guitars.parquet
+2025-09-03 14:31:46,456 [INFO] STARTING SCAN OF CATEGORY: bass-guitars|4-string at /api/listings?category=4-string&product_type=bass-guitars
+2025-09-03 14:31:46,476 [DEBUG] Starting new HTTPS connection (1): reverb.com:443
+2025-09-03 14:31:49,060 [DEBUG] https://reverb.com:443 "GET /api/listings?category=4-string&product_type=bass-guitars&condition=used&per_page=50 HTTP/1.1" 200 None
+2025-09-03 14:31:49,104 [DEBUG] Entering while cycle with next_link = https://reverb.com/api/listings?category=4-string&condition=used&page=2&per_page=50&product_type=bass-guitars
+2025-09-03 14:31:49,105 [DEBUG] Last seen in session: 2025-09-03 11:11:03+00:00 | for category: 2010-04-19 19:03:11+00:00
+2025-09-03 14:31:49,105 [INFO] Starting processing of bass-guitars|4-string. 50 pages found.
+2025-09-03 14:31:49,105 [INFO] Pages [1/50]
+2025-09-03 14:31:49,169 [DEBUG] Saved 3 new listings
+2025-09-03 14:31:49,171 [DEBUG] Saving phase completed for PAGE.1/50
+2025-09-03 14:31:52,183 [DEBUG] https://reverb.com:443 "GET /api/listings?category=4-string&condition=used&page=2&per_page=50&product_type=bass-guitars&condition=used&per_page=50 HTTP/1.1" 200 None
+2025-09-03 14:31:52,218 [DEBUG] Status Code: 200
+2025-09-03 14:31:52,222 [DEBUG] Request OK
+2025-09-03 14:31:52,223 [DEBUG] Saving phase completed for PAGE.2/50
+2025-09-03 14:31:55,047 [DEBUG] https://reverb.com:443 "GET /api/listings?category=4-string&condition=used&page=3&per_page=50&product_type=bass-guitars&condition=used&per_page=50 HTTP/1.1" 200 None
+2025-09-03 14:31:55,083 [DEBUG] Status Code: 200
+2025-09-03 14:31:55,097 [DEBUG] Request OK
+2025-09-03 14:31:55,098 [DEBUG] Saving phase completed for PAGE.3/50
+2025-09-03 14:31:57,512 [DEBUG] https://reverb.com:443 "GET /api/listings?category=4-string&condition=used&page=4&per_page=50&product_type=bass-guitars&condition=used&per_page=50 HTTP/1.1" 200 None
+2025-09-03 14:31:57,544 [DEBUG] Status Code: 200
+2025-09-03 14:31:57,553 [DEBUG] Request OK
+2025-09-03 14:31:57,554 [DEBUG] Saving phase completed for PAGE.4/50
+2025-09-03 14:32:00,499 [DEBUG] https://reverb.com:443 "GET /api/listings?category=4-string&condition=used&page=5&per_page=50&product_type=bass-guitars&condition=used&per_page=50 HTTP/1.1" 200 None
+2025-09-03 14:32:00,517 [DEBUG] Status Code: 200
+2025-09-03 14:32:00,525 [DEBUG] Request OK
+2025-09-03 14:32:00,573 [DEBUG] Closed 1 existing record for listing ID 91953266
+2025-09-03 14:32:00,603 [DEBUG] Saved 1 new listings
+2025-09-03 14:32:00,604 [DEBUG] Saving phase completed for PAGE.5/50
+2025-09-03 14:32:02,718 [DEBUG] https://reverb.com:443 "GET /api/listings?category=4-string&condition=used&page=6&per_page=50&product_type=bass-guitars&condition=used&per_page=50 HTTP/1.1" 200 None
+2025-09-03 14:32:02,736 [DEBUG] Status Code: 200
+2025-09-03 14:32:02,744 [DEBUG] Request OK
+2025-09-03 14:32:02,745 [INFO] Pages [6/50]
+2025-09-03 14:32:02,746 [DEBUG] Saving phase completed for PAGE.6/50
+2025-09-03 14:32:05,000 [DEBUG] https://reverb.com:443 "GET /api/listings?category=4-string&condition=used&page=7&per_page=50&product_type=bass-guitars&condition=used&per_page=50 HTTP/1.1" 200 None
+2025-09-03 14:32:05,007 [DEBUG] Status Code: 200
+2025-09-03 14:32:05,016 [DEBUG] Request OK
+2025-09-03 14:32:05,017 [DEBUG] Saving phase completed for PAGE.7/50
+2025-09-03 14:32:08,109 [DEBUG] https://reverb.com:443 "GET /api/listings?category=4-string&condition=used&page=8&per_page=50&product_type=bass-guitars&condition=used&per_page=50 HTTP/1.1" 200 None
+2025-09-03 14:32:08,117 [DEBUG] Status Code: 200
+2025-09-03 14:32:08,126 [DEBUG] Request OK
+2025-09-03 14:32:08,127 [DEBUG] Saving phase completed for PAGE.8/50
+2025-09-03 14:32:10,392 [DEBUG] https://reverb.com:443 "GET /api/listings?category=4-string&condition=used&page=9&per_page=50&product_type=bass-guitars&condition=used&per_page=50 HTTP/1.1" 200 None
+2025-09-03 14:32:10,429 [DEBUG] Status Code: 200
+2025-09-03 14:32:10,438 [DEBUG] Request OK
+2025-09-03 14:32:10,440 [DEBUG] Saving phase completed for PAGE.9/50
+2025-09-03 14:32:12,419 [DEBUG] https://reverb.com:443 "GET /api/listings?category=4-string&condition=used&page=10&per_page=50&product_type=bass-guitars&condition=used&per_page=50 HTTP/1.1" 200 None
+2025-09-03 14:32:12,464 [DEBUG] Status Code: 200
+2025-09-03 14:32:12,472 [DEBUG] Request OK
+2025-09-03 14:32:12,474 [DEBUG] Saving phase completed for PAGE.10/50
+2025-09-03 14:32:15,088 [DEBUG] https://reverb.com:443 "GET /api/listings?category=4-string&condition=used&page=11&per_page=50&product_type=bass-guitars&condition=used&per_page=50 HTTP/1.1" 200 None
+2025-09-03 14:32:15,116 [DEBUG] Status Code: 200
+2025-09-03 14:32:15,122 [DEBUG] Request OK
+2025-09-03 14:32:15,123 [INFO] Pages [11/50]
+2025-09-03 14:32:15,125 [DEBUG] Saving phase completed for PAGE.11/50
+2025-09-03 14:32:16,924 [DEBUG] https://reverb.com:443 "GET /api/listings?category=4-string&condition=used&page=12&per_page=50&product_type=bass-guitars&condition=used&per_page=50 HTTP/1.1" 200 None
+2025-09-03 14:32:16,928 [DEBUG] Status Code: 200
+2025-09-03 14:32:16,933 [DEBUG] Request OK
+2025-09-03 14:32:16,934 [DEBUG] Saving phase completed for PAGE.12/50
+2025-09-03 14:32:20,821 [DEBUG] https://reverb.com:443 "GET /api/listings?category=4-string&condition=used&page=13&per_page=50&product_type=bass-guitars&condition=used&per_page=50 HTTP/1.1" 200 None
+2025-09-03 14:32:20,830 [DEBUG] Status Code: 200
+2025-09-03 14:32:20,837 [DEBUG] Request OK
+2025-09-03 14:32:20,838 [DEBUG] Saving phase completed for PAGE.13/50
+2025-09-03 14:32:22,680 [DEBUG] https://reverb.com:443 "GET /api/listings?category=4-string&condition=used&page=14&per_page=50&product_type=bass-guitars&condition=used&per_page=50 HTTP/1.1" 200 None
+2025-09-03 14:32:22,684 [DEBUG] Status Code: 200
+2025-09-03 14:32:22,690 [DEBUG] Request OK
+2025-09-03 14:32:22,691 [DEBUG] Saving phase completed for PAGE.14/50
+2025-09-03 14:32:25,435 [DEBUG] https://reverb.com:443 "GET /api/listings?category=4-string&condition=used&page=15&per_page=50&product_type=bass-guitars&condition=used&per_page=50 HTTP/1.1" 200 None
+2025-09-03 14:32:25,443 [DEBUG] Status Code: 200
+2025-09-03 14:32:25,448 [DEBUG] Request OK
+2025-09-03 14:32:25,450 [DEBUG] Saving phase completed for PAGE.15/50
+2025-09-03 14:32:28,415 [DEBUG] https://reverb.com:443 "GET /api/listings?category=4-string&condition=used&page=16&per_page=50&product_type=bass-guitars&condition=used&per_page=50 HTTP/1.1" 200 None
+2025-09-03 14:32:28,494 [DEBUG] Status Code: 200
+2025-09-03 14:32:28,501 [DEBUG] Request OK
+2025-09-03 14:32:28,502 [INFO] Pages [16/50]
+2025-09-03 14:32:28,503 [DEBUG] Saving phase completed for PAGE.16/50
+2025-09-03 14:32:30,820 [DEBUG] https://reverb.com:443 "GET /api/listings?category=4-string&condition=used&page=17&per_page=50&product_type=bass-guitars&condition=used&per_page=50 HTTP/1.1" 200 None
+2025-09-03 14:32:30,842 [DEBUG] Status Code: 200
+2025-09-03 14:32:30,849 [DEBUG] Request OK
+2025-09-03 14:32:30,850 [DEBUG] Saving phase completed for PAGE.17/50
+2025-09-03 14:32:32,862 [DEBUG] https://reverb.com:443 "GET /api/listings?category=4-string&condition=used&page=18&per_page=50&product_type=bass-guitars&condition=used&per_page=50 HTTP/1.1" 200 None
+2025-09-03 14:32:32,880 [DEBUG] Status Code: 200
+2025-09-03 14:32:32,885 [DEBUG] Request OK
+2025-09-03 14:32:32,886 [DEBUG] Saving phase completed for PAGE.18/50
+2025-09-03 14:32:36,108 [DEBUG] https://reverb.com:443 "GET /api/listings?category=4-string&condition=used&page=19&per_page=50&product_type=bass-guitars&condition=used&per_page=50 HTTP/1.1" 200 None
+2025-09-03 14:32:36,120 [DEBUG] Status Code: 200
+2025-09-03 14:32:36,129 [DEBUG] Request OK
+2025-09-03 14:32:36,130 [DEBUG] Saving phase completed for PAGE.19/50
+2025-09-03 14:32:38,099 [DEBUG] https://reverb.com:443 "GET /api/listings?category=4-string&condition=used&page=20&per_page=50&product_type=bass-guitars&condition=used&per_page=50 HTTP/1.1" 200 None
+2025-09-03 14:32:38,352 [DEBUG] Status Code: 200
+2025-09-03 14:32:38,359 [DEBUG] Request OK
+2025-09-03 14:32:38,360 [DEBUG] Saving phase completed for PAGE.20/50
+2025-09-03 14:32:40,469 [DEBUG] https://reverb.com:443 "GET /api/listings?category=4-string&condition=used&page=21&per_page=50&product_type=bass-guitars&condition=used&per_page=50 HTTP/1.1" 200 None
+2025-09-03 14:32:40,481 [DEBUG] Status Code: 200
+2025-09-03 14:32:40,487 [DEBUG] Request OK
+2025-09-03 14:32:40,488 [INFO] Pages [21/50]
+2025-09-03 14:32:40,488 [DEBUG] Saving phase completed for PAGE.21/50
+2025-09-03 14:32:42,598 [DEBUG] https://reverb.com:443 "GET /api/listings?category=4-string&condition=used&page=22&per_page=50&product_type=bass-guitars&condition=used&per_page=50 HTTP/1.1" 200 None
+2025-09-03 14:32:42,629 [DEBUG] Status Code: 200
+2025-09-03 14:32:42,637 [DEBUG] Request OK
+2025-09-03 14:32:42,638 [DEBUG] Saving phase completed for PAGE.22/50
+2025-09-03 14:32:44,669 [DEBUG] https://reverb.com:443 "GET /api/listings?category=4-string&condition=used&page=23&per_page=50&product_type=bass-guitars&condition=used&per_page=50 HTTP/1.1" 200 None
+2025-09-03 14:32:44,720 [DEBUG] Status Code: 200
+2025-09-03 14:32:44,728 [DEBUG] Request OK
+2025-09-03 14:32:44,730 [DEBUG] Saving phase completed for PAGE.23/50
+2025-09-03 14:32:47,393 [DEBUG] https://reverb.com:443 "GET /api/listings?category=4-string&condition=used&page=24&per_page=50&product_type=bass-guitars&condition=used&per_page=50 HTTP/1.1" 200 None
+2025-09-03 14:32:47,397 [DEBUG] Status Code: 200
+2025-09-03 14:32:47,403 [DEBUG] Request OK
+2025-09-03 14:32:47,405 [DEBUG] Saving phase completed for PAGE.24/50
+2025-09-03 14:32:50,105 [DEBUG] https://reverb.com:443 "GET /api/listings?category=4-string&condition=used&page=25&per_page=50&product_type=bass-guitars&condition=used&per_page=50 HTTP/1.1" 200 None
+2025-09-03 14:32:50,121 [DEBUG] Status Code: 200
+2025-09-03 14:32:50,128 [DEBUG] Request OK
+2025-09-03 14:32:50,130 [DEBUG] Saving phase completed for PAGE.25/50
+2025-09-03 14:32:53,677 [DEBUG] https://reverb.com:443 "GET /api/listings?category=4-string&condition=used&page=26&per_page=50&product_type=bass-guitars&condition=used&per_page=50 HTTP/1.1" 200 None
+2025-09-03 14:32:53,680 [DEBUG] Status Code: 200
+2025-09-03 14:32:53,687 [DEBUG] Request OK
+2025-09-03 14:32:53,687 [INFO] Pages [26/50]
+2025-09-03 14:32:53,747 [DEBUG] Closed 1 existing record for listing ID 91307384
+2025-09-03 14:32:53,779 [DEBUG] Saved 1 new listings
+2025-09-03 14:32:53,780 [DEBUG] Saving phase completed for PAGE.26/50
+2025-09-03 14:32:56,768 [DEBUG] https://reverb.com:443 "GET /api/listings?category=4-string&condition=used&page=27&per_page=50&product_type=bass-guitars&condition=used&per_page=50 HTTP/1.1" 200 None
+2025-09-03 14:32:56,773 [DEBUG] Status Code: 200
+2025-09-03 14:32:56,777 [DEBUG] Request OK
+2025-09-03 14:32:56,827 [DEBUG] Closed 1 existing record for listing ID 91305621
+2025-09-03 14:32:56,857 [DEBUG] Closed 1 existing record for listing ID 91305489
+2025-09-03 14:32:56,882 [DEBUG] Saved 2 new listings
+2025-09-03 14:32:56,883 [DEBUG] Saving phase completed for PAGE.27/50
+2025-09-03 14:32:59,618 [DEBUG] https://reverb.com:443 "GET /api/listings?category=4-string&condition=used&page=28&per_page=50&product_type=bass-guitars&condition=used&per_page=50 HTTP/1.1" 200 None
+2025-09-03 14:32:59,626 [DEBUG] Status Code: 200
+2025-09-03 14:32:59,632 [DEBUG] Request OK
+2025-09-03 14:32:59,634 [DEBUG] Saving phase completed for PAGE.28/50
+2025-09-03 14:33:01,534 [DEBUG] https://reverb.com:443 "GET /api/listings?category=4-string&condition=used&page=29&per_page=50&product_type=bass-guitars&condition=used&per_page=50 HTTP/1.1" 200 None
+2025-09-03 14:33:01,544 [DEBUG] Status Code: 200
+2025-09-03 14:33:01,550 [DEBUG] Request OK
+2025-09-03 14:33:01,551 [DEBUG] Saving phase completed for PAGE.29/50
+2025-09-03 14:33:03,767 [DEBUG] https://reverb.com:443 "GET /api/listings?category=4-string&condition=used&page=30&per_page=50&product_type=bass-guitars&condition=used&per_page=50 HTTP/1.1" 200 None
+2025-09-03 14:33:03,796 [DEBUG] Status Code: 200
+2025-09-03 14:33:03,803 [DEBUG] Request OK
+2025-09-03 14:33:03,805 [DEBUG] Saving phase completed for PAGE.30/50
+2025-09-03 14:33:06,727 [DEBUG] https://reverb.com:443 "GET /api/listings?category=4-string&condition=used&page=31&per_page=50&product_type=bass-guitars&condition=used&per_page=50 HTTP/1.1" 200 None
+2025-09-03 14:33:06,771 [DEBUG] Status Code: 200
+2025-09-03 14:33:06,781 [DEBUG] Request OK
+2025-09-03 14:33:06,782 [INFO] Pages [31/50]
+2025-09-03 14:33:06,783 [DEBUG] Saving phase completed for PAGE.31/50
+2025-09-03 14:33:10,519 [DEBUG] https://reverb.com:443 "GET /api/listings?category=4-string&condition=used&page=32&per_page=50&product_type=bass-guitars&condition=used&per_page=50 HTTP/1.1" 200 None
+2025-09-03 14:33:10,558 [DEBUG] Status Code: 200
+2025-09-03 14:33:10,567 [DEBUG] Request OK
+2025-09-03 14:33:10,619 [DEBUG] Closed 1 existing record for listing ID 91096624
+2025-09-03 14:33:10,650 [DEBUG] Saved 1 new listings
+2025-09-03 14:33:10,651 [DEBUG] Saving phase completed for PAGE.32/50
+2025-09-03 14:33:12,724 [DEBUG] https://reverb.com:443 "GET /api/listings?category=4-string&condition=used&page=33&per_page=50&product_type=bass-guitars&condition=used&per_page=50 HTTP/1.1" 200 None
+2025-09-03 14:33:12,770 [DEBUG] Status Code: 200
+2025-09-03 14:33:12,778 [DEBUG] Request OK
+2025-09-03 14:33:12,779 [DEBUG] Saving phase completed for PAGE.33/50
+2025-09-03 14:33:14,928 [DEBUG] https://reverb.com:443 "GET /api/listings?category=4-string&condition=used&page=34&per_page=50&product_type=bass-guitars&condition=used&per_page=50 HTTP/1.1" 200 None
+2025-09-03 14:33:14,943 [DEBUG] Status Code: 200
+2025-09-03 14:33:14,950 [DEBUG] Request OK
+2025-09-03 14:33:15,000 [DEBUG] Closed 1 existing record for listing ID 90900806
+2025-09-03 14:33:15,030 [DEBUG] Closed 1 existing record for listing ID 90898322
+2025-09-03 14:33:15,056 [DEBUG] Saved 2 new listings
+2025-09-03 14:33:15,058 [DEBUG] Saving phase completed for PAGE.34/50
+2025-09-03 14:33:17,633 [DEBUG] https://reverb.com:443 "GET /api/listings?category=4-string&condition=used&page=35&per_page=50&product_type=bass-guitars&condition=used&per_page=50 HTTP/1.1" 200 None
+2025-09-03 14:33:17,636 [DEBUG] Status Code: 200
+2025-09-03 14:33:17,642 [DEBUG] Request OK
+2025-09-03 14:33:17,644 [DEBUG] Saving phase completed for PAGE.35/50
+2025-09-03 14:33:19,610 [DEBUG] https://reverb.com:443 "GET /api/listings?category=4-string&condition=used&page=36&per_page=50&product_type=bass-guitars&condition=used&per_page=50 HTTP/1.1" 200 None
+2025-09-03 14:33:19,634 [DEBUG] Status Code: 200
+2025-09-03 14:33:19,642 [DEBUG] Request OK
+2025-09-03 14:33:19,642 [INFO] Pages [36/50]
+2025-09-03 14:33:19,643 [DEBUG] Saving phase completed for PAGE.36/50
+2025-09-03 14:33:22,077 [DEBUG] https://reverb.com:443 "GET /api/listings?category=4-string&condition=used&page=37&per_page=50&product_type=bass-guitars&condition=used&per_page=50 HTTP/1.1" 200 None
+2025-09-03 14:33:22,081 [DEBUG] Status Code: 200
+2025-09-03 14:33:22,088 [DEBUG] Request OK
+2025-09-03 14:33:22,089 [DEBUG] Saving phase completed for PAGE.37/50
+2025-09-03 14:33:25,089 [DEBUG] https://reverb.com:443 "GET /api/listings?category=4-string&condition=used&page=38&per_page=50&product_type=bass-guitars&condition=used&per_page=50 HTTP/1.1" 200 None
+2025-09-03 14:33:25,118 [DEBUG] Status Code: 200
+2025-09-03 14:33:25,126 [DEBUG] Request OK
+2025-09-03 14:33:25,176 [DEBUG] Closed 1 existing record for listing ID 90580040
+2025-09-03 14:33:25,208 [DEBUG] Saved 1 new listings
+2025-09-03 14:33:25,209 [DEBUG] Saving phase completed for PAGE.38/50
+2025-09-03 14:33:27,265 [DEBUG] https://reverb.com:443 "GET /api/listings?category=4-string&condition=used&page=39&per_page=50&product_type=bass-guitars&condition=used&per_page=50 HTTP/1.1" 200 None
+2025-09-03 14:33:27,269 [DEBUG] Status Code: 200
+2025-09-03 14:33:27,276 [DEBUG] Request OK
+2025-09-03 14:33:27,277 [DEBUG] Saving phase completed for PAGE.39/50
+2025-09-03 14:33:30,053 [DEBUG] https://reverb.com:443 "GET /api/listings?category=4-string&condition=used&page=40&per_page=50&product_type=bass-guitars&condition=used&per_page=50 HTTP/1.1" 200 None
+2025-09-03 14:33:30,074 [DEBUG] Status Code: 200
+2025-09-03 14:33:30,080 [DEBUG] Request OK
+2025-09-03 14:33:30,082 [DEBUG] Saving phase completed for PAGE.40/50
+2025-09-03 14:33:32,254 [DEBUG] https://reverb.com:443 "GET /api/listings?category=4-string&condition=used&page=41&per_page=50&product_type=bass-guitars&condition=used&per_page=50 HTTP/1.1" 200 None
+2025-09-03 14:33:32,273 [DEBUG] Status Code: 200
+2025-09-03 14:33:32,280 [DEBUG] Request OK
+2025-09-03 14:33:32,282 [INFO] Pages [41/50]
+2025-09-03 14:33:32,283 [DEBUG] Saving phase completed for PAGE.41/50
+2025-09-03 14:33:34,630 [DEBUG] https://reverb.com:443 "GET /api/listings?category=4-string&condition=used&page=42&per_page=50&product_type=bass-guitars&condition=used&per_page=50 HTTP/1.1" 200 None
+2025-09-03 14:33:34,645 [DEBUG] Status Code: 200
+2025-09-03 14:33:34,653 [DEBUG] Request OK
+2025-09-03 14:33:34,654 [DEBUG] Saving phase completed for PAGE.42/50
+2025-09-03 14:33:37,070 [DEBUG] https://reverb.com:443 "GET /api/listings?category=4-string&condition=used&page=43&per_page=50&product_type=bass-guitars&condition=used&per_page=50 HTTP/1.1" 200 None
+2025-09-03 14:33:37,082 [DEBUG] Status Code: 200
+2025-09-03 14:33:37,088 [DEBUG] Request OK
+2025-09-03 14:33:37,089 [DEBUG] Saving phase completed for PAGE.43/50
+2025-09-03 14:33:40,163 [DEBUG] https://reverb.com:443 "GET /api/listings?category=4-string&condition=used&page=44&per_page=50&product_type=bass-guitars&condition=used&per_page=50 HTTP/1.1" 200 None
+2025-09-03 14:33:40,169 [DEBUG] Status Code: 200
+2025-09-03 14:33:40,176 [DEBUG] Request OK
+2025-09-03 14:33:40,178 [DEBUG] Saving phase completed for PAGE.44/50
+2025-09-03 14:33:43,282 [DEBUG] https://reverb.com:443 "GET /api/listings?category=4-string&condition=used&page=45&per_page=50&product_type=bass-guitars&condition=used&per_page=50 HTTP/1.1" 200 None
+2025-09-03 14:33:43,295 [DEBUG] Status Code: 200
+2025-09-03 14:33:43,299 [DEBUG] Request OK
+2025-09-03 14:33:43,299 [DEBUG] Saving phase completed for PAGE.45/50
+2025-09-03 14:33:45,682 [DEBUG] https://reverb.com:443 "GET /api/listings?category=4-string&condition=used&page=46&per_page=50&product_type=bass-guitars&condition=used&per_page=50 HTTP/1.1" 200 None
+2025-09-03 14:33:45,706 [DEBUG] Status Code: 200
+2025-09-03 14:33:45,709 [DEBUG] Request OK
+2025-09-03 14:33:45,709 [INFO] Pages [46/50]
+2025-09-03 14:33:45,710 [DEBUG] Saving phase completed for PAGE.46/50
+2025-09-03 14:33:47,826 [DEBUG] https://reverb.com:443 "GET /api/listings?category=4-string&condition=used&page=47&per_page=50&product_type=bass-guitars&condition=used&per_page=50 HTTP/1.1" 200 None
+2025-09-03 14:33:47,856 [DEBUG] Status Code: 200
+2025-09-03 14:33:47,863 [DEBUG] Request OK
+2025-09-03 14:33:47,929 [DEBUG] Closed 1 existing record for listing ID 89770698
+2025-09-03 14:33:47,961 [DEBUG] Saved 1 new listings
+2025-09-03 14:33:47,962 [DEBUG] Saving phase completed for PAGE.47/50
+2025-09-03 14:33:50,148 [DEBUG] https://reverb.com:443 "GET /api/listings?category=4-string&condition=used&page=48&per_page=50&product_type=bass-guitars&condition=used&per_page=50 HTTP/1.1" 200 None
+2025-09-03 14:33:50,194 [DEBUG] Status Code: 200
+2025-09-03 14:33:50,201 [DEBUG] Request OK
+2025-09-03 14:33:50,253 [DEBUG] Closed 1 existing record for listing ID 89572339
+2025-09-03 14:33:50,284 [DEBUG] Closed 1 existing record for listing ID 89472579
+2025-09-03 14:33:50,310 [DEBUG] Saved 2 new listings
+2025-09-03 14:33:50,312 [DEBUG] Saving phase completed for PAGE.48/50
+2025-09-03 14:33:53,177 [DEBUG] https://reverb.com:443 "GET /api/listings?category=4-string&condition=used&page=49&per_page=50&product_type=bass-guitars&condition=used&per_page=50 HTTP/1.1" 200 None
+2025-09-03 14:33:53,203 [DEBUG] Status Code: 200
+2025-09-03 14:33:53,212 [DEBUG] Request OK
+2025-09-03 14:33:53,213 [DEBUG] Saving phase completed for PAGE.49/50
+2025-09-03 14:33:55,858 [DEBUG] https://reverb.com:443 "GET /api/listings?category=4-string&condition=used&page=50&per_page=50&product_type=bass-guitars&condition=used&per_page=50 HTTP/1.1" 200 None
+2025-09-03 14:33:55,865 [DEBUG] Status Code: 200
+2025-09-03 14:33:55,871 [DEBUG] Request OK
+2025-09-03 14:33:55,872 [DEBUG] Saving phase completed for PAGE.50/50
+2025-09-03 14:33:58,167 [DEBUG] https://reverb.com:443 "GET /api/listings?category=4-string&condition=used&page=51&per_page=50&product_type=bass-guitars&condition=used&per_page=50 HTTP/1.1" 200 None
+2025-09-03 14:33:58,197 [DEBUG] Status Code: 200
+2025-09-03 14:33:58,206 [DEBUG] Request OK
+2025-09-03 14:33:58,206 [INFO] Pages [51/50]
+2025-09-03 14:33:58,207 [DEBUG] Saving phase completed for PAGE.51/50
+2025-09-03 14:34:01,002 [DEBUG] https://reverb.com:443 "GET /api/listings?category=4-string&condition=used&page=52&per_page=50&product_type=bass-guitars&condition=used&per_page=50 HTTP/1.1" 200 None
+2025-09-03 14:34:01,025 [DEBUG] Status Code: 200
+2025-09-03 14:34:01,033 [DEBUG] Request OK
+2025-09-03 14:34:01,033 [ERROR] Gone beyond initial pages found 50
+2025-09-03 14:34:01,033 [INFO] Save position: data/reverb/test/used-IT/bass-guitars.parquet
+2025-09-03 14:34:01,033 [INFO] Category Recap ===============* 
+                  New: 3, Updated: 11, Unchanged: 2536
+2025-09-03 14:34:08,521 [INFO] Processing bass-guitars|5-string-or-more
+2025-09-03 14:34:08,523 [DEBUG] Read previous listings at data/reverb/test/used-IT/bass-guitars.parquet
+2025-09-03 14:34:08,596 [INFO] STARTING SCAN OF CATEGORY: bass-guitars|5-string-or-more at /api/listings?category=5-string-or-more&product_type=bass-guitars
+2025-09-03 14:34:08,598 [DEBUG] Starting new HTTPS connection (1): reverb.com:443
+2025-09-03 14:34:11,164 [DEBUG] https://reverb.com:443 "GET /api/listings?category=5-string-or-more&product_type=bass-guitars&condition=used&per_page=50 HTTP/1.1" 200 None
+2025-09-03 14:34:11,425 [DEBUG] Entering while cycle with next_link = https://reverb.com/api/listings?category=5-string-or-more&condition=used&page=2&per_page=50&product_type=bass-guitars
+2025-09-03 14:34:11,425 [DEBUG] Last seen in session: 2025-08-05 13:00:12+00:00 | for category: 2010-04-19 19:03:11+00:00
+2025-09-03 14:34:11,425 [INFO] Starting processing of bass-guitars|5-string-or-more. 24 pages found.
+2025-09-03 14:34:11,425 [INFO] Pages [1/24]
+2025-09-03 14:34:11,476 [DEBUG] Closed 1 existing record for listing ID 92046572
+2025-09-03 14:34:11,508 [DEBUG] Saved 7 new listings
+2025-09-03 14:34:11,509 [DEBUG] Saving phase completed for PAGE.1/24
+2025-09-03 14:34:14,015 [DEBUG] https://reverb.com:443 "GET /api/listings?category=5-string-or-more&condition=used&page=2&per_page=50&product_type=bass-guitars&condition=used&per_page=50 HTTP/1.1" 200 None
+2025-09-03 14:34:14,038 [DEBUG] Status Code: 200
+2025-09-03 14:34:14,047 [DEBUG] Request OK
+2025-09-03 14:34:14,048 [DEBUG] Saving phase completed for PAGE.2/24
+2025-09-03 14:34:16,667 [DEBUG] https://reverb.com:443 "GET /api/listings?category=5-string-or-more&condition=used&page=3&per_page=50&product_type=bass-guitars&condition=used&per_page=50 HTTP/1.1" 200 None
+2025-09-03 14:34:16,708 [DEBUG] Status Code: 200
+2025-09-03 14:34:16,715 [DEBUG] Request OK
+2025-09-03 14:34:16,717 [DEBUG] Saving phase completed for PAGE.3/24
+2025-09-03 14:34:20,637 [DEBUG] https://reverb.com:443 "GET /api/listings?category=5-string-or-more&condition=used&page=4&per_page=50&product_type=bass-guitars&condition=used&per_page=50 HTTP/1.1" 200 None
+2025-09-03 14:34:20,670 [DEBUG] Status Code: 200
+2025-09-03 14:34:20,681 [DEBUG] Request OK
+2025-09-03 14:34:20,682 [DEBUG] Saving phase completed for PAGE.4/24
+2025-09-03 14:34:23,390 [DEBUG] https://reverb.com:443 "GET /api/listings?category=5-string-or-more&condition=used&page=5&per_page=50&product_type=bass-guitars&condition=used&per_page=50 HTTP/1.1" 200 None
+2025-09-03 14:34:23,418 [DEBUG] Status Code: 200
+2025-09-03 14:34:23,425 [DEBUG] Request OK
+2025-09-03 14:34:23,426 [DEBUG] Saving phase completed for PAGE.5/24
+2025-09-03 14:34:25,373 [DEBUG] https://reverb.com:443 "GET /api/listings?category=5-string-or-more&condition=used&page=6&per_page=50&product_type=bass-guitars&condition=used&per_page=50 HTTP/1.1" 200 None
+2025-09-03 14:34:25,377 [DEBUG] Status Code: 200
+2025-09-03 14:34:25,384 [DEBUG] Request OK
+2025-09-03 14:34:25,385 [INFO] Pages [6/24]
+2025-09-03 14:34:25,385 [DEBUG] Saving phase completed for PAGE.6/24
+2025-09-03 14:34:27,445 [DEBUG] https://reverb.com:443 "GET /api/listings?category=5-string-or-more&condition=used&page=7&per_page=50&product_type=bass-guitars&condition=used&per_page=50 HTTP/1.1" 200 None
+2025-09-03 14:34:27,518 [DEBUG] Status Code: 200
+2025-09-03 14:34:27,525 [DEBUG] Request OK
+2025-09-03 14:34:27,526 [DEBUG] Saving phase completed for PAGE.7/24
+2025-09-03 14:34:29,533 [DEBUG] https://reverb.com:443 "GET /api/listings?category=5-string-or-more&condition=used&page=8&per_page=50&product_type=bass-guitars&condition=used&per_page=50 HTTP/1.1" 200 None
+2025-09-03 14:34:29,556 [DEBUG] Status Code: 200
+2025-09-03 14:34:29,563 [DEBUG] Request OK
+2025-09-03 14:34:29,565 [DEBUG] Saving phase completed for PAGE.8/24
+2025-09-03 14:34:31,877 [DEBUG] https://reverb.com:443 "GET /api/listings?category=5-string-or-more&condition=used&page=9&per_page=50&product_type=bass-guitars&condition=used&per_page=50 HTTP/1.1" 200 None
+2025-09-03 14:34:31,903 [DEBUG] Status Code: 200
+2025-09-03 14:34:31,908 [DEBUG] Request OK
+2025-09-03 14:34:31,909 [DEBUG] Saving phase completed for PAGE.9/24
+2025-09-03 14:34:34,672 [DEBUG] https://reverb.com:443 "GET /api/listings?category=5-string-or-more&condition=used&page=10&per_page=50&product_type=bass-guitars&condition=used&per_page=50 HTTP/1.1" 200 None
+2025-09-03 14:34:34,697 [DEBUG] Status Code: 200
+2025-09-03 14:34:34,704 [DEBUG] Request OK
+2025-09-03 14:34:34,706 [DEBUG] Saving phase completed for PAGE.10/24
+2025-09-03 14:34:36,856 [DEBUG] https://reverb.com:443 "GET /api/listings?category=5-string-or-more&condition=used&page=11&per_page=50&product_type=bass-guitars&condition=used&per_page=50 HTTP/1.1" 200 None
+2025-09-03 14:34:36,974 [DEBUG] Status Code: 200
+2025-09-03 14:34:37,003 [DEBUG] Request OK
+2025-09-03 14:34:37,003 [INFO] Pages [11/24]
+2025-09-03 14:34:37,004 [DEBUG] Saving phase completed for PAGE.11/24
+2025-09-03 14:34:39,058 [DEBUG] https://reverb.com:443 "GET /api/listings?category=5-string-or-more&condition=used&page=12&per_page=50&product_type=bass-guitars&condition=used&per_page=50 HTTP/1.1" 200 None
+2025-09-03 14:34:39,060 [DEBUG] Status Code: 200
+2025-09-03 14:34:39,066 [DEBUG] Request OK
+2025-09-03 14:34:39,116 [DEBUG] Closed 1 existing record for listing ID 89155830
+2025-09-03 14:34:39,148 [DEBUG] Saved 1 new listings
+2025-09-03 14:34:39,149 [DEBUG] Saving phase completed for PAGE.12/24
+2025-09-03 14:34:41,216 [DEBUG] https://reverb.com:443 "GET /api/listings?category=5-string-or-more&condition=used&page=13&per_page=50&product_type=bass-guitars&condition=used&per_page=50 HTTP/1.1" 200 None
+2025-09-03 14:34:41,222 [DEBUG] Status Code: 200
+2025-09-03 14:34:41,228 [DEBUG] Request OK
+2025-09-03 14:34:41,229 [DEBUG] Saving phase completed for PAGE.13/24
+2025-09-03 14:34:43,609 [DEBUG] https://reverb.com:443 "GET /api/listings?category=5-string-or-more&condition=used&page=14&per_page=50&product_type=bass-guitars&condition=used&per_page=50 HTTP/1.1" 200 None
+2025-09-03 14:34:43,631 [DEBUG] Status Code: 200
+2025-09-03 14:34:43,638 [DEBUG] Request OK
+2025-09-03 14:34:43,639 [DEBUG] Saving phase completed for PAGE.14/24
+2025-09-03 14:34:46,324 [DEBUG] https://reverb.com:443 "GET /api/listings?category=5-string-or-more&condition=used&page=15&per_page=50&product_type=bass-guitars&condition=used&per_page=50 HTTP/1.1" 200 None
+2025-09-03 14:34:46,343 [DEBUG] Status Code: 200
+2025-09-03 14:34:46,349 [DEBUG] Request OK
+2025-09-03 14:34:46,398 [DEBUG] Closed 1 existing record for listing ID 86928617
+2025-09-03 14:34:46,429 [DEBUG] Saved 1 new listings
+2025-09-03 14:34:46,430 [DEBUG] Saving phase completed for PAGE.15/24
+2025-09-03 14:34:48,643 [DEBUG] https://reverb.com:443 "GET /api/listings?category=5-string-or-more&condition=used&page=16&per_page=50&product_type=bass-guitars&condition=used&per_page=50 HTTP/1.1" 200 None
+2025-09-03 14:34:48,660 [DEBUG] Status Code: 200
+2025-09-03 14:34:48,667 [DEBUG] Request OK
+2025-09-03 14:34:48,667 [INFO] Pages [16/24]
+2025-09-03 14:34:48,668 [DEBUG] Saving phase completed for PAGE.16/24
+2025-09-03 14:34:50,694 [DEBUG] https://reverb.com:443 "GET /api/listings?category=5-string-or-more&condition=used&page=17&per_page=50&product_type=bass-guitars&condition=used&per_page=50 HTTP/1.1" 200 None
+2025-09-03 14:34:50,956 [DEBUG] Status Code: 200
+2025-09-03 14:34:50,962 [DEBUG] Request OK
+2025-09-03 14:34:50,964 [DEBUG] Saving phase completed for PAGE.17/24
+2025-09-03 14:34:53,425 [DEBUG] https://reverb.com:443 "GET /api/listings?category=5-string-or-more&condition=used&page=18&per_page=50&product_type=bass-guitars&condition=used&per_page=50 HTTP/1.1" 200 None
+2025-09-03 14:34:53,447 [DEBUG] Status Code: 200
+2025-09-03 14:34:53,452 [DEBUG] Request OK
+2025-09-03 14:34:53,453 [DEBUG] Saving phase completed for PAGE.18/24
+2025-09-03 14:34:55,999 [DEBUG] https://reverb.com:443 "GET /api/listings?category=5-string-or-more&condition=used&page=19&per_page=50&product_type=bass-guitars&condition=used&per_page=50 HTTP/1.1" 200 None
+2025-09-03 14:34:56,033 [DEBUG] Status Code: 200
+2025-09-03 14:34:56,039 [DEBUG] Request OK
+2025-09-03 14:34:56,040 [DEBUG] Saving phase completed for PAGE.19/24
+2025-09-03 14:34:57,875 [DEBUG] https://reverb.com:443 "GET /api/listings?category=5-string-or-more&condition=used&page=20&per_page=50&product_type=bass-guitars&condition=used&per_page=50 HTTP/1.1" 200 None
+2025-09-03 14:34:57,889 [DEBUG] Status Code: 200
+2025-09-03 14:34:57,893 [DEBUG] Request OK
+2025-09-03 14:34:57,894 [DEBUG] Saving phase completed for PAGE.20/24
+2025-09-03 14:34:59,790 [DEBUG] https://reverb.com:443 "GET /api/listings?category=5-string-or-more&condition=used&page=21&per_page=50&product_type=bass-guitars&condition=used&per_page=50 HTTP/1.1" 200 None
+2025-09-03 14:34:59,805 [DEBUG] Status Code: 200
+2025-09-03 14:34:59,810 [DEBUG] Request OK
+2025-09-03 14:34:59,811 [INFO] Pages [21/24]
+2025-09-03 14:34:59,812 [DEBUG] Saving phase completed for PAGE.21/24
+2025-09-03 14:35:03,144 [DEBUG] https://reverb.com:443 "GET /api/listings?category=5-string-or-more&condition=used&page=22&per_page=50&product_type=bass-guitars&condition=used&per_page=50 HTTP/1.1" 200 None
+2025-09-03 14:35:03,173 [DEBUG] Status Code: 200
+2025-09-03 14:35:03,178 [DEBUG] Request OK
+2025-09-03 14:35:03,241 [DEBUG] Closed 1 existing record for listing ID 70839030
+2025-09-03 14:35:03,274 [DEBUG] Saved 1 new listings
+2025-09-03 14:35:03,275 [DEBUG] Saving phase completed for PAGE.22/24
+2025-09-03 14:35:05,772 [DEBUG] https://reverb.com:443 "GET /api/listings?category=5-string-or-more&condition=used&page=23&per_page=50&product_type=bass-guitars&condition=used&per_page=50 HTTP/1.1" 200 None
+2025-09-03 14:35:05,796 [DEBUG] Status Code: 200
+2025-09-03 14:35:05,798 [DEBUG] Request OK
+2025-09-03 14:35:05,798 [DEBUG] Saving phase completed for PAGE.23/24
+2025-09-03 14:35:09,189 [DEBUG] https://reverb.com:443 "GET /api/listings?category=5-string-or-more&condition=used&page=24&per_page=50&product_type=bass-guitars&condition=used&per_page=50 HTTP/1.1" 200 None
+2025-09-03 14:35:09,212 [DEBUG] Status Code: 200
+2025-09-03 14:35:09,216 [DEBUG] Request OK
+2025-09-03 14:35:09,217 [DEBUG] Saving phase completed for PAGE.24/24
+2025-09-03 14:35:09,217 [ERROR] Failed to process bass-guitars|5-string-or-more: expected string or bytes-like object, got 'NoneType'
+2025-09-03 14:35:09,222 [INFO] Processing bass-guitars|short-scale
+2025-09-03 14:35:09,222 [DEBUG] Read previous listings at data/reverb/test/used-IT/bass-guitars.parquet
+2025-09-03 14:35:09,269 [INFO] STARTING SCAN OF CATEGORY: bass-guitars|short-scale at /api/listings?category=short-scale&product_type=bass-guitars
+2025-09-03 14:35:09,274 [DEBUG] Starting new HTTPS connection (1): reverb.com:443
+2025-09-03 14:35:11,902 [DEBUG] https://reverb.com:443 "GET /api/listings?category=short-scale&product_type=bass-guitars&condition=used&per_page=50 HTTP/1.1" 200 None
+2025-09-03 14:35:11,933 [DEBUG] Entering while cycle with next_link = https://reverb.com/api/listings?category=short-scale&condition=used&page=2&per_page=50&product_type=bass-guitars
+2025-09-03 14:35:11,933 [DEBUG] Last seen in session: 2025-09-02 22:04:48+00:00 | for category: 2010-04-19 19:03:11+00:00
+2025-09-03 14:35:11,933 [INFO] Starting processing of bass-guitars|short-scale. 14 pages found.
+2025-09-03 14:35:11,933 [INFO] Pages [1/14]
+2025-09-03 14:35:11,934 [DEBUG] Saving phase completed for PAGE.1/14
+2025-09-03 14:35:14,529 [DEBUG] https://reverb.com:443 "GET /api/listings?category=short-scale&condition=used&page=2&per_page=50&product_type=bass-guitars&condition=used&per_page=50 HTTP/1.1" 200 None
+2025-09-03 14:35:14,564 [DEBUG] Status Code: 200
+2025-09-03 14:35:14,571 [DEBUG] Request OK
+2025-09-03 14:35:14,573 [DEBUG] Saving phase completed for PAGE.2/14
+2025-09-03 14:35:17,821 [DEBUG] https://reverb.com:443 "GET /api/listings?category=short-scale&condition=used&page=3&per_page=50&product_type=bass-guitars&condition=used&per_page=50 HTTP/1.1" 200 None
+2025-09-03 14:35:17,853 [DEBUG] Status Code: 200
+2025-09-03 14:35:17,860 [DEBUG] Request OK
+2025-09-03 14:35:17,911 [DEBUG] Saved 1 new listings
+2025-09-03 14:35:17,913 [DEBUG] Saving phase completed for PAGE.3/14
+2025-09-03 14:35:20,545 [DEBUG] https://reverb.com:443 "GET /api/listings?category=short-scale&condition=used&page=4&per_page=50&product_type=bass-guitars&condition=used&per_page=50 HTTP/1.1" 200 None
+2025-09-03 14:35:20,563 [DEBUG] Status Code: 200
+2025-09-03 14:35:20,567 [DEBUG] Request OK
+2025-09-03 14:35:20,568 [DEBUG] Saving phase completed for PAGE.4/14
+2025-09-03 14:35:23,180 [DEBUG] https://reverb.com:443 "GET /api/listings?category=short-scale&condition=used&page=5&per_page=50&product_type=bass-guitars&condition=used&per_page=50 HTTP/1.1" 200 None
+2025-09-03 14:35:23,187 [DEBUG] Status Code: 200
+2025-09-03 14:35:23,192 [DEBUG] Request OK
+2025-09-03 14:35:23,193 [DEBUG] Saving phase completed for PAGE.5/14
+2025-09-03 14:35:24,982 [DEBUG] https://reverb.com:443 "GET /api/listings?category=short-scale&condition=used&page=6&per_page=50&product_type=bass-guitars&condition=used&per_page=50 HTTP/1.1" 200 None
+2025-09-03 14:35:24,991 [DEBUG] Status Code: 200
+2025-09-03 14:35:24,993 [DEBUG] Request OK
+2025-09-03 14:35:24,993 [INFO] Pages [6/14]
+2025-09-03 14:35:24,994 [DEBUG] Saving phase completed for PAGE.6/14
+2025-09-03 14:35:27,503 [DEBUG] https://reverb.com:443 "GET /api/listings?category=short-scale&condition=used&page=7&per_page=50&product_type=bass-guitars&condition=used&per_page=50 HTTP/1.1" 200 None
+2025-09-03 14:35:27,525 [DEBUG] Status Code: 200
+2025-09-03 14:35:27,530 [DEBUG] Request OK
+2025-09-03 14:35:27,531 [DEBUG] Saving phase completed for PAGE.7/14
+2025-09-03 14:35:30,100 [DEBUG] https://reverb.com:443 "GET /api/listings?category=short-scale&condition=used&page=8&per_page=50&product_type=bass-guitars&condition=used&per_page=50 HTTP/1.1" 200 None
+2025-09-03 14:35:30,125 [DEBUG] Status Code: 200
+2025-09-03 14:35:30,129 [DEBUG] Request OK
+2025-09-03 14:35:30,131 [DEBUG] Saving phase completed for PAGE.8/14
+2025-09-03 14:35:32,164 [DEBUG] https://reverb.com:443 "GET /api/listings?category=short-scale&condition=used&page=9&per_page=50&product_type=bass-guitars&condition=used&per_page=50 HTTP/1.1" 200 None
+2025-09-03 14:35:32,167 [DEBUG] Status Code: 200
+2025-09-03 14:35:32,173 [DEBUG] Request OK
+2025-09-03 14:35:32,174 [DEBUG] Saving phase completed for PAGE.9/14
+2025-09-03 14:35:34,036 [DEBUG] https://reverb.com:443 "GET /api/listings?category=short-scale&condition=used&page=10&per_page=50&product_type=bass-guitars&condition=used&per_page=50 HTTP/1.1" 200 None
+2025-09-03 14:35:34,046 [DEBUG] Status Code: 200
+2025-09-03 14:35:34,052 [DEBUG] Request OK
+2025-09-03 14:35:34,054 [DEBUG] Saving phase completed for PAGE.10/14
+2025-09-03 14:35:35,860 [DEBUG] https://reverb.com:443 "GET /api/listings?category=short-scale&condition=used&page=11&per_page=50&product_type=bass-guitars&condition=used&per_page=50 HTTP/1.1" 200 None
+2025-09-03 14:35:35,863 [DEBUG] Status Code: 200
+2025-09-03 14:35:35,867 [DEBUG] Request OK
+2025-09-03 14:35:35,868 [INFO] Pages [11/14]
+2025-09-03 14:35:35,868 [DEBUG] Saving phase completed for PAGE.11/14
+2025-09-03 14:35:37,750 [DEBUG] https://reverb.com:443 "GET /api/listings?category=short-scale&condition=used&page=12&per_page=50&product_type=bass-guitars&condition=used&per_page=50 HTTP/1.1" 200 None
+2025-09-03 14:35:38,001 [DEBUG] Status Code: 200
+2025-09-03 14:35:38,007 [DEBUG] Request OK
+2025-09-03 14:35:38,010 [DEBUG] Saving phase completed for PAGE.12/14
+2025-09-03 14:35:39,973 [DEBUG] https://reverb.com:443 "GET /api/listings?category=short-scale&condition=used&page=13&per_page=50&product_type=bass-guitars&condition=used&per_page=50 HTTP/1.1" 200 None
+2025-09-03 14:35:39,975 [DEBUG] Status Code: 200
+2025-09-03 14:35:39,980 [DEBUG] Request OK
+2025-09-03 14:35:39,982 [DEBUG] Saving phase completed for PAGE.13/14
+2025-09-03 14:35:41,885 [DEBUG] https://reverb.com:443 "GET /api/listings?category=short-scale&condition=used&page=14&per_page=50&product_type=bass-guitars&condition=used&per_page=50 HTTP/1.1" 200 None
+2025-09-03 14:35:41,888 [DEBUG] Status Code: 200
+2025-09-03 14:35:41,893 [DEBUG] Request OK
+2025-09-03 14:35:41,895 [DEBUG] Saving phase completed for PAGE.14/14
+2025-09-03 14:35:41,896 [ERROR] Failed to process bass-guitars|short-scale: expected string or bytes-like object, got 'NoneType'
+2025-09-03 14:35:41,905 [INFO] Processing bass-guitars|acoustic-bass-guitars
+2025-09-03 14:35:41,905 [DEBUG] Read previous listings at data/reverb/test/used-IT/bass-guitars.parquet
+2025-09-03 14:35:41,944 [INFO] STARTING SCAN OF CATEGORY: bass-guitars|acoustic-bass-guitars at /api/listings?category=acoustic-bass-guitars&product_type=bass-guitars
+2025-09-03 14:35:41,946 [DEBUG] Starting new HTTPS connection (1): reverb.com:443
+2025-09-03 14:35:44,592 [DEBUG] https://reverb.com:443 "GET /api/listings?category=acoustic-bass-guitars&product_type=bass-guitars&condition=used&per_page=50 HTTP/1.1" 200 None
+2025-09-03 14:35:44,622 [DEBUG] Entering while cycle with next_link = https://reverb.com/api/listings?category=acoustic-bass-guitars&condition=used&page=2&per_page=50&product_type=bass-guitars
+2025-09-03 14:35:44,622 [DEBUG] Last seen in session: 2025-09-03 10:42:00+00:00 | for category: 2010-04-19 19:03:11+00:00
+2025-09-03 14:35:44,622 [INFO] Starting processing of bass-guitars|acoustic-bass-guitars. 5 pages found.
+2025-09-03 14:35:44,622 [INFO] Pages [1/5]
+2025-09-03 14:35:44,680 [DEBUG] Saved 1 new listings
+2025-09-03 14:35:44,682 [DEBUG] Saving phase completed for PAGE.1/5
+2025-09-03 14:35:47,270 [DEBUG] https://reverb.com:443 "GET /api/listings?category=acoustic-bass-guitars&condition=used&page=2&per_page=50&product_type=bass-guitars&condition=used&per_page=50 HTTP/1.1" 200 None
+2025-09-03 14:35:47,303 [DEBUG] Status Code: 200
+2025-09-03 14:35:47,308 [DEBUG] Request OK
+2025-09-03 14:35:47,357 [DEBUG] Closed 1 existing record for listing ID 88795396
+2025-09-03 14:35:47,389 [DEBUG] Closed 1 existing record for listing ID 87557702
+2025-09-03 14:35:47,415 [DEBUG] Saved 2 new listings
+2025-09-03 14:35:47,416 [DEBUG] Saving phase completed for PAGE.2/5
+2025-09-03 14:35:50,220 [DEBUG] https://reverb.com:443 "GET /api/listings?category=acoustic-bass-guitars&condition=used&page=3&per_page=50&product_type=bass-guitars&condition=used&per_page=50 HTTP/1.1" 200 None
+2025-09-03 14:35:50,243 [DEBUG] Status Code: 200
+2025-09-03 14:35:50,250 [DEBUG] Request OK
+2025-09-03 14:35:50,252 [DEBUG] Saving phase completed for PAGE.3/5
+2025-09-03 14:35:52,860 [DEBUG] https://reverb.com:443 "GET /api/listings?category=acoustic-bass-guitars&condition=used&page=4&per_page=50&product_type=bass-guitars&condition=used&per_page=50 HTTP/1.1" 200 None
+2025-09-03 14:35:52,880 [DEBUG] Status Code: 200
+2025-09-03 14:35:52,885 [DEBUG] Request OK
+2025-09-03 14:35:52,886 [DEBUG] Saving phase completed for PAGE.4/5
+2025-09-03 14:35:54,256 [DEBUG] https://reverb.com:443 "GET /api/listings?category=acoustic-bass-guitars&condition=used&page=5&per_page=50&product_type=bass-guitars&condition=used&per_page=50 HTTP/1.1" 200 None
+2025-09-03 14:35:54,492 [DEBUG] Status Code: 200
+2025-09-03 14:35:54,494 [DEBUG] Request OK
+2025-09-03 14:35:54,496 [DEBUG] Saving phase completed for PAGE.5/5
+2025-09-03 14:35:54,496 [ERROR] Failed to process bass-guitars|acoustic-bass-guitars: expected string or bytes-like object, got 'NoneType'
+2025-09-03 14:35:54,501 [INFO] Processing bass-guitars|active-electronics
+2025-09-03 14:35:54,502 [DEBUG] Read previous listings at data/reverb/test/used-IT/bass-guitars.parquet
+2025-09-03 14:35:54,571 [INFO] STARTING SCAN OF CATEGORY: bass-guitars|active-electronics at /api/listings?category=active-electronics&product_type=bass-guitars
+2025-09-03 14:35:54,573 [DEBUG] Starting new HTTPS connection (1): reverb.com:443
+2025-09-03 14:35:57,704 [DEBUG] https://reverb.com:443 "GET /api/listings?category=active-electronics&product_type=bass-guitars&condition=used&per_page=50 HTTP/1.1" 200 None
+2025-09-03 14:35:57,737 [DEBUG] Entering while cycle with next_link = https://reverb.com/api/listings?category=active-electronics&condition=used&page=2&per_page=50&product_type=bass-guitars
+2025-09-03 14:35:57,737 [DEBUG] Last seen in session: 2025-08-05 13:00:12+00:00 | for category: 2010-04-19 19:03:11+00:00
+2025-09-03 14:35:57,737 [INFO] Starting processing of bass-guitars|active-electronics. 24 pages found.
+2025-09-03 14:35:57,737 [INFO] Pages [1/24]
+2025-09-03 14:35:57,790 [DEBUG] Saved 3 new listings
+2025-09-03 14:35:57,792 [DEBUG] Saving phase completed for PAGE.1/24
+2025-09-03 14:36:00,581 [DEBUG] https://reverb.com:443 "GET /api/listings?category=active-electronics&condition=used&page=2&per_page=50&product_type=bass-guitars&condition=used&per_page=50 HTTP/1.1" 200 None
+2025-09-03 14:36:00,611 [DEBUG] Status Code: 200
+2025-09-03 14:36:00,618 [DEBUG] Request OK
+2025-09-03 14:36:00,620 [DEBUG] Saving phase completed for PAGE.2/24
+2025-09-03 14:36:03,068 [DEBUG] https://reverb.com:443 "GET /api/listings?category=active-electronics&condition=used&page=3&per_page=50&product_type=bass-guitars&condition=used&per_page=50 HTTP/1.1" 200 None
+2025-09-03 14:36:03,104 [DEBUG] Status Code: 200
+2025-09-03 14:36:03,109 [DEBUG] Request OK
+2025-09-03 14:36:03,110 [DEBUG] Saving phase completed for PAGE.3/24
+2025-09-03 14:36:05,337 [DEBUG] https://reverb.com:443 "GET /api/listings?category=active-electronics&condition=used&page=4&per_page=50&product_type=bass-guitars&condition=used&per_page=50 HTTP/1.1" 200 None
+2025-09-03 14:36:05,360 [DEBUG] Status Code: 200
+2025-09-03 14:36:05,370 [DEBUG] Request OK
+2025-09-03 14:36:05,371 [DEBUG] Saving phase completed for PAGE.4/24
+2025-09-03 14:36:07,602 [DEBUG] https://reverb.com:443 "GET /api/listings?category=active-electronics&condition=used&page=5&per_page=50&product_type=bass-guitars&condition=used&per_page=50 HTTP/1.1" 200 None
+2025-09-03 14:36:07,630 [DEBUG] Status Code: 200
+2025-09-03 14:36:07,638 [DEBUG] Request OK
+2025-09-03 14:36:07,639 [DEBUG] Saving phase completed for PAGE.5/24
+2025-09-03 14:36:09,888 [DEBUG] https://reverb.com:443 "GET /api/listings?category=active-electronics&condition=used&page=6&per_page=50&product_type=bass-guitars&condition=used&per_page=50 HTTP/1.1" 200 None
+2025-09-03 14:36:10,136 [DEBUG] Status Code: 200
+2025-09-03 14:36:10,145 [DEBUG] Request OK
+2025-09-03 14:36:10,146 [INFO] Pages [6/24]
+2025-09-03 14:36:10,147 [DEBUG] Saving phase completed for PAGE.6/24
+2025-09-03 14:36:12,706 [DEBUG] https://reverb.com:443 "GET /api/listings?category=active-electronics&condition=used&page=7&per_page=50&product_type=bass-guitars&condition=used&per_page=50 HTTP/1.1" 200 None
+2025-09-03 14:36:12,718 [DEBUG] Status Code: 200
+2025-09-03 14:36:12,724 [DEBUG] Request OK
+2025-09-03 14:36:12,775 [DEBUG] Closed 1 existing record for listing ID 91307384
+2025-09-03 14:36:12,808 [DEBUG] Saved 1 new listings
+2025-09-03 14:36:12,810 [DEBUG] Saving phase completed for PAGE.7/24
+2025-09-03 14:36:15,511 [DEBUG] https://reverb.com:443 "GET /api/listings?category=active-electronics&condition=used&page=8&per_page=50&product_type=bass-guitars&condition=used&per_page=50 HTTP/1.1" 200 None
+2025-09-03 14:36:15,525 [DEBUG] Status Code: 200
+2025-09-03 14:36:15,534 [DEBUG] Request OK
+2025-09-03 14:36:15,535 [DEBUG] Saving phase completed for PAGE.8/24
+2025-09-03 14:36:18,138 [DEBUG] https://reverb.com:443 "GET /api/listings?category=active-electronics&condition=used&page=9&per_page=50&product_type=bass-guitars&condition=used&per_page=50 HTTP/1.1" 200 None
+2025-09-03 14:36:18,151 [DEBUG] Status Code: 200
+2025-09-03 14:36:18,156 [DEBUG] Request OK
+2025-09-03 14:36:18,223 [DEBUG] Closed 1 existing record for listing ID 90996808
+2025-09-03 14:36:18,258 [DEBUG] Saved 1 new listings
+2025-09-03 14:36:18,259 [DEBUG] Saving phase completed for PAGE.9/24
+2025-09-03 14:36:21,257 [DEBUG] https://reverb.com:443 "GET /api/listings?category=active-electronics&condition=used&page=10&per_page=50&product_type=bass-guitars&condition=used&per_page=50 HTTP/1.1" 200 None
+2025-09-03 14:36:21,378 [DEBUG] Status Code: 200
+2025-09-03 14:36:21,385 [DEBUG] Request OK
+2025-09-03 14:36:21,386 [DEBUG] Saving phase completed for PAGE.10/24
+2025-09-03 14:36:23,527 [DEBUG] https://reverb.com:443 "GET /api/listings?category=active-electronics&condition=used&page=11&per_page=50&product_type=bass-guitars&condition=used&per_page=50 HTTP/1.1" 200 None
+2025-09-03 14:36:23,538 [DEBUG] Status Code: 200
+2025-09-03 14:36:23,545 [DEBUG] Request OK
+2025-09-03 14:36:23,546 [INFO] Pages [11/24]
+2025-09-03 14:36:23,546 [DEBUG] Saving phase completed for PAGE.11/24
+2025-09-03 14:36:25,538 [DEBUG] https://reverb.com:443 "GET /api/listings?category=active-electronics&condition=used&page=12&per_page=50&product_type=bass-guitars&condition=used&per_page=50 HTTP/1.1" 200 None
+2025-09-03 14:36:25,557 [DEBUG] Status Code: 200
+2025-09-03 14:36:25,561 [DEBUG] Request OK
+2025-09-03 14:36:25,604 [DEBUG] Closed 1 existing record for listing ID 89572339
+2025-09-03 14:36:25,641 [DEBUG] Saved 1 new listings
+2025-09-03 14:36:25,642 [DEBUG] Saving phase completed for PAGE.12/24
+2025-09-03 14:36:28,029 [DEBUG] https://reverb.com:443 "GET /api/listings?category=active-electronics&condition=used&page=13&per_page=50&product_type=bass-guitars&condition=used&per_page=50 HTTP/1.1" 200 None
+2025-09-03 14:36:28,063 [DEBUG] Status Code: 200
+2025-09-03 14:36:28,070 [DEBUG] Request OK
+2025-09-03 14:36:28,071 [DEBUG] Saving phase completed for PAGE.13/24
+2025-09-03 14:36:30,000 [DEBUG] https://reverb.com:443 "GET /api/listings?category=active-electronics&condition=used&page=14&per_page=50&product_type=bass-guitars&condition=used&per_page=50 HTTP/1.1" 200 None
+2025-09-03 14:36:30,030 [DEBUG] Status Code: 200
+2025-09-03 14:36:30,035 [DEBUG] Request OK
+2025-09-03 14:36:30,078 [DEBUG] Closed 1 existing record for listing ID 88176370
+2025-09-03 14:36:30,111 [DEBUG] Closed 1 existing record for listing ID 88122213
+2025-09-03 14:36:30,138 [DEBUG] Saved 2 new listings
+2025-09-03 14:36:30,139 [DEBUG] Saving phase completed for PAGE.14/24
+2025-09-03 14:36:32,308 [DEBUG] https://reverb.com:443 "GET /api/listings?category=active-electronics&condition=used&page=15&per_page=50&product_type=bass-guitars&condition=used&per_page=50 HTTP/1.1" 200 None
+2025-09-03 14:36:32,334 [DEBUG] Status Code: 200
+2025-09-03 14:36:32,341 [DEBUG] Request OK
+2025-09-03 14:36:32,379 [DEBUG] Closed 1 existing record for listing ID 87200251
+2025-09-03 14:36:32,414 [DEBUG] Saved 1 new listings
+2025-09-03 14:36:32,415 [DEBUG] Saving phase completed for PAGE.15/24
+2025-09-03 14:36:34,400 [DEBUG] https://reverb.com:443 "GET /api/listings?category=active-electronics&condition=used&page=16&per_page=50&product_type=bass-guitars&condition=used&per_page=50 HTTP/1.1" 200 None
+2025-09-03 14:36:34,402 [DEBUG] Status Code: 200
+2025-09-03 14:36:34,406 [DEBUG] Request OK
+2025-09-03 14:36:34,407 [INFO] Pages [16/24]
+2025-09-03 14:36:34,454 [DEBUG] Closed 1 existing record for listing ID 86928617
+2025-09-03 14:36:34,488 [DEBUG] Saved 1 new listings
+2025-09-03 14:36:34,489 [DEBUG] Saving phase completed for PAGE.16/24
+2025-09-03 14:36:36,615 [DEBUG] https://reverb.com:443 "GET /api/listings?category=active-electronics&condition=used&page=17&per_page=50&product_type=bass-guitars&condition=used&per_page=50 HTTP/1.1" 200 None
+2025-09-03 14:36:36,641 [DEBUG] Status Code: 200
+2025-09-03 14:36:36,650 [DEBUG] Request OK
+2025-09-03 14:36:36,652 [DEBUG] Saving phase completed for PAGE.17/24
+2025-09-03 14:36:39,224 [DEBUG] https://reverb.com:443 "GET /api/listings?category=active-electronics&condition=used&page=18&per_page=50&product_type=bass-guitars&condition=used&per_page=50 HTTP/1.1" 200 None
+2025-09-03 14:36:39,259 [DEBUG] Status Code: 200
+2025-09-03 14:36:39,264 [DEBUG] Request OK
+2025-09-03 14:36:39,318 [DEBUG] Closed 1 existing record for listing ID 85503233
+2025-09-03 14:36:39,351 [DEBUG] Saved 1 new listings
+2025-09-03 14:36:39,352 [DEBUG] Saving phase completed for PAGE.18/24
+2025-09-03 14:36:41,602 [DEBUG] https://reverb.com:443 "GET /api/listings?category=active-electronics&condition=used&page=19&per_page=50&product_type=bass-guitars&condition=used&per_page=50 HTTP/1.1" 200 None
+2025-09-03 14:36:41,640 [DEBUG] Status Code: 200
+2025-09-03 14:36:41,645 [DEBUG] Request OK
+2025-09-03 14:36:41,647 [DEBUG] Saving phase completed for PAGE.19/24
+2025-09-03 14:36:44,057 [DEBUG] https://reverb.com:443 "GET /api/listings?category=active-electronics&condition=used&page=20&per_page=50&product_type=bass-guitars&condition=used&per_page=50 HTTP/1.1" 200 None
+2025-09-03 14:36:44,083 [DEBUG] Status Code: 200
+2025-09-03 14:36:44,088 [DEBUG] Request OK
+2025-09-03 14:36:44,089 [DEBUG] Saving phase completed for PAGE.20/24
+2025-09-03 14:36:46,990 [DEBUG] https://reverb.com:443 "GET /api/listings?category=active-electronics&condition=used&page=21&per_page=50&product_type=bass-guitars&condition=used&per_page=50 HTTP/1.1" 200 None
+2025-09-03 14:36:47,033 [DEBUG] Status Code: 200
+2025-09-03 14:36:47,035 [DEBUG] Request OK
+2025-09-03 14:36:47,036 [INFO] Pages [21/24]
+2025-09-03 14:36:47,036 [DEBUG] Saving phase completed for PAGE.21/24
+2025-09-03 14:36:49,649 [DEBUG] https://reverb.com:443 "GET /api/listings?category=active-electronics&condition=used&page=22&per_page=50&product_type=bass-guitars&condition=used&per_page=50 HTTP/1.1" 200 None
+2025-09-03 14:36:49,680 [DEBUG] Status Code: 200
+2025-09-03 14:36:49,682 [DEBUG] Request OK
+2025-09-03 14:36:49,735 [DEBUG] Closed 1 existing record for listing ID 76202468
+2025-09-03 14:36:49,764 [DEBUG] Saved 1 new listings
+2025-09-03 14:36:49,766 [DEBUG] Saving phase completed for PAGE.22/24
+2025-09-03 14:36:52,639 [DEBUG] https://reverb.com:443 "GET /api/listings?category=active-electronics&condition=used&page=23&per_page=50&product_type=bass-guitars&condition=used&per_page=50 HTTP/1.1" 200 None
+2025-09-03 14:36:52,723 [DEBUG] Status Code: 200
+2025-09-03 14:36:52,729 [DEBUG] Request OK
+2025-09-03 14:36:52,731 [DEBUG] Saving phase completed for PAGE.23/24
+2025-09-03 14:36:54,631 [DEBUG] https://reverb.com:443 "GET /api/listings?category=active-electronics&condition=used&page=24&per_page=50&product_type=bass-guitars&condition=used&per_page=50 HTTP/1.1" 200 None
+2025-09-03 14:36:54,670 [DEBUG] Status Code: 200
+2025-09-03 14:36:54,672 [DEBUG] Request OK
+2025-09-03 14:36:54,672 [DEBUG] Saving phase completed for PAGE.24/24
+2025-09-03 14:36:54,672 [ERROR] Failed to process bass-guitars|active-electronics: expected string or bytes-like object, got 'NoneType'
+2025-09-03 14:36:54,680 [INFO] Processing bass-guitars|fretless
+2025-09-03 14:36:54,680 [DEBUG] Read previous listings at data/reverb/test/used-IT/bass-guitars.parquet
+2025-09-03 14:36:54,702 [INFO] STARTING SCAN OF CATEGORY: bass-guitars|fretless at /api/listings?category=fretless&product_type=bass-guitars
+2025-09-03 14:36:54,705 [DEBUG] Starting new HTTPS connection (1): reverb.com:443
+2025-09-03 14:36:57,451 [DEBUG] https://reverb.com:443 "GET /api/listings?category=fretless&product_type=bass-guitars&condition=used&per_page=50 HTTP/1.1" 200 None
+2025-09-03 14:36:57,488 [DEBUG] Entering while cycle with next_link = https://reverb.com/api/listings?category=fretless&condition=used&page=2&per_page=50&product_type=bass-guitars
+2025-09-03 14:36:57,488 [DEBUG] Last seen in session: 2025-09-02 14:30:56+00:00 | for category: 2010-04-19 19:03:11+00:00
+2025-09-03 14:36:57,489 [INFO] Starting processing of bass-guitars|fretless. 6 pages found.
+2025-09-03 14:36:57,489 [INFO] Pages [1/6]
+2025-09-03 14:36:57,490 [DEBUG] Saving phase completed for PAGE.1/6
+2025-09-03 14:37:00,088 [DEBUG] https://reverb.com:443 "GET /api/listings?category=fretless&condition=used&page=2&per_page=50&product_type=bass-guitars&condition=used&per_page=50 HTTP/1.1" 200 None
+2025-09-03 14:37:00,122 [DEBUG] Status Code: 200
+2025-09-03 14:37:00,128 [DEBUG] Request OK
+2025-09-03 14:37:00,130 [DEBUG] Saving phase completed for PAGE.2/6
+2025-09-03 14:37:02,685 [DEBUG] https://reverb.com:443 "GET /api/listings?category=fretless&condition=used&page=3&per_page=50&product_type=bass-guitars&condition=used&per_page=50 HTTP/1.1" 200 None
+2025-09-03 14:37:02,722 [DEBUG] Status Code: 200
+2025-09-03 14:37:02,730 [DEBUG] Request OK
+2025-09-03 14:37:02,731 [DEBUG] Saving phase completed for PAGE.3/6
+2025-09-03 14:37:05,204 [DEBUG] https://reverb.com:443 "GET /api/listings?category=fretless&condition=used&page=4&per_page=50&product_type=bass-guitars&condition=used&per_page=50 HTTP/1.1" 200 None
+2025-09-03 14:37:05,229 [DEBUG] Status Code: 200
+2025-09-03 14:37:05,235 [DEBUG] Request OK
+2025-09-03 14:37:05,237 [DEBUG] Saving phase completed for PAGE.4/6
+2025-09-03 14:37:07,673 [DEBUG] https://reverb.com:443 "GET /api/listings?category=fretless&condition=used&page=5&per_page=50&product_type=bass-guitars&condition=used&per_page=50 HTTP/1.1" 200 None
+2025-09-03 14:37:07,691 [DEBUG] Status Code: 200
+2025-09-03 14:37:07,699 [DEBUG] Request OK
+2025-09-03 14:37:07,744 [DEBUG] Closed 1 existing record for listing ID 70839030
+2025-09-03 14:37:07,775 [DEBUG] Saved 1 new listings
+2025-09-03 14:37:07,776 [DEBUG] Saving phase completed for PAGE.5/6
+2025-09-03 14:37:08,943 [DEBUG] https://reverb.com:443 "GET /api/listings?category=fretless&condition=used&page=6&per_page=50&product_type=bass-guitars&condition=used&per_page=50 HTTP/1.1" 200 None
+2025-09-03 14:37:08,943 [DEBUG] Status Code: 200
+2025-09-03 14:37:08,944 [DEBUG] Request OK
+2025-09-03 14:37:08,944 [INFO] Pages [6/6]
+2025-09-03 14:37:08,944 [DEBUG] Saving phase completed for PAGE.6/6
+2025-09-03 14:37:08,944 [ERROR] Failed to process bass-guitars|fretless: expected string or bytes-like object, got 'NoneType'
+2025-09-03 14:37:08,946 [INFO] Processing bass-guitars|left-handed
+2025-09-03 14:37:08,946 [DEBUG] Read previous listings at data/reverb/test/used-IT/bass-guitars.parquet
+2025-09-03 14:37:08,968 [INFO] STARTING SCAN OF CATEGORY: bass-guitars|left-handed at /api/listings?category=left-handed&product_type=bass-guitars
+2025-09-03 14:37:08,969 [DEBUG] Starting new HTTPS connection (1): reverb.com:443
+2025-09-03 14:37:11,712 [DEBUG] https://reverb.com:443 "GET /api/listings?category=left-handed&product_type=bass-guitars&condition=used&per_page=50 HTTP/1.1" 200 None
+2025-09-03 14:37:11,750 [DEBUG] Entering while cycle with next_link = https://reverb.com/api/listings?category=left-handed&condition=used&page=2&per_page=50&product_type=bass-guitars
+2025-09-03 14:37:11,750 [DEBUG] Last seen in session: 2025-09-02 20:41:22+00:00 | for category: 2010-04-19 19:03:11+00:00
+2025-09-03 14:37:11,750 [INFO] Starting processing of bass-guitars|left-handed. 3 pages found.
+2025-09-03 14:37:11,750 [INFO] Pages [1/3]
+2025-09-03 14:37:11,751 [DEBUG] Saving phase completed for PAGE.1/3
+2025-09-03 14:37:15,592 [DEBUG] https://reverb.com:443 "GET /api/listings?category=left-handed&condition=used&page=2&per_page=50&product_type=bass-guitars&condition=used&per_page=50 HTTP/1.1" 200 None
+2025-09-03 14:37:15,600 [DEBUG] Status Code: 200
+2025-09-03 14:37:15,608 [DEBUG] Request OK
+2025-09-03 14:37:15,609 [DEBUG] Saving phase completed for PAGE.2/3
+2025-09-03 14:37:17,482 [DEBUG] https://reverb.com:443 "GET /api/listings?category=left-handed&condition=used&page=3&per_page=50&product_type=bass-guitars&condition=used&per_page=50 HTTP/1.1" 200 None
+2025-09-03 14:37:17,507 [DEBUG] Status Code: 200
+2025-09-03 14:37:17,510 [DEBUG] Request OK
+2025-09-03 14:37:17,511 [DEBUG] Saving phase completed for PAGE.3/3
+2025-09-03 14:37:17,512 [ERROR] Failed to process bass-guitars|left-handed: expected string or bytes-like object, got 'NoneType'
+2025-09-03 14:37:17,515 [INFO] Batch completed. Log saved at logs/reverb_scan_used-20250903-1231.log
