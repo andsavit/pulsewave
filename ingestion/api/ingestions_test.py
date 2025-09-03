@@ -10,8 +10,9 @@ from dotenv import load_dotenv
 #REQUEST SETTINGS
 BASE = "https://reverb.com/"
 
+load_dotenv()
+
 def make_session():
-    load_dotenv
     session = requests.Session()
     session.headers.update({
         "Accept": "application/hal+json",
@@ -76,7 +77,7 @@ logger = logging.getLogger(__name__)
 
 
 ####FILTERING AND FIELD SELECTION/CLEANING====================================
-def filter_listing(x):
+def filter_listing(x, product_type, category):
     """
     Input: a single listing
     Output: a listing with selected, flattened fields
@@ -142,11 +143,11 @@ def clean_description(s: str) -> str:
             .replace("<i>", "").replace("</i>", "").strip()
 
 #CYCLES============================================
-def process_page(listings: list):
+def process_page(listings: list, product_type, category):
     """Returns the page listings as a list of key-value dictionaries"""
     rows = []
     for listing in listings:
-        row = filter_listing(listing)
+        row = filter_listing(listing, product_type, category)
         rows.append(row)
 
     return rows
@@ -285,6 +286,7 @@ def close_unseen_listings(unseen_ids: set, product_type: str, category: str, fil
     
     closed_count = mask.sum()
     logger.info(f"Closed {closed_count} unseen listings for {product_type}|{category}")
+    return closed_count
 
 #loading functions
 def load_category_cache(product_type: str, category: str, file_path): #modify: should get correct file path
@@ -399,7 +401,7 @@ def scan_category(href, product_type, category, PAGE_LIMIT = 10000, MAX_RETRIES 
         processed_listings = process_page(listings)
         save_page_listings(processed_listings, category_live_ids, unseen_ids, category_cache, category_file_path, counters)
         
-        logger.debug(f"Saving phase completed for PAGE.{current_page}/{total_pages}")
+        logger.debug(f"Saving phase completed for PAGE {current_page} (of {total_pages})")
 
         #last page checkers. BEFORE the request.
         if data_page['_links']:
@@ -438,13 +440,6 @@ def scan_category(href, product_type, category, PAGE_LIMIT = 10000, MAX_RETRIES 
         
         if data_page['listings']:
             last_created_time = to_utc(data_page['listings'][0]['created_at']) #update last seen time
-    
-    if current_page == total_pages:
-        logger.info(f"Succesfully Completed FULL SCAN of {product_type}|{category}")
-        close_unseen_listings(unseen_ids, product_type, category, category_file_path)
-
-    elif current_page < total_pages:
-        logger.error(f"Didn't reach end of scan for {product_type}|{category}. Scanned: {current_page} Remaining: {total_pages-current_page}")
 
     session.close()
 
@@ -452,14 +447,39 @@ def scan_category(href, product_type, category, PAGE_LIMIT = 10000, MAX_RETRIES 
     logger.info(f"Category Recap {"=" * 15}* \n \
                  New: {counters['new']}, Updated: {counters['updated']}, Unchanged: {counters['unchanged']}")
     
+    if current_page == total_pages:
+        logger.info(f"Succesfully Completed FULL SCAN of {product_type}|{category}")
+
+        closed_listings = close_unseen_listings(unseen_ids, product_type, category, category_file_path)
+
+        counters['closed'] += closed_listings
+
+        return {
+            "status": "completed", 
+            "counters": counters
+        }
+    
+    elif current_page < total_pages:
+        logger.warning(f"Didn't reach end of scan for {product_type}|{category}. Scanned: {current_page} Remaining: {total_pages-current_page}")
+        return {
+            "status": "partial", 
+            "counters": counters
+        }
+    else:
+        return {"status": "completed", "counters": counters}
+                
 
 #TEST MODE CONFIGURATION
 TEST_MODE = True
-PARTIAL_MODE = True
+PARTIAL_MODE = False
 PARTIAL_PRODUCT_TYPES = ['bass-guitars']
 
 if __name__ == "__main__":
     cat_table = pd.read_csv("data/reverb/meta/product_type-cat-href_table.csv")
+
+    # Global session counters 
+    global_counters = {'new': 0, 'updated': 0, 'unchanged': 0, 'closed': 0}
+    session_summary = {'completed': 0, 'partial': 0, 'failed': 0}
 
     if PARTIAL_MODE:
         available_types = set(cat_table['product_type'].unique())
@@ -486,15 +506,34 @@ if __name__ == "__main__":
             href = row['listings_href']  
             try:
                 logger.info(f"Processing {product_type}|{category}")
-                scan_category(href, product_type, category)
+
+                scan_result = scan_category(href, product_type, category)
+
+                if scan_result == 0:
+                    logger.error(f"Could not reach {product_type}|{category}")
+                    session_summary['failed'] += 1
+                    continue
+
+                logger.info(f"Finished {product_type}|{category} with status: {scan_result['status']}")
                 
+                #update global counters
+                for key in global_counters:
+                    global_counters[key] += scan_result['counters'][key]
+                
+                session_summary[scan_result['status']] += 1
+
                 # Rate limiting between categories
-        
                 wait_time = random.uniform(3, 8)
                 time.sleep(wait_time)
                 
             except Exception as e:
                 logger.error(f"Failed to process {product_type}|{category}: {e}")
+                session_summary['failed'] += 1  # Add this line
                 continue
     
-    logger.info(f"Batch completed. Log saved at {log_filename}")
+    logger.info("=" * 50)
+    logger.info("SESSION COMPLETE - FINAL SUMMARY")
+    logger.info("=" * 50)
+    logger.info(f"Categories: Completed={session_summary['completed']}, Partial={session_summary['partial']}, Failed={session_summary['failed']}")
+    logger.info(f"Total Changes: New={global_counters['new']}, Updated={global_counters['updated']}, Unchanged={global_counters['unchanged']}, Closed={global_counters['closed']}")
+    logger.info(f"Log saved at: {log_filename}")
