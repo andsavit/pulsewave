@@ -154,7 +154,7 @@ def process_page(listings: list, product_type, category):
 
 #SAVING FUNCTIONS=====================================
 
-def save_page_listings(listings, category_live_ids, unseen_ids, category_cache, category_file_path: str, counters):
+def save_page_listings(listings, category_live_ids, unseen_ids, category_cache, category_file_path: str, counters, product_type, category):
     new_listings = []
 
     #parquet
@@ -164,6 +164,7 @@ def save_page_listings(listings, category_live_ids, unseen_ids, category_cache, 
             if has_meaningful_changes(listing, category_cache):
                 #close previous listing
                 close_existing_record(listing['id'], product_type, category, category_file_path)
+                counters['closed'] += 1
                 #and save new snapshot
                 listing.update({
                 "snap_valid_from": snapshot_ts,
@@ -198,8 +199,17 @@ def save_new_listings_batch(listings, file_path):
 
     if os.path.exists(file_path):
         existing_df = pd.read_parquet(file_path)
-        combined_df = pd.concat([existing_df, df], ignore_index=True)
-        combined_df.to_parquet(file_path, index=False)
+
+        if existing_df.empty:
+            #empty dataset: just save into it
+            df.to_parquet(file_path, index=False)
+        elif df.empty:
+            #no data to save
+            return    
+        else:
+            #concat and save
+            combined_df = pd.concat([existing_df, df], ignore_index=True)
+            combined_df.to_parquet(file_path, index=False)
     else:
         os.makedirs(os.path.dirname(file_path), exist_ok=True)
         df.to_parquet(file_path, index=False)
@@ -260,11 +270,11 @@ def close_unseen_listings(unseen_ids: set, product_type: str, category: str, fil
     """
     if not unseen_ids:
         logger.info(f"No unseen listings to close for {product_type}|{category}")
-        return
+        return 0
     
     if not os.path.exists(file_path):
         logger.warning(f"File {file_path} doesn't exist, nothing to close")
-        return
+        return 0
     
     # Load the parquet file
     df = pd.read_parquet(file_path)
@@ -327,7 +337,7 @@ def scan_category(href, product_type, category, PAGE_LIMIT = 10000, MAX_RETRIES 
 
     counters = {'new': 0, 'updated': 0, 'unchanged': 0, 'closed': 0}
 
-    unseen_ids = category_live_ids
+    unseen_ids = category_live_ids.copy()
 
     url = BASE+href
     logger.info(f"STARTING SCAN OF CATEGORY: {product_type}|{category} at {href}")
@@ -349,7 +359,7 @@ def scan_category(href, product_type, category, PAGE_LIMIT = 10000, MAX_RETRIES 
             data_page = response.json()
             ok = True
         except Exception as e:
-            logger.error(f"Error {e} with initial request for {product_type}{category}. Attempt {landing_attempts}.")
+            logger.error(f"Error {e} with initial request for {product_type}|{category}. Attempt {landing_attempts}.")
             landing_attempts += 1
             time.sleep(3)
 
@@ -375,16 +385,16 @@ def scan_category(href, product_type, category, PAGE_LIMIT = 10000, MAX_RETRIES 
     while True:
         
         if last_created_time and last_created_time < last_observed_time:
-            logging.info("Found old listings. Exiting category")
+            logger.info("Found old listings. Exiting category")
             break
         if retry_count > MAX_RETRIES:
-            logging.error("Too many retries. Exiting category")
+            logger.error("Too many retries. Exiting category")
             break
         if current_page > PAGE_LIMIT:
-            logging.error(f"Beyond set page limit {PAGE_LIMIT}")
+            logger.error(f"Beyond set page limit {PAGE_LIMIT}")
             break
         if current_page > total_pages:
-            logging.error(f"Gone beyond initial pages found {total_pages}")
+            logger.error(f"Gone beyond initial pages found {total_pages}")
             break
 
         #incapsulate in an if to check if they exist
@@ -398,16 +408,18 @@ def scan_category(href, product_type, category, PAGE_LIMIT = 10000, MAX_RETRIES 
             logger.info(f"Pages [{current_page}/{total_pages}]")
         
         #save functions
-        processed_listings = process_page(listings)
-        save_page_listings(processed_listings, category_live_ids, unseen_ids, category_cache, category_file_path, counters)
+        processed_listings = process_page(listings, product_type, category)
+        save_page_listings(processed_listings, category_live_ids, unseen_ids, category_cache, category_file_path, counters, product_type, category)
         
         logger.debug(f"Saving phase completed for PAGE {current_page} (of {total_pages})")
 
         #last page checkers. BEFORE the request.
         if data_page['_links']:
             next_link = data_page.get('_links', {}).get('next', {}).get('href', None)
-            next_link = re.sub(r'per_page=\d+', 'per_page=50', next_link)
-            if next_link == None:
+
+            if next_link:
+                next_link = re.sub(r'per_page=\d+', 'per_page=50', next_link)
+            else:
                 logger.info("Last Page Reached")
                 break
         else: 
@@ -471,7 +483,7 @@ def scan_category(href, product_type, category, PAGE_LIMIT = 10000, MAX_RETRIES 
 
 #TEST MODE CONFIGURATION
 TEST_MODE = True
-PARTIAL_MODE = False
+PARTIAL_MODE = True
 PARTIAL_PRODUCT_TYPES = ['bass-guitars']
 
 if __name__ == "__main__":
