@@ -228,7 +228,13 @@ def has_meaningful_changes(listing, category_cache):
     buyer_price = record.get('buyer_price', '')
     state = record.get('state', '')
 
-    if current_price != price or current_buyer_price != buyer_price or current_state != state:
+    PRICE_TOLERANCE = 2.0
+
+    if abs(float(current_price or 0) - float(price or 0)) > PRICE_TOLERANCE:
+        changed = True
+    if abs(float(current_buyer_price or 0) - float(buyer_price or 0)) > PRICE_TOLERANCE:
+        changed = True
+    if current_state != state:
         changed = True
 
     return changed
@@ -483,7 +489,7 @@ def scan_category(href, product_type, category, PAGE_LIMIT = 10000, MAX_RETRIES 
 
 #TEST MODE CONFIGURATION
 TEST_MODE = True
-PARTIAL_MODE = True
+PARTIAL_MODE = False
 PARTIAL_PRODUCT_TYPES = ['bass-guitars']
 
 if __name__ == "__main__":
